@@ -4,6 +4,10 @@ $Title-color: #991B1B;
 $Disc-color: #EEE;
 $Back2-color: #FEF2F2;
 
+a{
+    text-decoration: none;
+}
+
 .Footer{
     background-color: $Title-color;
     display: flex;

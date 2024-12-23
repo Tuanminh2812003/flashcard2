@@ -35,14 +35,13 @@ function Footer(){
                         <div className="Footer__inner__disc">
                             Hội Di sản Văn hoá Việt Nam
                         </div>
-                        <div className="Footer__inner__disc">
-                            Quỹ Hỗ trợ bảo tồn di sản Văn hoá Việt Nam
-                        </div>
+                        <Link to="https://www.youtube.com/watch?v=mZ_Y6QkbSy4&feature=youtu.be">
+                            <div className="Footer__inner__disc">
+                                Quỹ Hỗ trợ bảo tồn di sản Văn hoá Việt Nam
+                            </div>
+                        </Link>
                         <div className="Footer__inner__disc">
                             Công ty Cổ phần Công nghệ Giáo dục AES
-                        </div>
-                        <div className="Footer__inner__disc">
-                            Công ty Cổ phần The Farm
                         </div>
                         <div className="Footer__inner__title">
                             Liên hệ

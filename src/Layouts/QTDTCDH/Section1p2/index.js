@@ -8,7 +8,7 @@ function Section1p2(){
                     <div className="Section1__title__inner">
                         KHÔNG GIAN VĂN HÓA – TÂM LINH 
                     </div>
-                    <div className="Section1__title__inner__disc">
+                    <div className="Section1__title__inner__text">
                         Văn hóa là một hệ thống hữu cơ các giá trị vật chất và tinh thần do con người sáng tạo và tích lũy qua quá trình hoạt động thực tiễn, trong sự tương tác giữa con người với môi trường tự nhiên và xã hội. 
                     </div>
                 </div>
@@ -107,11 +107,37 @@ function Section1p2(){
                         <div className="Section1__content__inner__text">
                             Hai bài thơ nổi tiếng của Điện Thái Hòa 
                         </div>
-                        <div className="Section1__content__inner__text">
-                            “Văn hiến thiên niên quốc” được khắc giữa điện Thái Hòa: “Nước ngàn năm văn hiến/Đất vạn dặm hợp cùng/Đã mở mang lớn mạnh/Đường Ngu ở Nam phương”
+                        
+                        <div className="Section1__content__inner__tho">
+                            <div className="Section1__content__inner__tho__title">
+                                “Văn hiến thiên niên quốc” được khắc giữa điện Thái Hòa:
+                            </div>
+                            <div className="Section1__content__inner__tho__inner">
+                            “Nước ngàn năm văn hiến
+                            </div>
+                            <div className="Section1__content__inner__tho__inner">
+                            Đất vạn dặm hợp cùng                            </div>
+                            <div className="Section1__content__inner__tho__inner">
+                            Đã mở mang lớn mạnh                            </div>
+                            <div className="Section1__content__inner__tho__inner">
+                            Đường Ngu ở Nam phương”                            
+                            </div>
+
                         </div>
-                        <div className="Section1__content__inner__text">
-                            “Thái bình tân chế độ”: “Thái bình chế độ mới/Rộng mở quy mô xưa/Văn vật lừng danh tiếng/Gió xuân khắp Đế đô”.
+                        <div className="Section1__content__inner__tho">
+                            <div className="Section1__content__inner__tho__title">
+                            Thái bình tân chế độ
+                            </div>
+                            <div className="Section1__content__inner__tho__inner">
+                            “Thái bình chế độ mới
+                            </div>
+                            <div className="Section1__content__inner__tho__inner">
+                            Rộng mở quy mô xưa                          </div>
+                            <div className="Section1__content__inner__tho__inner">
+                            Văn vật lừng danh tiếng                           </div>
+                            <div className="Section1__content__inner__tho__inner">
+                            Gió xuân khắp Đế đô”.                         
+                            </div>
                         </div>
                         {/* <div className="Section1__content__inner__icon">
                             <div className="Section1__content__inner__icon__inner">
