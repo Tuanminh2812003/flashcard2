@@ -78,6 +78,8 @@ $Back2-color: #FEF2F2;
             font-weight: 400;
             line-height: 130%; /* 18.2px */
             margin-bottom: 16px;
+            color: $Text-color;
+            text-align: start;
         }
         &__icon{
             display: flex;
@@ -149,11 +151,6 @@ $Back2-color: #FEF2F2;
             line-height: 150%; /* 21px */
             margin-top: 24px;
             text-align: center;
-
-            &__title{
-                font-weight: 700;
-                margin-bottom: 8px;
-            }
         }
     }
 }

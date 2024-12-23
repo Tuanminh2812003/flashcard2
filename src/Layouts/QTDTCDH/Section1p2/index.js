@@ -8,7 +8,7 @@ function Section1p2(){
                     <div className="Section1__title__inner">
                         KHÔNG GIAN VĂN HÓA – TÂM LINH 
                     </div>
-                    <div className="Section1__title__inner__text">
+                    <div className="Section1__content__inner__text">
                         Văn hóa là một hệ thống hữu cơ các giá trị vật chất và tinh thần do con người sáng tạo và tích lũy qua quá trình hoạt động thực tiễn, trong sự tương tác giữa con người với môi trường tự nhiên và xã hội. 
                     </div>
                 </div>
