@@ -1,0 +1,34 @@
+import "./Section7.scss";
+
+function Section7(){
+    return(
+        <>
+            <div className="Section7">
+                <div className="container">
+                    <div className="Section7__inner">
+                        <div className="Section7__inner__title">
+                            Không gian trách nhiệm
+                        </div>
+                        <div className="Section7__inner__disc">
+                            Bạn hãy thiết kế một video/poster hoặc lá thư để thể hiện chủ đề: Đề xuất những biện pháp bảo tồn và quảng bá hình ảnh di sản Quần thể di tích Cố đô Huế. 
+                        </div>
+                        <div className="Section7__inner__disc">
+                            Những sản phẩm tốt sẽ được cấp Giấy chứng nhận “Cá nhân có đề xuất xuất sắc trong bảo tồn và quảng bá hình ảnh di sản văn hóa Quần thể di tích Cố đô Huế”. 
+                        </div>
+                        <form>
+                            <label for="Section7__file">Nộp video</label>
+                            <input type="file"/>
+                            <label for="Section7__file">Nộp poster</label>
+                            <input type="file"/>
+                            <label for="Section7__file">Nộp thư</label>
+                            <input type="file"/>
+                            <button>Gửi phản hồi của bạn</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default Section7;
