@@ -151,6 +151,11 @@ $Back2-color: #FEF2F2;
             line-height: 150%; /* 21px */
             margin-top: 24px;
             text-align: center;
+
+            &__title{
+                font-weight: 700;
+                margin-bottom: 8px;
+            }
         }
     }
 }
