@@ -34,7 +34,7 @@ function Footer(){
                         </div>
                         <Link to="https://www.youtube.com/watch?v=mZ_Y6QkbSy4&feature=youtu.be">
                             <div className="Footer__inner__disc">
-                                Quỹ Hỗ trợ bảo tồn di sản Văn Hóa Việt Nam
+                                Quỹ Hỗ trợ bảo tồn di sản văn hoá Việt Nam
                             </div>
                         </Link>
                         <div className="Footer__inner__disc">
