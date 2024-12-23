@@ -24,9 +24,6 @@ function Footer(){
                             PGS.TS Nguyễn Mạnh Hường
                         </div>
                         <div className="Footer__inner__disc">
-                            PGS.TS Nguyễn Mạnh Hường
-                        </div>
-                        <div className="Footer__inner__disc">
                             TS. Vũ Đức Liêm
                         </div>
                         <div className="Footer__inner__title">
@@ -37,7 +34,7 @@ function Footer(){
                         </div>
                         <Link to="https://www.youtube.com/watch?v=mZ_Y6QkbSy4&feature=youtu.be">
                             <div className="Footer__inner__disc">
-                                Quỹ Hỗ trợ bảo tồn di sản Văn hoá Việt Nam
+                                Quỹ Hỗ trợ bảo tồn di sản Văn Hóa Việt Nam
                             </div>
                         </Link>
                         <div className="Footer__inner__disc">

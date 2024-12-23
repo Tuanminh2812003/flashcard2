@@ -16,7 +16,11 @@ function Section7(){
                             Những sản phẩm tốt sẽ được cấp Giấy chứng nhận “Cá nhân có đề xuất xuất sắc trong bảo tồn và quảng bá hình ảnh di sản văn hóa Quần thể di tích Cố đô Huế”. 
                         </div>
                         <form>
-                            <label for="Section7__file">Đính kèm file</label>
+                            <label htmlFor="form__name">Họ và tên</label>
+                            <input type="text" id="form__name"/>
+                            <label htmlFor="form__email">Email</label>
+                            <input type="email" id="form__email"/>
+                            <label>Đính kèm file</label>
                             <input type="file"/>
                             <button>Gửi phản hồi của bạn</button>
                         </form>
