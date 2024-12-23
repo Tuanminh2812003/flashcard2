@@ -30,7 +30,7 @@ function Section1(){
                         <div className="Section1__content__inner__title">
                             Vị trí địa lí
                         </div>
-                        <div className="Section1__content__inner__disc">
+                        <div className="Section1__content__inner__text">
                             Nằm dọc hai bên bờ sông Hương thuộc thành phố Huế, nơi đây là trung tâm văn hoá, chính trị, kinh tế của tỉnh, là kinh đô của Việt Nam thời phong kiến triều nhà Nguyễn (1802 – 1945).
                         </div>
                         <div className="Section1__content__inner__image" >
@@ -144,7 +144,7 @@ function Section1(){
                         <div className="Section1__content__inner__title">
                             Giới thiệu khái quát
                         </div>
-                        <div className="Section1__content__inner__disc">
+                        <div className="Section1__content__inner__text">
                             Quần thể di tích Cố đô Huế bao gồm những di tích tiêu biểu như Kinh thành, Hoàng thành và Tử Cấm thành, hệ thống các lăng tẩm của vua triều Nguyễn, Cung An Định, Trai cung, điện Hòn Chén, Văn miếu và Võ miếu,... những công trình kiến trúc này được kết hợp độc đáo giữa nguyên tắc kiến trúc truyền thống Việt Nam với tư tưởng triết lý phương Đông, cùng những đặc điểm mang dấu ấn kiến trúc phương Tây.
                         </div>
                         <div className="Section1__content__inner__image" >

@@ -22,6 +22,7 @@ function SectionMain(){
                 backgroundSize: "cover",
                 backgroundPosition: "center 0",
             }}>
+                <div className="SectionMain__overlay"></div>
                 <div className="container">
                     <div className="SectionMain__inner">
                         <div className="SectionMain__inner__title">

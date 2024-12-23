@@ -4,10 +4,10 @@ function Section5p3(){
             <div className="Section5">
                 <div className="container">
                     <div className="Section5__inner">
-                        <div className="Section5__inner__disc">
+                        <div className="Section5__inner__title">
                             Câu chuyện kết nối
                         </div>
-                        <div className="Section5__inner__title">
+                        <div className="Section5__inner__disc">
                             FESTIVAL HUẾ - DI SẢN VĂN HÓA VỚI HỘI NHẬP, PHÁT TRIỂN
                         </div>
                         {/* <div className="Section5__inner__mainText">
