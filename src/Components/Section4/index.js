@@ -8,7 +8,7 @@ function Section4() {
         "/QTDTCDH/Section4-1.jpg",
         "/QTDTCDH/Section4-2.jpg",
         "/QTDTCDH/Section4-3.jpg",
-        "/QTDTCDH/Section4-1.jpg",
+        "/QTDTCDH/Section4-4.webp",
     ];
 
     const handleNextClick = () => {

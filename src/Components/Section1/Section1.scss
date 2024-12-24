@@ -1,8 +1,21 @@
-$Back-color: #FFFFFF;
+// $Back-color: #FFFFFF;
+// $Text-color: #374151;
+// $Title-color: #991B1B;
+// $Disc-color: #F0F6FF;
+// $Back2-color: #FEF2F2;
+
+// $Back-color: #D4E0BD;
+// $Text-color: #374151;
+// $Title-color: #1D5136;
+// $Disc-color: #374151;
+// $Back2-color: #1D5136;
+
+$Back-color: #F3E7DB;
 $Text-color: #374151;
-$Title-color: #991B1B;
-$Disc-color: #F0F6FF;
-$Back2-color: #FEF2F2;
+$Title-color: #374151;
+$Disc-color: #374151;
+$Back2-color: #6F8083;
+$Question-color: #57A6B4;
 
 .Section1__title{
     margin-top: 40px;
@@ -40,7 +53,7 @@ $Back2-color: #FEF2F2;
         &__tab{
             border-radius: 4px;
             border: 1px solid $Title-color;
-            background-color: white;
+            // background-color: white;
             margin-right: 8px;
             padding: 4px 12px;
             color: $Title-color;
@@ -60,6 +73,10 @@ $Back2-color: #FEF2F2;
     }
 
     &__inner{
+        &__audio{
+            margin-top: 8px;
+            margin-bottom: 24px;
+        }
         &__title{
             font-size: 18px;
             font-weight: 700;
@@ -261,6 +278,59 @@ $Back2-color: #FEF2F2;
     background-color: $Title-color;
 }
 #inner4p2:checked ~ .Section1__menu > .Section1__menu__inner > .lable4p2{
+    color: #FFF;
+    background-color: $Title-color;
+}
+
+.inner1p3{
+    display: none;
+}
+.inner2p3{
+    display: none;
+}
+.inner3p3{
+    display: none;
+}
+.inner4p3{
+    display: none;
+}
+#inner1p3{
+    display: none;
+}
+#inner2p3{
+    display: none;
+}
+#inner3p3{
+    display: none;
+}
+#inner4p3{
+    display: none;
+}
+#inner1p3:checked ~ .Section1__content > .container > .inner1p3{
+    display: block;
+}
+#inner2p3:checked ~ .Section1__content > .container > .inner2p3{
+    display: block;
+}
+#inner3p3:checked ~ .Section1__content > .container > .inner3p3{
+    display: block;
+}
+#inner4p3:checked ~ .Section1__content > .container > .inner4p3{
+    display: block;
+}
+#inner1p3:checked ~ .Section1__menu > .Section1__menu__inner > .lable1p3{
+    color: #FFF;
+    background-color: $Title-color;
+}
+#inner2p3:checked ~ .Section1__menu > .Section1__menu__inner > .lable2p3{
+    color: #FFF;
+    background-color: $Title-color;
+}
+#inner3p3:checked ~ .Section1__menu > .Section1__menu__inner > .lable3p3{
+    color: #FFF;
+    background-color: $Title-color;
+}
+#inner4p3:checked ~ .Section1__menu > .Section1__menu__inner > .lable4p2{
     color: #FFF;
     background-color: $Title-color;
 }

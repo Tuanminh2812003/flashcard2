@@ -74,12 +74,6 @@ function Footer(){
                 <div className="Footer__copy">
                     <div className="container">
                         <div className="Footer__copy__inner">
-                            <div className="Footer__copy__inner__text">
-                                (1) Theo Đại Việt sử ký toàn thư
-                            </div>
-                            <div className="Footer__copy__inner__text">
-                                (2) Theo Lĩnh Nam trích quái
-                            </div>
                             <div className="Footer__copy__inner__aes">
                                 © Copyright 2024 AES, All rights reserved
                             </div>

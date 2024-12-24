@@ -1,8 +1,22 @@
-$Back-color: #FFFFFF;
+// $Back-color: #FFFFFF;
+// $Text-color: #374151;
+// $Title-color: #991B1B;
+// $Disc-color: #F0F6FF;
+// $Back2-color: #FEF2F2;
+
+// $Back-color: #D4E0BD;
+// $Text-color: #374151;
+// $Title-color: #1D5136;
+// $Disc-color: #374151;
+// $Back2-color: #1D5136;
+// $Question-color: #D7EC84;
+
+$Back-color: #F3E7DB;
 $Text-color: #374151;
-$Title-color: #991B1B;
-$Disc-color: #F0F6FF;
-$Back2-color: #FEF2F2;
+$Title-color: #374151;
+$Disc-color: #374151;
+$Back2-color: #6F8083;
+$Question-color: #57A6B4;
 
 .SectionMain{
     padding-top: 165px;
@@ -59,6 +73,7 @@ $Back2-color: #FEF2F2;
         &__title{
             font-size: 18px;
             color: $Title-color;
+            color: white;
             font-weight: 700;
             line-height: 150%;
             margin-bottom: 16px;
@@ -68,6 +83,7 @@ $Back2-color: #FEF2F2;
             font-size: 14px;
             font-weight: 400;
             line-height: 130%; /* 18.2px */
+            color: white;
         }
 
         ul{
@@ -75,6 +91,7 @@ $Back2-color: #FEF2F2;
             font-size: 14px;
             font-weight: 400;
             line-height: 130%; /* 18.2px */
+            color: white;
         }
     }
 }

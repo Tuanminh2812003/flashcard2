@@ -1,8 +1,21 @@
-$Back-color: #FFFFFF;
+// $Back-color: #FFFFFF;
+// $Text-color: #374151;
+// $Title-color: #991B1B;
+// $Disc-color: #EEE;
+// $Back2-color: #FEF2F2;
+
+// $Back-color: #D4E0BD;
+// $Text-color: #374151;
+// $Title-color: #1D5136;
+// $Disc-color: #374151;
+// $Back2-color: #1D5136;
+
+$Back-color: #F3E7DB;
 $Text-color: #374151;
-$Title-color: #991B1B;
-$Disc-color: #EEE;
-$Back2-color: #FEF2F2;
+$Title-color: #374151;
+$Disc-color: #374151;
+$Back2-color: #6F8083;
+$Question-color: #57A6B4;
 
 a{
     text-decoration: none;
@@ -34,6 +47,7 @@ a{
             font-weight: 700;
             line-height: 150%; /* 27px */
             margin-top: 32px;
+            color: white;
         }
         &__disc{
             font-family: Inter;
@@ -43,6 +57,7 @@ a{
             line-height: 150%; /* 21px */
             color: $Disc-color;
             margin-top: 8px;
+            color: white;
         }
         &__icon{
             width: 30%;

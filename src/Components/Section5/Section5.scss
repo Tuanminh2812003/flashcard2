@@ -1,8 +1,22 @@
-$Back-color: #FFFFFF;
+// $Back-color: #FFFFFF;
+// $Text-color: #374151;
+// $Title-color: #991B1B;
+// $Disc-color: #F0F6FF;
+// $Back2-color: #FEF2F2;
+
+// $Back-color: #D4E0BD;
+// $Text-color: #374151;
+// $Title-color: #1D5136;
+// $Disc-color: #374151;
+// $Back2-color: #1D5136;
+// $Question-color: #D7EC84;
+
+$Back-color: #F3E7DB;
 $Text-color: #374151;
-$Title-color: #991B1B;
-$Disc-color: #F0F6FF;
-$Back2-color: #FEF2F2;
+$Title-color: #374151;
+$Disc-color: #374151;
+$Back2-color: #6F8083;
+$Question-color: #57A6B4;
 
 .Section5{
     display: flex;
@@ -13,6 +27,14 @@ $Back2-color: #FEF2F2;
         display: flex;
         flex-direction: column;
         width: 100%;
+
+        &__textImage{
+            margin-top: -8px;
+            text-align: center;
+            font-size: 12px;
+            line-height: 130%; /* 15.6px */
+            font-weight: 400;
+        }
 
         &__title{
             color: $Title-color;
