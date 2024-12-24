@@ -57,7 +57,7 @@ function Section1p5() {
 
     return (
         <>
-        <div className="Section2" style={{marginTop: "0px"}}>
+        <div className="Section2">
             <div className="container">
             <div className="Section2__inner">
                 <div className="Section2__inner__title">GAME KHÁM PHÁ DI SẢN – HÒA NHẬP VÀO THIÊN NHIÊN</div>
@@ -68,7 +68,7 @@ function Section1p5() {
                 <div
                     className="Section2__inner__game__image"
                     style={{
-                    backgroundImage: "url('/QTDTTA/SectionMain1.jpg')",
+                    backgroundImage: "url('/TNTM/Section4-6.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     filter: questions.some((q) => q) ? "blur(10px)" : "none",

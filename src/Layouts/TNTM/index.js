@@ -18,8 +18,8 @@ function TNTM(){
             <Section1/>
             <Section5p3/>
             <Section4/>
-            <Section7/>
             <Section1p5/>
+            <Section7/>
             <Footer/>
         </>
     )

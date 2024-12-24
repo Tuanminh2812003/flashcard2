@@ -11,7 +11,7 @@ function Footer(){
                         <div className="Footer__inner__title">
                             Dự án H-HNUE
                         </div>
-                        <img src="/Logo vàng.png" alt="logo"/>
+                        <img src="/Logo.png" alt="logo"/>
                         <div className="Footer__inner__title">
                             Chuyên gia cố vấn
                         </div>

@@ -3,7 +3,7 @@
 function Section7(){
     return(
         <>
-            <div className="Section7">
+            <div className="Section7" style={{marginTop: "0px"}}>
                 <div className="container">
                     <div className="Section7__inner">
                         <div className="Section7__inner__title">

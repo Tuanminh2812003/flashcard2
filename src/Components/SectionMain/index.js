@@ -41,7 +41,7 @@ function SectionMain(){
                 <div className="container">
                     <div className="SectionMainP2__inner">
                         <div className="SectionMainP2__inner__title">
-                            Dự án H-HNUE Chào mừng quý khách đến trải nghiệm về Quần thể di tích Cố đô Huế!
+                            Dự án Heritage Spirit Chào mừng quý khách đến trải nghiệm về Quần thể di tích Cố đô Huế!
                         </div>
                         <div className="SectionMainP2__inner__disc">
                             Tham gia trải nghiệm về Quần thể di tích Cố đô Huế quý khách sẽ:
