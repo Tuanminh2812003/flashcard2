@@ -12,7 +12,7 @@ function Footer(){
                     <div className="Footer__inner">
                         <div className="Footer__inner__row">
                             <div className="Footer__inner__title">
-                                Dự án H-HNUE
+                                Dự án HERITAGE SPIRIT
                             </div>
                             <img src="/Logo.png" alt="logo"/>
                         </div>
