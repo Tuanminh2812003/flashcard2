@@ -1,6 +1,8 @@
 import "./Footer.scss"
 import { Link } from "react-router-dom";
 import { FaYoutube } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 function Footer(){
     return(
@@ -52,6 +54,12 @@ function Footer(){
                                 Liên hệ
                             </div>
                             <div className="Footer__inner__icon">
+                                <Link to="">
+                                    <FaFacebook />
+                                </Link>
+                                <Link to="">
+                                    <FaInstagram />
+                                </Link>
                                 <Link to="https://www.youtube.com/watch?v=mZ_Y6QkbSy4&feature=youtu.be">
                                     <FaYoutube />
                                 </Link>

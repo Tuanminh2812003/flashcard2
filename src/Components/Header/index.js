@@ -24,7 +24,7 @@ function Header() {
                 const offsetHeight = section.offsetHeight;
                 const scrollY = window.scrollY;
 
-                if (scrollY >= offsetTop - 50 && scrollY < offsetTop + offsetHeight - 50) {
+                if (scrollY >= offsetTop - 200 && scrollY < offsetTop + offsetHeight - 50) {
                     currentSection = id;
                 }
             }
