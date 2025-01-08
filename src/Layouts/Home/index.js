@@ -48,16 +48,16 @@ function Home(){
                     <div  className="container">
                         <div className="home__section3__inner">
                         <Flashcard
-                            sectionData={sections.diSanThienNhien}
-                            title="Di sản thiên nhiên Thế giới"
-                            color="#1D5136"
-                            id="diSanThienNhien"
-                        />
-                        <Flashcard
                             sectionData={sections.diSanVatThe}
                             title="Di sản vật thể Thế giới"
                             color="#89231E"
                             id="diSanVatThe"
+                        />
+                        <Flashcard
+                            sectionData={sections.diSanThienNhien}
+                            title="Di sản thiên nhiên Thế giới"
+                            color="#1D5136"
+                            id="diSanThienNhien"
                         />
                         <Flashcard
                             sectionData={sections.diSanPhiVatThe}

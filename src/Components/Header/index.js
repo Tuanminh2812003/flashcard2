@@ -24,7 +24,7 @@ function Header() {
                 const offsetHeight = section.offsetHeight;
                 const scrollY = window.scrollY;
 
-                if (scrollY >= offsetTop - 200 && scrollY < offsetTop + offsetHeight - 50) {
+                if (scrollY >= offsetTop - 250 && scrollY < offsetTop + offsetHeight - 50) {
                     currentSection = id;
                 }
             }
@@ -51,16 +51,16 @@ function Header() {
                     </div>
                     <div className="header__inner__menu">
                         <div
-                            onClick={() => handleScrollToSection("diSanThienNhien")}
-                            className={activeSection === "diSanThienNhien" ? "active" : ""}
-                        >
-                            Di sản thiên nhiên Thế giới
-                        </div>
-                        <div
                             onClick={() => handleScrollToSection("diSanVatThe")}
                             className={activeSection === "diSanVatThe" ? "active" : ""}
                         >
                             Di sản vật thể Thế giới
+                        </div>
+                        <div
+                            onClick={() => handleScrollToSection("diSanThienNhien")}
+                            className={activeSection === "diSanThienNhien" ? "active" : ""}
+                        >
+                            Di sản thiên nhiên Thế giới
                         </div>
                         <div
                             onClick={() => handleScrollToSection("diSanPhiVatThe")}
