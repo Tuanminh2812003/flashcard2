@@ -50,8 +50,17 @@ $brownMode-Question-color: #C16746;
         &__inner{
             padding: 32px 0px;
             display: flex;
-            flex-direction: column;
             width: 100%;
+            align-items: start;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            &__row{
+                display: flex;
+                flex-direction: column;
+                width: 22%;
+                margin-right: 4px;
+            }
     
             img{
                 width: 120px;
@@ -406,10 +415,14 @@ $brownMode-Question-color: #C16746;
     }
 }
 
-@media (min-width: 768px){
+@media (max-width: 668px){
     .Footer{
         &__inner{
-            flex-direction: row;
+            flex-direction: column;
+
+            &__row{
+                width: 100% !important;
+            }
         }
     }
 }

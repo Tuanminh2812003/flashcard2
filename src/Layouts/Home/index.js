@@ -51,28 +51,32 @@ function Home(){
                             sectionData={sections.diSanVatThe}
                             title="Di sản vật thể Thế giới"
                             color="#89231E"
+                            id="diSanVatThe"
                         />
                         <Flashcard
                             sectionData={sections.diSanPhiVatThe}
                             title="Di sản phi vật thể Thế giới"
                             color="#374151"
+                            id="diSanPhiVatThe"
                         />
                         <Flashcard
                             sectionData={sections.diSanThienNhien}
                             title="Di sản thiên nhiên Thế giới"
                             color="#1D5136"
+                            id="diSanThienNhien"
                         />
                         <Flashcard
                             sectionData={sections.diSanTuLieu}
                             title="Di sản tư liệu"
                             color="#4C3932"
+                            id="diSanTuLieu"
                         />
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="redMode">
-                <Footer/>
+                <div className="redMode">
+                    <Footer/>
+                </div>
             </div>
         </>
     )

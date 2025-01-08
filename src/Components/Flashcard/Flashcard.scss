@@ -52,10 +52,10 @@
                     width: 100%;
                     height: auto;
                 }
-            }
-            &__item:hover{
-                box-shadow: 8px 8px 8px #89231E;
-                transition: all ease-in 0.2s;
+
+                &:hover {
+                    box-shadow: 8px 8px 8px var(--hover-color); /* Sử dụng biến động */
+                }
             }
         }
     }

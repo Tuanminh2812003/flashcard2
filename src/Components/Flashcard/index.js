@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Flashcard.scss";
 import { Link } from "react-router-dom";
 
-function Flashcard({ sectionData, title, color }) {
+function Flashcard({ sectionData, title, color, id }) {
   const [showMore, setShowMore] = useState(false); // Trạng thái hiển thị thêm
 
   // Số lượng items hiển thị ban đầu
@@ -13,7 +13,7 @@ function Flashcard({ sectionData, title, color }) {
     };
 
     return (
-        <div className="flashcard">
+        <div className="flashcard" style={{ "--hover-color": color || "#89231E" }} id={id}>
             <div className="flashcard__inner">
                 {/* Header */}
                 <div className="flashcard__inner__header" style={{ color: color || "#000" }}>
@@ -27,7 +27,7 @@ function Flashcard({ sectionData, title, color }) {
                 <div className="flashcard__inner__content">
                 {(showMore ? sectionData : sectionData.slice(0, initialItems)).map((item) => (
                     <Link to={item.web || "#"} key={item.id} className="flashcard__inner__content__item">
-                    <img alt={`Image ${item.id}`} src={item.url} />
+                        <img alt={`Image ${item.id}`} src={item.url} />
                     </Link>
                 ))}
                 </div>

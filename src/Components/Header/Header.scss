@@ -46,7 +46,7 @@ $logoFont: "Montserrat", serif;
             display: flex;
             align-items: center;
 
-            a{
+            div{
                 margin-left: 32px;
                 color: #374151;
                 font-size: 14px;
@@ -55,14 +55,16 @@ $logoFont: "Montserrat", serif;
                 line-height: 130%; /* 18.2px */
                 padding: 4px 0px;
                 transition: all ease-in 0.1s;
+                cursor: pointer;
+
+                &:hover{
+                    border-bottom: #8F3124 2px solid;
+                    transition: all ease-in 0.1s;
+                    color: #8F3124;
+                    font-weight: 600;
+                }
             }
 
-            a:hover{
-                border-bottom: #8F3124 2px solid;
-                transition: all ease-in 0.1s;
-                color: #8F3124;
-                font-weight: 600;
-            }
         }
     }
 }
