@@ -63,6 +63,11 @@ $logoFont: "Montserrat", serif;
                     color: #8F3124;
                     font-weight: 600;
                 }
+                &.active {
+                    border-bottom: #8f3124 2px solid; /* Thêm đường gạch chân */
+                    color: #8f3124;
+                    font-weight: 600; /* Bôi đậm */
+                }
             }
 
         }

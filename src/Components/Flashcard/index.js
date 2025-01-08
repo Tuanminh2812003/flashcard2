@@ -6,7 +6,7 @@ function Flashcard({ sectionData, title, color, id }) {
   const [showMore, setShowMore] = useState(false); // Trạng thái hiển thị thêm
 
   // Số lượng items hiển thị ban đầu
-    const initialItems = 3;
+    const initialItems = 4;
 
     const handleShowMore = () => {
         setShowMore(!showMore); // Toggle trạng thái

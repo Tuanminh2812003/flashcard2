@@ -34,19 +34,21 @@
             display: flex;
             flex-wrap: wrap;
             align-items: center;
-            justify-content: space-around;
             width: 100%;
+            justify-content: flex-start;
 
             &__item{
-                margin-bottom: 56px;
                 border-radius: 16px;
                 box-shadow: 5px 5px 10px #888888;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 overflow: hidden;
-                width: 30%;
+                width: 22%;
                 transition: all ease-in 0.2s;
+                background-color: transparent;
+                margin: 0px 1.5%;
+                margin-bottom: 56px;
 
                 img{
                     width: 100%;
