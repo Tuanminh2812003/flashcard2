@@ -1,4 +1,4 @@
-import "./LayoutDefault.scss";
+import "../../Components/LayoutDefault.scss";
 
 import SectionMain from "../../Components/SectionMain";
 import Section1 from "../../Components/Section1";
@@ -15,15 +15,17 @@ import Footer from "../../Components/Footer";
 function LayoutDefault(){
     return(
         <>
-            <SectionMain/>
-            <Section1 />
-            <Section5 />
-            <Section2 />
-            <Section1p2 />
-            <Section5p2 />
-            <Section5p3 />
-            <Section7 />
-            <Footer/>
+            <div className="redMode">
+                <SectionMain/>
+                <Section1 />
+                <Section5 />
+                <Section2 />
+                <Section1p2 />
+                <Section5p2 />
+                <Section5p3 />
+                <Section7 />
+                <Footer/>
+            </div>
         </>
     )
 }

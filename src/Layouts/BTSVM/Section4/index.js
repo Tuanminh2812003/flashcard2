@@ -5,9 +5,9 @@ import "./Section4.scss";
 function Section4() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
-        "/BTSVM/Section1-1.jpg",
+        "/BTSVM/Section4-1.jpg",
         "/BTSVM/Section4-2.jpg",
-        "/BTSVM/SectionMain-1.jpg",
+        "/BTSVM/Section4-3.webp",
     ];
 
     const handleNextClick = () => {

@@ -1,3 +1,5 @@
+import "../../Components/LayoutDefault.scss"
+
 import Footer from "../../Components/Footer";
 import SectionMain from "./SectionMain";
 import Section1 from "./Section1";
@@ -11,15 +13,17 @@ import Section7 from "./Section7";
 function QTDTTA(){
     return(
         <>
-            <SectionMain/>
-            <Section1/>
-            <Section5/>
-            <Section1p5/>
-            <Section1p2/>
-            <Section5p2/>
-            <Section5p3/>
-            <Section7/>
-            <Footer/>
+            <div className="greenMode">
+                <SectionMain/>
+                <Section1/>
+                <Section5/>
+                <Section1p5/>
+                <Section1p2/>
+                <Section5p2/>
+                <Section5p3/>
+                <Section7/>
+                <Footer/>
+            </div>
         </>
     )
 }

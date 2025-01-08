@@ -1,96 +1,329 @@
-$Back-color: #FFFFFF;
-$Text-color: #374151;
-$Title-color: #991B1B;
-$Disc-color: #F0F6FF;
-$Back2-color: #FEF2F2;
+//RedMode-
+$RedMode-Back-color: #FFFFFF;
+$RedMode-Text-color: #374151;
+$RedMode-Title-color: #991B1B;
+$RedMode-Disc-color: #EEE;
+$RedMode-Back2-color: #FEF2F2;
+$RedMode-Question-background: #FEF2F2;
+$RedMode-Question-color: #F66E5B;
 
-// $Back-color: #D4E0BD;
-// $Text-color: #374151;
-// $Title-color: #1D5136;
-// $Disc-color: #374151;
-// $Back2-color: #1D5136;
-// $Question-color: #D7EC84;
+//GreenMode-
+$GreenMode-Back-color: #D4E0BD;
+$GreenMode-Text-color: #374151;
+$GreenMode-Title-color: #1D5136;
+$GreenMode-Disc-color: #374151;
+$GreenMode-Back2-color: #1D5136;
+$GreenMode-Question-background: #FEF2F2;
+$GreenMode-Question-color: #D7EC84;
 
-// $Back-color: #F3E7DB;
-// $Text-color: #374151;
-// $Title-color: #374151;
-// $Disc-color: #374151;
-// $Back2-color: #6F8083;
-// $Question-color: #57A6B4;
+//BlueMode
+$BlueMode-Back-color: #F3E7DB;
+$BlueMode-Text-color: #374151;
+$BlueMode-Title-color: #374151;
+$BlueMode-Disc-color: #374151;
+$BlueMode-Back2-color: #6F8083;
+$BlueMode-Question-color: #57A6B4;
+$BlueMode-Question-background: #FEF2F2;
 
-// $Back-color: #E3DAD2;
-// $Text-color: #374151;
-// $Title-color: #374151;
-// $Disc-color: #374151;
-// $Back2-color: #4C3932;
-// $Question-color: #C16746;
+//BrownMode
+$brownMode-Back-color: #E3DAD2;
+$brownMode-Text-color: #374151;
+$brownMode-Title-color: #374151;
+$brownMode-Disc-color: #374151;
+$brownMode-Back2-color: #4C3932;
+$brownMode-Question-background: #FEF2F2;
+$brownMode-Question-color: #C16746;
 
-.Section6{
-    width: 100%;
-    display: flex;
-    margin-top: 42px;
-
-    &__inner{
+.redMode{
+    .Section6{
         width: 100%;
         display: flex;
-        flex-direction: column;
-
-        &__title{
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 150%; /* 30px */
-            color: $Title-color;
-            text-align: center;
-            margin-bottom: 24px;
-        }
-        &__box{
-            border-left: 4px solid $Title-color;
-            padding: 0px 10px;
-
-            &__inner{
-                position: relative;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-
-                &__circle{
-                    width: 16px;
-                    height: 16px;
-                    border-radius: 50%;
-                    background-color: $Title-color;
-                    position: absolute;
-                    top: -8px;
-                    left: -20px;
-                }
-
-                &__image{
-                    width: 50%;
-                    height: 147px;
-                }
-                &__text{
-                    width: 50%;
-                    margin-left: 16px;
-
-                    &__title{
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: 150%; /* 24px */
-                        margin-bottom: 16px;
+        margin-top: 42px;
+    
+        &__inner{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+    
+            &__title{
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%; /* 30px */
+                color: $RedMode-Title-color;
+                text-align: center;
+                margin-bottom: 24px;
+            }
+            &__box{
+                border-left: 4px solid $RedMode-Title-color;
+                padding: 0px 10px;
+    
+                &__inner{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+    
+                    &__circle{
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 50%;
+                        background-color: $RedMode-Title-color;
+                        position: absolute;
+                        top: -8px;
+                        left: -20px;
                     }
-                    &__disc{
-                        font-size: 14px;
-                        font-style: italic;
-                        font-weight: 700;
-                        line-height: 130%; /* 18.2px */
-                        margin-bottom: 8px;
+    
+                    &__image{
+                        width: 50%;
+                        height: 147px;
                     }
                     &__text{
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 130%; /* 18.2px */
+                        width: 50%;
+                        margin-left: 16px;
+    
+                        &__title{
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 150%; /* 24px */
+                            margin-bottom: 16px;
+                        }
+                        &__disc{
+                            font-size: 14px;
+                            font-style: italic;
+                            font-weight: 700;
+                            line-height: 130%; /* 18.2px */
+                            margin-bottom: 8px;
+                        }
+                        &__text{
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 130%; /* 18.2px */
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.greenMode{
+    .Section6{
+        width: 100%;
+        display: flex;
+        margin-top: 42px;
+    
+        &__inner{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+    
+            &__title{
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%; /* 30px */
+                color: $GreenMode-Title-color;
+                text-align: center;
+                margin-bottom: 24px;
+            }
+            &__box{
+                border-left: 4px solid $GreenMode-Title-color;
+                padding: 0px 10px;
+    
+                &__inner{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+    
+                    &__circle{
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 50%;
+                        background-color: $GreenMode-Title-color;
+                        position: absolute;
+                        top: -8px;
+                        left: -20px;
+                    }
+    
+                    &__image{
+                        width: 50%;
+                        height: 147px;
+                    }
+                    &__text{
+                        width: 50%;
+                        margin-left: 16px;
+    
+                        &__title{
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 150%; /* 24px */
+                            margin-bottom: 16px;
+                        }
+                        &__disc{
+                            font-size: 14px;
+                            font-style: italic;
+                            font-weight: 700;
+                            line-height: 130%; /* 18.2px */
+                            margin-bottom: 8px;
+                        }
+                        &__text{
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 130%; /* 18.2px */
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.blueMode{
+    .Section6{
+        width: 100%;
+        display: flex;
+        margin-top: 42px;
+    
+        &__inner{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+    
+            &__title{
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%; /* 30px */
+                color: $BlueMode-Title-color;
+                text-align: center;
+                margin-bottom: 24px;
+            }
+            &__box{
+                border-left: 4px solid $BlueMode-Title-color;
+                padding: 0px 10px;
+    
+                &__inner{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+    
+                    &__circle{
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 50%;
+                        background-color: $BlueMode-Title-color;
+                        position: absolute;
+                        top: -8px;
+                        left: -20px;
+                    }
+    
+                    &__image{
+                        width: 50%;
+                        height: 147px;
+                    }
+                    &__text{
+                        width: 50%;
+                        margin-left: 16px;
+    
+                        &__title{
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 150%; /* 24px */
+                            margin-bottom: 16px;
+                        }
+                        &__disc{
+                            font-size: 14px;
+                            font-style: italic;
+                            font-weight: 700;
+                            line-height: 130%; /* 18.2px */
+                            margin-bottom: 8px;
+                        }
+                        &__text{
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 130%; /* 18.2px */
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.brownMode{
+    .Section6{
+        width: 100%;
+        display: flex;
+        margin-top: 42px;
+    
+        &__inner{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+    
+            &__title{
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%; /* 30px */
+                color: $brownMode-Title-color;
+                text-align: center;
+                margin-bottom: 24px;
+            }
+            &__box{
+                border-left: 4px solid $brownMode-Title-color;
+                padding: 0px 10px;
+    
+                &__inner{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+    
+                    &__circle{
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 50%;
+                        background-color: $brownMode-Title-color;
+                        position: absolute;
+                        top: -8px;
+                        left: -20px;
+                    }
+    
+                    &__image{
+                        width: 50%;
+                        height: 147px;
+                    }
+                    &__text{
+                        width: 50%;
+                        margin-left: 16px;
+    
+                        &__title{
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 150%; /* 24px */
+                            margin-bottom: 16px;
+                        }
+                        &__disc{
+                            font-size: 14px;
+                            font-style: italic;
+                            font-weight: 700;
+                            line-height: 130%; /* 18.2px */
+                            margin-bottom: 8px;
+                        }
+                        &__text{
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 130%; /* 18.2px */
+                        }
                     }
                 }
             }

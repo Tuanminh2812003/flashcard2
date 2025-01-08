@@ -1,3 +1,5 @@
+import "../../Components/LayoutDefault.scss"
+
 import Footer from "../../Components/Footer";
 import SectionMain from "./SectionMain";
 import Section1 from "./Section1";
@@ -12,12 +14,14 @@ import Section7 from "./Section7";
 function BTSVM(){
     return(
         <>
-            <SectionMain/>
-            <Section5/>
-            <Section1/>
-            <Section1p2/>
-            <Section7/>
-            <Footer/>
+            <div className="brownMode">
+                <SectionMain/>
+                <Section5/>
+                <Section1/>
+                <Section1p2/>
+                <Section7/>
+                <Footer/>
+            </div>
         </>
     )
 }

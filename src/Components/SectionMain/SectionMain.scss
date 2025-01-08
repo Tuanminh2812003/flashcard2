@@ -1,104 +1,351 @@
-$Back-color: #FFFFFF;
-$Text-color: #374151;
-$Title-color: #991B1B;
-$Disc-color: #F0F6FF;
-$Back2-color: #FEF2F2;
+//RedMode-
+$RedMode-Back-color: #FFFFFF;
+$RedMode-Text-color: #374151;
+$RedMode-Title-color: #991B1B;
+$RedMode-Disc-color: #EEE;
+$RedMode-Back2-color: #FEF2F2;
+$RedMode-Question-background: #FEF2F2;
+$RedMode-Question-color: #F66E5B;
 
-// $Back-color: #D4E0BD;
-// $Text-color: #374151;
-// $Title-color: #1D5136;
-// $Disc-color: #374151;
-// $Back2-color: #1D5136;
-// $Question-color: #D7EC84;
+//GreenMode-
+$GreenMode-Back-color: #D4E0BD;
+$GreenMode-Text-color: #374151;
+$GreenMode-Title-color: #1D5136;
+$GreenMode-Disc-color: #374151;
+$GreenMode-Back2-color: #1D5136;
+$GreenMode-Question-background: #FEF2F2;
+$GreenMode-Question-color: #D7EC84;
 
-// $Back-color: #F3E7DB;
-// $Text-color: #374151;
-// $Title-color: #374151;
-// $Disc-color: #374151;
-// $Back2-color: #6F8083;
-// $Question-color: #57A6B4;
+//BlueMode
+$BlueMode-Back-color: #F3E7DB;
+$BlueMode-Text-color: #374151;
+$BlueMode-Title-color: #374151;
+$BlueMode-Disc-color: #374151;
+$BlueMode-Back2-color: #6F8083;
+$BlueMode-Question-color: #57A6B4;
+$BlueMode-Question-background: #FEF2F2;
 
-// $Back-color: #E3DAD2;
-// $Text-color: #374151;
-// $Title-color: #374151;
-// $Disc-color: #374151;
-// $Back2-color: #4C3932;
-// $Question-color: #C16746;
+//BrownMode
+$brownMode-Back-color: #E3DAD2;
+$brownMode-Text-color: #374151;
+$brownMode-Title-color: #374151;
+$brownMode-Disc-color: #374151;
+$brownMode-Back2-color: #4C3932;
+$brownMode-Question-background: #FEF2F2;
+$brownMode-Question-color: #C16746;
 
-.SectionMain{
-    padding-top: 165px;
-    height: 100vh;
-    height: 512px;
-    width: 100%;
-    display: flex;
-    position: relative;
-
-    &__overlay{
-        position: absolute;
+.redMode{
+    .SectionMain{
+        padding-top: 165px;
+        height: 100vh;
+        height: 512px;
         width: 100%;
-        height: 100%;
-        background-color: black;
-        opacity: 0.5;
-        top: 0;
-        left: 0;
-    }
-
-    &__inner{
-        color: white;
         display: flex;
-        flex-direction: column;
-        width: 100%;
         position: relative;
-        z-index: 1;
-
-        &__title{
-            font-size: 22px;
-            font-weight: 700;
-            margin-bottom: 24px;
-            line-height: 150%;
-            text-align: center;
+    
+        &__overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.5;
+            top: 0;
+            left: 0;
         }
-        &__disc{
-            font-style: italic;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 130%; /* 20.8px */
+    
+        &__inner{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+    
+            &__title{
+                font-size: 22px;
+                font-weight: 700;
+                margin-bottom: 24px;
+                line-height: 150%;
+                text-align: center;
+            }
+            &__disc{
+                font-style: italic;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 130%; /* 20.8px */
+            }
+        }
+    }
+    
+    .SectionMainP2{
+    
+        &__inner{
+            background-color: $RedMode-Back2-color;
+            padding: 16px;
+            border-radius: 8px;
+            width: 100%;
+            position: relative;
+            z-index: 2;
+    
+            &__title{
+                font-size: 18px;
+                color: $RedMode-Title-color;
+                font-weight: 700;
+                line-height: 150%;
+                margin-bottom: 16px;
+            }
+    
+            &__disc{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 130%; /* 18.2px */
+            }
+    
+            ul{
+                margin: 0px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 130%; /* 18.2px */
+            }
         }
     }
 }
-
-.SectionMainP2{
-
-    &__inner{
-        background-color: $Back2-color;
-        padding: 16px;
-        border-radius: 8px;
+.greenMode{
+    .SectionMain{
+        padding-top: 165px;
+        height: 100vh;
+        height: 512px;
         width: 100%;
+        display: flex;
         position: relative;
-        z-index: 2;
-
-        &__title{
-            font-size: 18px;
-            color: $Title-color;
-            // color: white;
-            font-weight: 700;
-            line-height: 150%;
-            margin-bottom: 16px;
+    
+        &__overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.5;
+            top: 0;
+            left: 0;
         }
-
-        &__disc{
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 130%; /* 18.2px */
-            // color: white;
+    
+        &__inner{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+    
+            &__title{
+                font-size: 22px;
+                font-weight: 700;
+                margin-bottom: 24px;
+                line-height: 150%;
+                text-align: center;
+            }
+            &__disc{
+                font-style: italic;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 130%; /* 20.8px */
+            }
         }
+    }
+    
+    .SectionMainP2{
+    
+        &__inner{
+            background-color: $GreenMode-Back2-color;
+            padding: 16px;
+            border-radius: 8px;
+            width: 100%;
+            position: relative;
+            z-index: 2;
+    
+            &__title{
+                font-size: 18px;
+                color: $GreenMode-Title-color;
+                color: white;
+                font-weight: 700;
+                line-height: 150%;
+                margin-bottom: 16px;
+            }
+    
+            &__disc{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 130%; /* 18.2px */
+                color: white;
+            }
+    
+            ul{
+                margin: 0px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 130%; /* 18.2px */
+                color: white;
+            }
+        }
+    }
+}
+.blueMode{
+    .SectionMain{
+        padding-top: 165px;
+        height: 100vh;
+        height: 512px;
+        width: 100%;
+        display: flex;
+        position: relative;
+    
+        &__overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.5;
+            top: 0;
+            left: 0;
+        }
+    
+        &__inner{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+    
+            &__title{
+                font-size: 22px;
+                font-weight: 700;
+                margin-bottom: 24px;
+                line-height: 150%;
+                text-align: center;
+            }
+            &__disc{
+                font-style: italic;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 130%; /* 20.8px */
+            }
+        }
+    }
+    
+    .SectionMainP2{
 
-        ul{
-            margin: 0px;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 130%; /* 18.2px */
-            // color: white;
+        margin-bottom: 32px;
+    
+        &__inner{
+            background-color: $BlueMode-Back2-color;
+            padding: 16px;
+            border-radius: 8px;
+            width: 100%;
+            position: relative;
+            z-index: 2;
+    
+            &__title{
+                font-size: 18px;
+                color: $BlueMode-Title-color;
+                color: white;
+                font-weight: 700;
+                line-height: 150%;
+                margin-bottom: 16px;
+            }
+    
+            &__disc{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 130%; /* 18.2px */
+                color: white;
+            }
+    
+            ul{
+                margin: 0px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 130%; /* 18.2px */
+                color: white;
+            }
+        }
+    }
+}
+.brownMode{
+    .SectionMain{
+        padding-top: 165px;
+        height: 100vh;
+        height: 512px;
+        width: 100%;
+        display: flex;
+        position: relative;
+    
+        &__overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.5;
+            top: 0;
+            left: 0;
+        }
+    
+        &__inner{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+    
+            &__title{
+                font-size: 22px;
+                font-weight: 700;
+                margin-bottom: 24px;
+                line-height: 150%;
+                text-align: center;
+            }
+            &__disc{
+                font-style: italic;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 130%; /* 20.8px */
+            }
+        }
+    }
+    
+    .SectionMainP2{
+    
+        &__inner{
+            background-color: $brownMode-Back2-color;
+            padding: 16px;
+            border-radius: 8px;
+            width: 100%;
+            position: relative;
+            z-index: 2;
+    
+            &__title{
+                font-size: 18px;
+                color: $brownMode-Title-color;
+                color: white;
+                font-weight: 700;
+                line-height: 150%;
+                margin-bottom: 16px;
+            }
+    
+            &__disc{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 130%; /* 18.2px */
+                color: white;
+            }
+    
+            ul{
+                margin: 0px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 130%; /* 18.2px */
+                color: white;
+            }
         }
     }
 }

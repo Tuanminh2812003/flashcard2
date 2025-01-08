@@ -1,104 +1,356 @@
-$Back-color: #FFFFFF;
-$Text-color: #374151;
-$Title-color: #991B1B;
-$Disc-color: #F0F6FF;
-$Back2-color: #FEF2F2;
+//RedMode-
+$RedMode-Back-color: #FFFFFF;
+$RedMode-Text-color: #374151;
+$RedMode-Title-color: #991B1B;
+$RedMode-Disc-color: #EEE;
+$RedMode-Back2-color: #FEF2F2;
+$RedMode-Question-background: #FEF2F2;
+$RedMode-Question-color: #F66E5B;
 
-// $Back-color: #D4E0BD;
-// $Text-color: #374151;
-// $Title-color: #1D5136;
-// $Disc-color: #374151;
-// $Back2-color: #1D5136;
-// $Question-color: #D7EC84;
+//GreenMode-
+$GreenMode-Back-color: #D4E0BD;
+$GreenMode-Text-color: #374151;
+$GreenMode-Title-color: #1D5136;
+$GreenMode-Disc-color: #374151;
+$GreenMode-Back2-color: #1D5136;
+$GreenMode-Question-background: #FEF2F2;
+$GreenMode-Question-color: #D7EC84;
 
-// $Back-color: #F3E7DB;
-// $Text-color: #374151;
-// $Title-color: #374151;
-// $Disc-color: #374151;
-// $Back2-color: #6F8083;
-// $Question-color: #57A6B4;
+//BlueMode
+$BlueMode-Back-color: #F3E7DB;
+$BlueMode-Text-color: #374151;
+$BlueMode-Title-color: #374151;
+$BlueMode-Disc-color: #374151;
+$BlueMode-Back2-color: #6F8083;
+$BlueMode-Question-color: #57A6B4;
+$BlueMode-Question-background: #FEF2F2;
 
-// $Back-color: #E3DAD2;
-// $Text-color: #374151;
-// $Title-color: #374151;
-// $Disc-color: #374151;
-// $Back2-color: #4C3932;
-// $Question-color: #C16746;
+//BrownMode
+$brownMode-Back-color: #E3DAD2;
+$brownMode-Text-color: #374151;
+$brownMode-Title-color: #374151;
+$brownMode-Disc-color: #374151;
+$brownMode-Back2-color: #4C3932;
+$brownMode-Question-background: #FEF2F2;
+$brownMode-Question-color: #C16746;
 
-.Section4{
-    margin-bottom: 32px;
-    position: relative;
-    padding: 0px 17px;
-    overflow: hidden;
-}
-.Section4__title{
-    color: $Title-color;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%; /* 30px */
-    text-align: center;
-    margin: 0px;
-}
-
-.Section4__slider {
-    display: flex;
-    overflow: hidden; /* Ẩn các ảnh nằm ngoài slider */
-    position: relative;
-    height: 70vh;
-    margin-bottom: 24px;
-
-    &__image {
-        height: 100%;
-        min-width: 100%;
-        flex-shrink: 0;
-        transition: transform 0.5s ease-in-out;
-        background-size: cover;
-        background-position: center;
+.redMode{
+    .Section4{
+        margin-bottom: 32px;
+        position: relative;
+        padding: 0px 17px;
+        overflow: hidden;
     }
-}
-.Section4__pagi {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 24px;
-
-    &__dot {
-        width: 12px;
-        height: 12px;
-        background-color: #cfd2d7;
-        border-radius: 50%;
-        margin: 0px 8px;
-        transition: background-color 0.3s ease;
+    .Section4__title{
+        color: $RedMode-Title-color;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 30px */
+        text-align: center;
+        margin: 0px;
+    }
     
-        &.active {
-            background-color: $Title-color;
+    .Section4__slider {
+        display: flex;
+        overflow: hidden; /* Ẩn các ảnh nằm ngoài slider */
+        position: relative;
+        height: 70vh;
+        margin-bottom: 24px;
+    
+        &__image {
+            height: 100%;
+            min-width: 100%;
+            flex-shrink: 0;
+            transition: transform 0.5s ease-in-out;
+            background-size: cover;
+            background-position: center;
         }
     }
-}
-
-.Section4__text__inner {
-    display: block; /* Hiển thị đoạn text hiện tại */
-}
-
-
-.Section4__next {
-    width: 40px;
-    height: 40px;
-    background-color: $Title-color;
-    border-radius: 50%;
-    right: 30px;
-    top: 220px;
-    color: white;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    position: absolute;
-
-    &:hover {
-        background-color: darken($Title-color, 10%);
+    .Section4__pagi {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 24px;
+    
+        &__dot {
+            width: 12px;
+            height: 12px;
+            background-color: #cfd2d7;
+            border-radius: 50%;
+            margin: 0px 8px;
+            transition: background-color 0.3s ease;
+        
+            &.active {
+                background-color: $RedMode-Title-color;
+            }
+        }
     }
+    
+    .Section4__text__inner {
+        display: block; /* Hiển thị đoạn text hiện tại */
+    }
+    
+    
+    .Section4__next {
+        width: 40px;
+        height: 40px;
+        background-color: $RedMode-Title-color;
+        border-radius: 50%;
+        right: 30px;
+        top: 220px;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: absolute;
+    
+        &:hover {
+            background-color: darken($RedMode-Title-color, 10%);
+        }
+    }
+    
+}
+.greenMode{
+    .Section4{
+        margin-bottom: 32px;
+        position: relative;
+        padding: 0px 17px;
+        overflow: hidden;
+    }
+    .Section4__title{
+        color: $GreenMode-Title-color;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 30px */
+        text-align: center;
+        margin: 0px;
+    }
+    
+    .Section4__slider {
+        display: flex;
+        overflow: hidden; /* Ẩn các ảnh nằm ngoài slider */
+        position: relative;
+        height: 70vh;
+        margin-bottom: 24px;
+    
+        &__image {
+            height: 100%;
+            min-width: 100%;
+            flex-shrink: 0;
+            transition: transform 0.5s ease-in-out;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    .Section4__pagi {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 24px;
+    
+        &__dot {
+            width: 12px;
+            height: 12px;
+            background-color: #cfd2d7;
+            border-radius: 50%;
+            margin: 0px 8px;
+            transition: background-color 0.3s ease;
+        
+            &.active {
+                background-color: $GreenMode-Title-color;
+            }
+        }
+    }
+    
+    .Section4__text__inner {
+        display: block; /* Hiển thị đoạn text hiện tại */
+    }
+    
+    
+    .Section4__next {
+        width: 40px;
+        height: 40px;
+        background-color: $GreenMode-Title-color;
+        border-radius: 50%;
+        right: 30px;
+        top: 220px;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: absolute;
+    
+        &:hover {
+            background-color: darken($GreenMode-Title-color, 10%);
+        }
+    }
+    
+}
+.blueMode{
+    .Section4{
+        margin-bottom: 32px;
+        position: relative;
+        padding: 0px 17px;
+        overflow: hidden;
+    }
+    .Section4__title{
+        color: $BlueMode-Title-color;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 30px */
+        text-align: center;
+        margin: 0px;
+    }
+    
+    .Section4__slider {
+        display: flex;
+        overflow: hidden; /* Ẩn các ảnh nằm ngoài slider */
+        position: relative;
+        height: 70vh;
+        margin-bottom: 24px;
+    
+        &__image {
+            height: 100%;
+            min-width: 100%;
+            flex-shrink: 0;
+            transition: transform 0.5s ease-in-out;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    .Section4__pagi {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 24px;
+    
+        &__dot {
+            width: 12px;
+            height: 12px;
+            background-color: #cfd2d7;
+            border-radius: 50%;
+            margin: 0px 8px;
+            transition: background-color 0.3s ease;
+        
+            &.active {
+                background-color: $BlueMode-Title-color;
+            }
+        }
+    }
+    
+    .Section4__text__inner {
+        display: block; /* Hiển thị đoạn text hiện tại */
+    }
+    
+    
+    .Section4__next {
+        width: 40px;
+        height: 40px;
+        background-color: $BlueMode-Title-color;
+        border-radius: 50%;
+        right: 30px;
+        top: 220px;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: absolute;
+    
+        &:hover {
+            background-color: darken($BlueMode-Title-color, 10%);
+        }
+    }
+    
+}
+.brownMode{
+    .Section4{
+        margin-bottom: 32px;
+        position: relative;
+        padding: 0px 17px;
+        overflow: hidden;
+    }
+    .Section4__title{
+        color: $brownMode-Title-color;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 30px */
+        text-align: center;
+        margin: 0px;
+    }
+    
+    .Section4__slider {
+        display: flex;
+        overflow: hidden; /* Ẩn các ảnh nằm ngoài slider */
+        position: relative;
+        height: 70vh;
+        margin-bottom: 24px;
+    
+        &__image {
+            height: 100%;
+            min-width: 100%;
+            flex-shrink: 0;
+            transition: transform 0.5s ease-in-out;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    .Section4__pagi {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 24px;
+    
+        &__dot {
+            width: 12px;
+            height: 12px;
+            background-color: #cfd2d7;
+            border-radius: 50%;
+            margin: 0px 8px;
+            transition: background-color 0.3s ease;
+        
+            &.active {
+                background-color: $brownMode-Title-color;
+            }
+        }
+    }
+    
+    .Section4__text__inner {
+        display: block; /* Hiển thị đoạn text hiện tại */
+    }
+    
+    
+    .Section4__next {
+        width: 40px;
+        height: 40px;
+        background-color: $brownMode-Title-color;
+        border-radius: 50%;
+        right: 30px;
+        top: 220px;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: absolute;
+    
+        &:hover {
+            background-color: darken($brownMode-Title-color, 10%);
+        }
+    }
+    
 }

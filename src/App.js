@@ -4,16 +4,16 @@ import QTDTCDH from './Layouts/QTDTCDH';
 import QTDTTA from './Layouts/QTDTTA';
 import TNTM from './Layouts/TNTM';
 import BTSVM from './Layouts/BTSVM';
-// import Admin from './Layouts/Elogi_demo_admin';
+import Home from './Layouts/Home';
 
 function App() {
   return (
     <>
       <Routes>
-        {/* <Route path='/elogi' element={<Admin/>}/> */}
-        <Route path='/hue' element={<QTDTCDH/>}/>
-        <Route path='/trangan' element={<QTDTTA/>}/>
-        <Route path='/' element={<TNTM/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/qtdtcdh' element={<QTDTCDH/>}/>
+        <Route path='/qtdtta' element={<QTDTTA/>}/>
+        <Route path='/tntm' element={<TNTM/>}/>
         <Route path='/btsvm' element={<BTSVM/>}/>
       </Routes>
     </>

@@ -111,6 +111,10 @@ function Section1p2(){
                             Theo Đại Việt sử ký toàn thư
                         </div> */}
                         <Section4/>
+                        <img src="/BTSVM/biatiensi.png" style={{
+                            width: "100%",
+                            height: "auto"
+                        }}/>
                     </div>
                     <div className="Section1__content__inner inner2">
                         <div className="Section1__content__inner__title">

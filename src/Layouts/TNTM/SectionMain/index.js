@@ -39,10 +39,10 @@ function SectionMain(){
                 <div className="container">
                     <div className="SectionMainP2__inner">
                         <div className="SectionMainP2__inner__title">
-                        Dự án Heritage Spirit Chào mừng quý khách đến trãi nghiệm về di sản tín ngưỡng thờ mẫu:
+                        Dự án Heritage Spirit Chào mừng quý khách đến trải nghiệm về di sản tín ngưỡng thờ Mẫu:
                         </div>
                         <div className="SectionMainP2__inner__disc">
-                        Tham gia trãi nghiệm về tín ngưỡng thờ mẫu quý khách sẽ: 
+                        Tham gia trải nghiệm về tín ngưỡng thờ Mẫu quý khách sẽ: 
                         </div>
                         <ul>
                             <li>

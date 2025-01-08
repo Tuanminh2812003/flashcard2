@@ -1,3 +1,5 @@
+import "../../Components/LayoutDefault.scss"
+
 import Footer from "../../Components/Footer";
 import SectionMain from "./SectionMain";
 import Section1 from "./Section1";
@@ -12,15 +14,17 @@ import Section7 from "./Section7";
 function TNTM(){
     return(
         <>
-            <SectionMain/>
-            <Section5/>
-            <Section5p2/>
-            <Section1/>
-            <Section5p3/>
-            <Section4/>
-            <Section1p5/>
-            <Section7/>
-            <Footer/>
+            <div className="blueMode">
+                <SectionMain/>
+                <Section5/>
+                <Section5p2/>
+                <Section1/>
+                <Section5p3/>
+                <Section4/>
+                <Section1p5/>
+                <Section7/>
+                <Footer/>
+            </div>
         </>
     )
 }
