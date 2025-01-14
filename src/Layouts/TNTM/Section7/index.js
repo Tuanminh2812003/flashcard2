@@ -12,9 +12,6 @@ function Section7(){
                         <div className="Section7__inner__disc">
                         Bạn hãy thiết kế một video/poster hoặc lá thư để thể hiện chủ đề: Đề xuất những biện pháp bảo tồn và quảng bá hình ảnh di sản Tín  ngưỡng thờ mẫu Tam Phủ. 
                         </div>
-                        <div className="Section7__inner__disc">
-                        Những sản phẩm tốt sẽ được cấp Giấy chứng nhận “Cá nhân có đề xuất xuất sắc trong bảo tồn và quảng bá hình ảnh di Tín ngưỡng thờ mẫu Tam Phủ.”
-                        </div>
                         <form>
                             <label htmlFor="form__name">Họ và tên</label>
                             <input type="text" id="form__name"/>

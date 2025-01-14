@@ -39,7 +39,7 @@ function SectionMain(){
                 <div className="container">
                     <div className="SectionMainP2__inner">
                         <div className="SectionMainP2__inner__title">
-                        Dự án Heritage Spirit Chào mừng quý khách đến trãi nghiệm về Bia tiến sĩ Văn Miếu – Quốc Tử Giám
+                        Dự án Heritage Flash XR Chào mừng quý khách đến trãi nghiệm về Bia tiến sĩ Văn Miếu – Quốc Tử Giám
                         </div>
                         <div className="SectionMainP2__inner__disc">
                         Tham gia trãi nghiệm về Bia tiến sĩ Văn Miếu – Quốc Tử Giám quý khách sẽ: 

@@ -12,7 +12,7 @@ function Footer(){
                     <div className="Footer__inner">
                         <div className="Footer__inner__row">
                             <div className="Footer__inner__title">
-                                Dự án HERITAGE SPIRIT
+                                Dự án HERITAGE FLASH XR
                             </div>
                             <img src="/Logo.png" alt="logo"/>
                         </div>
@@ -24,16 +24,16 @@ function Footer(){
                                 GS.TS.NGND Đỗ Thanh Bình
                             </div>
                             <div className="Footer__inner__disc">
-                                TS. Nguyễn Văn Ninh
+                                PGS.TS Nguyễn Mạnh Hường
                             </div>
                             <div className="Footer__inner__disc">
-                                PGS.TS Nguyễn Mạnh Hường
+                                TS. Nguyễn Văn Ninh
                             </div>
                             <div className="Footer__inner__disc">
                                 TS. Vũ Đức Liêm
                             </div>
                         </div>
-                        <div className="Footer__inner__row">
+                        <div className="Footer__inner__row r2">
                             <div className="Footer__inner__title">
                                 Đơn vị bảo trợ và tài trợ
                             </div>
@@ -49,7 +49,7 @@ function Footer(){
                                 Công ty Cổ phần Công nghệ Giáo dục AES
                             </div>
                         </div>
-                        <div className="Footer__inner__row">
+                        <div className="Footer__inner__row r3">
                             <div className="Footer__inner__title">
                                 Liên hệ
                             </div>

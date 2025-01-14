@@ -58,7 +58,7 @@ function Header() {
                 <div className="header__inner">
                     <div className="header__inner__logo">
                         <img src="/Logo_do.png" alt="logo" />
-                        <div className="header__inner__logo__text">HERITAGE SPIRIT</div>
+                        <div className="header__inner__logo__text">HERITAGE FLASH XR</div>
                     </div>
                     <div
                         ref={menuRef}
@@ -82,7 +82,7 @@ function Header() {
                         <div
                             onClick={() => handleScrollToSection("diSanTuLieu")}
                         >
-                            Di sản tư liệu
+                            Di sản tư liệu Thế giới
                         </div>
                     </div>
                     <div

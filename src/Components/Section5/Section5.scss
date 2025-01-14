@@ -28,7 +28,7 @@ $BlueMode-Question-background: #FEF2F2;
 //BrownMode
 $brownMode-Back-color: #E3DAD2;
 $brownMode-Text-color: #374151;
-$brownMode-Title-color: #374151;
+$brownMode-Title-color: #4C3932;
 $brownMode-Disc-color: #374151;
 $brownMode-Back2-color: #4C3932;
 $brownMode-Question-background: #FEF2F2;
@@ -40,11 +40,13 @@ $brownMode-Question-color: #C16746;
         width: 100%;
         background-color: $RedMode-Back2-color;
         padding: 32px 0px;
+        margin-bottom: 56px;
     
         &__inner{
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
             width: 100%;
+            align-items: center;
     
             &__textImage{
                 margin-top: -8px;
@@ -61,6 +63,8 @@ $brownMode-Question-color: #C16746;
                 line-height: 150%; /* 30px */
                 text-align: center;
                 margin-bottom: 24px;
+                color: $RedMode-Title-color;
+                text-transform: uppercase;
                 width: 100%;
             }
             &__disc{
@@ -87,7 +91,7 @@ $brownMode-Question-color: #C16746;
                 }
             }
             &__image{
-                width: 100%;
+                width: 52%;
                 height: auto;
                 margin-bottom: 24px;
                 margin-top: 24px;
@@ -95,6 +99,7 @@ $brownMode-Question-color: #C16746;
             &__mainText2{
                 margin-top: 16px;
                 line-height: 130%; /* 18.2px */
+                width: 100%;
             }
             &__text2{
                 margin-top: 16px;
@@ -118,11 +123,13 @@ $brownMode-Question-color: #C16746;
         background-color: $GreenMode-Back2-color;
         color: white;
         padding: 32px 0px;
+        margin-bottom: 56px;
     
         &__inner{
             display: flex;
             flex-direction: column;
             width: 100%;
+            align-items: center;
     
             &__textImage{
                 margin-top: -8px;
@@ -139,18 +146,23 @@ $brownMode-Question-color: #C16746;
                 line-height: 150%; /* 30px */
                 text-align: center;
                 margin-bottom: 24px;
+                color: white;
+                text-transform: uppercase;
+                width: 100%;
             }
             &__disc{
                 font-style: normal;
                 font-weight: 700;
                 line-height: 150%; /* 24px */
                 margin-bottom: 16px;
+                width: 100%;
             }
             &__mainText{
                 font-style: italic;
                 font-weight: 700;
                 line-height: 130%; /* 18.2px */
                 margin-top: 16px;
+                width: 100%;
             }
             &__text{
                 font-style: normal;
@@ -162,7 +174,7 @@ $brownMode-Question-color: #C16746;
                 }
             }
             &__image{
-                width: 100%;
+                width: 52%;
                 height: auto;
                 margin-bottom: 24px;
                 margin-top: 24px;
@@ -170,6 +182,7 @@ $brownMode-Question-color: #C16746;
             &__mainText2{
                 margin-top: 16px;
                 line-height: 130%; /* 18.2px */
+                width: 100%;
             }
             &__text2{
                 margin-top: 16px;
@@ -193,11 +206,13 @@ $brownMode-Question-color: #C16746;
         background-color: $BlueMode-Back2-color;
         color: white;
         padding: 32px 0px;
+        margin-bottom: 56px;
     
         &__inner{
             display: flex;
             flex-direction: column;
             width: 100%;
+            align-items: center;
     
             &__textImage{
                 margin-top: -8px;
@@ -214,18 +229,23 @@ $brownMode-Question-color: #C16746;
                 line-height: 150%; /* 30px */
                 text-align: center;
                 margin-bottom: 24px;
+                color: white;
+                text-transform: uppercase;
+                width: 100%;
             }
             &__disc{
                 font-style: normal;
                 font-weight: 700;
                 line-height: 150%; /* 24px */
                 margin-bottom: 16px;
+                width: 100%;
             }
             &__mainText{
                 font-style: italic;
                 font-weight: 700;
                 line-height: 130%; /* 18.2px */
                 margin-top: 16px;
+                width: 100%;
             }
             &__text{
                 font-style: normal;
@@ -237,7 +257,7 @@ $brownMode-Question-color: #C16746;
                 }
             }
             &__image{
-                width: 100%;
+                width: 52%;
                 height: auto;
                 margin-bottom: 24px;
                 margin-top: 24px;
@@ -245,6 +265,7 @@ $brownMode-Question-color: #C16746;
             &__mainText2{
                 margin-top: 16px;
                 line-height: 130%; /* 18.2px */
+                width: 100%;
             }
             &__text2{
                 margin-top: 16px;
@@ -268,11 +289,14 @@ $brownMode-Question-color: #C16746;
         background-color: $brownMode-Back2-color;
         color: white;
         padding: 32px 0px;
+        margin-bottom: 56px;
+        margin-top: 56px;
     
         &__inner{
             display: flex;
             flex-direction: column;
             width: 100%;
+            align-items: center;
     
             &__textImage{
                 margin-top: -8px;
@@ -289,18 +313,23 @@ $brownMode-Question-color: #C16746;
                 line-height: 150%; /* 30px */
                 text-align: center;
                 margin-bottom: 24px;
+                color: white;
+                text-transform: uppercase;
+                width: 100%;
             }
             &__disc{
                 font-style: normal;
                 font-weight: 700;
                 line-height: 150%; /* 24px */
                 margin-bottom: 16px;
+                width: 100%;
             }
             &__mainText{
                 font-style: italic;
                 font-weight: 700;
                 line-height: 130%; /* 18.2px */
                 margin-top: 16px;
+                width: 100%;
             }
             &__text{
                 font-style: normal;
@@ -312,7 +341,7 @@ $brownMode-Question-color: #C16746;
                 }
             }
             &__image{
-                width: 100%;
+                width: 52%;
                 height: auto;
                 margin-bottom: 24px;
                 margin-top: 24px;
@@ -320,6 +349,7 @@ $brownMode-Question-color: #C16746;
             &__mainText2{
                 margin-top: 16px;
                 line-height: 130%; /* 18.2px */
+                width: 100%;
             }
             &__text2{
                 margin-top: 16px;
@@ -339,5 +369,8 @@ $brownMode-Question-color: #C16746;
 @media (max-width: 661.98px){
     .Section5__inner__title{
         font-size: 20px !important;
+    }
+    .Section5__inner__image{
+        width: 100% !important;
     }
 }

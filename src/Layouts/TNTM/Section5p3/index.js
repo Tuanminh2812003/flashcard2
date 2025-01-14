@@ -35,11 +35,7 @@ function Section5p3(){
                         <div className="Section5__inner__text2">
                         Niềm tin vào Mẫu, là hướng tới những điều thiêng liêng, cao cả, cái tố đẹp muôn đời, thể hiện tâm thức dân tộc Việt Nam luôn khao khát hòa bình, sống giản dị, sống dưới mái ấm gia đình với tình yêu thương yêu bao la của người mẹ. 
                         </div>
-                        <div className="Section5__inner__image" style={{
-                            backgroundImage: "url('/TNTM/Section5p3-1.jpg')",
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                        }}></div>
+                        <img src="/TNTM/Section5p3-1.jpg" className="Section5__inner__image"/>
                         <div className="Section5__inner__text2">
                         Các buổi hầu đồng và lễ nghi liên quan, không chỉ mang ý nghĩa tâm linh mà còn gắn bó chặt chẽ với đời sống thường nhật của người dân. Những nghi thức này phản ánh rõ ràng những mong mỏi cụ thể và khát vọng thiết thực của họ. 
                         </div>

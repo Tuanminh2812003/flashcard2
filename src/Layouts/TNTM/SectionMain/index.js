@@ -39,7 +39,7 @@ function SectionMain(){
                 <div className="container">
                     <div className="SectionMainP2__inner">
                         <div className="SectionMainP2__inner__title">
-                        Dự án Heritage Spirit Chào mừng quý khách đến trải nghiệm về di sản tín ngưỡng thờ Mẫu:
+                        Dự án Heritage Flash XR Chào mừng quý khách đến trải nghiệm về di sản tín ngưỡng thờ Mẫu:
                         </div>
                         <div className="SectionMainP2__inner__disc">
                         Tham gia trải nghiệm về tín ngưỡng thờ Mẫu quý khách sẽ: 

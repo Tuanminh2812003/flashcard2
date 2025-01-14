@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { MdNavigateNext } from "react-icons/md";
-import "./Section4.scss";
 
 function Section4() {
     const [currentSlide, setCurrentSlide] = useState(0);

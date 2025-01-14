@@ -1,5 +1,3 @@
-import Section4 from "./Section4";
-
 function Section1p2(){
     return(
         <>
@@ -93,7 +91,6 @@ function Section1p2(){
                         <div className="Section1__content__inner__disc">
                             Những đặc điểm chung trong lối kiến trúc Đại Nội
                         </div>
-                        <Section4/>
                     </div>
                     <div className="Section1__content__inner inner2p2">
                         <div className="Section1__content__inner__title">
