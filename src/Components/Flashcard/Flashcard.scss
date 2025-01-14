@@ -62,3 +62,24 @@
         }
     }
 }
+@media (max-width: 868.98px){
+    .flashcard{
+        &__inner{
+
+            &__header{
+                &__title{
+                    font-size: 16px;
+                }
+                &__more{
+                    font-size: 12px;
+                }
+            }
+
+            &__content{
+                &__item{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

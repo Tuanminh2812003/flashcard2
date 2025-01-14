@@ -23,11 +23,8 @@ function Section5p2(){
                         <div className="Section5__inner__text2">
                         Tràng An là một khu vực nổi bật với hệ thống núi đá vôi kỳ vĩ, các hang động và sông nước tạo nên một cảnh quan thơ mộng, hoang sơ. Du khách có thể tham gia đi thuyền ngược dòng sông, qua các hang động thạch nhũ và chiêm ngưỡng phong cảnh núi non nơi này, đồng thời khám phá các di tích lịch sử, như đền thờ, lăng mộ, chùa chiền gắn liền với lịch sử hình thành và phát triển của đất nước.
                         </div>
-                        <div className="Section5__inner__image" style={{
-                            backgroundImage: "url('/QTDTTA/Section5p2-1.jpg')",
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                        }}></div>
+                        
+                        <img src="/QTDTTA/Section5p2-1.jpg" className="Section5__inner__image"/>
                         <div className="Section5__inner__textImage">
                         Ảnh của TRẦN NGỌC MINH (Nguồn TC số 292/4/2024)
                         </div>
@@ -35,24 +32,15 @@ function Section5p2(){
                         <div className="Section5__inner__text2">
                         Tam Cốc được ví như “Hạ Long trên cạn" với ba hang động xuyên qua núi mang nhiều hình thù độc đáo đa dạng mà du khách có thể chiêm ngưỡng khi di chuyển bằng thuyền dọc theo con sông Ngô Đồng. Với những ruộng lúa bát ngát vào mùa nước đổ, kết hợp với hình ảnh núi đá vôi trùng điệp và những cánh đồng lúa xanh mướt, Tam Cốc không chỉ có vẻ đẹp thiên nhiên mà còn là nơi lưu giữ những giá trị văn hóa, lịch sử sâu sắc của vùng đất Cố đô Hoa Lư.
                         </div>
-                        <div className="Section5__inner__image" style={{
-                            backgroundImage: "url('/QTDTTA/Section1-1.jpg')",
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                        }}></div>
+                        
+                        <img src="/QTDTTA/Section1-1.jpg" className="Section5__inner__image"/>
                         <div className="Section5__inner__text2">
                         Bích Động, nằm cách không xa Tam Cốc, được biết đến với những ngôi chùa cổ kính và cảnh quan thiên nhiên tuyệt đẹp. Đặc biệt, Bích Động là nơi có ngôi chùa Bích Động nằm giữa cảnh núi non hùng vĩ, được xây dựng từ thế kỷ 15. Đây là một địa điểm hành hương nổi tiếng và là điểm đến hấp dẫn cho những ai yêu thích sự yên bình và vẻ đẹp tâm linh.
                         </div>
-                        <div className="Section5__inner__image2" style={{
-                            backgroundImage: "url('/QTDTTA/Section1-2.jpg')",
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                        }}></div>
-                        <div className="Section5__inner__image2" style={{
-                            backgroundImage: "url('/QTDTTA/Section1-3.jpg')",
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                        }}></div>
+                        
+                        <img src="/QTDTTA/Section1-2.jpg" className="Section5__inner__image"/>
+                        
+                        <img src="/QTDTTA/Section1-3.jpg" className="Section5__inner__image"/>
                         {/* <div className="Section5__inner__disc">
                         Rừng nguyên sinh đặc dụng Hoa Lư:
                         </div> */}

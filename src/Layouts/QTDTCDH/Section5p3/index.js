@@ -102,7 +102,7 @@ function Section5p3(){
                             backgroundPosition: "center",
                         }}></div> */}
                         <div className="Section1__content__inner__video">
-                            <iframe width="100%" height="200px" src="https://www.youtube.com/embed/IDVkEvj0KZM?si=KtDH97g9oXsYceDp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe width="100%" src="https://www.youtube.com/embed/IDVkEvj0KZM?si=KtDH97g9oXsYceDp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

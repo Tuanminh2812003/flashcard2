@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 $logoFont: "Montserrat", serif;
 
-.header{
-    background-color: #F3E7DB;
+.header {
+    background-color: #f3e7db;
     width: 100%;
     display: flex;
     position: sticky;
@@ -12,64 +12,92 @@ $logoFont: "Montserrat", serif;
     z-index: 1000;
     padding: 16px 0px;
 
-    &__inner{
+    &__inner {
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 100%;
 
-        a{
+        a {
             text-decoration: none;
         }
 
-        &__logo{
+        &__logo {
             display: flex;
             align-items: center;
-            justify-content: center;
 
-            img{
+            img {
                 width: 80px;
                 height: auto;
                 margin-right: 4px;
             }
 
-            &__text{
-                font-family: $logoFont;
-                color: var(--Braning-1, #8F3124);
+            &__text {
+                font-family: "Montserrat", serif;
+                color: #8f3124;
                 font-size: 24px;
-                font-style: normal;
                 font-weight: 800;
-                line-height: 150%; /* 36px */
+                line-height: 36px;
             }
         }
-        &__menu{
+
+        &__menu {
             display: flex;
             align-items: center;
 
-            div{
+            div {
                 margin-left: 32px;
                 color: #374151;
-                font-size: 14px;
-                font-style: normal;
                 font-weight: 400;
-                line-height: 130%; /* 18.2px */
-                padding: 4px 0px;
-                transition: all ease-in 0.1s;
+                padding: 4px 0;
                 cursor: pointer;
 
-                &:hover{
-                    border-bottom: #8F3124 2px solid;
-                    transition: all ease-in 0.1s;
-                    color: #8F3124;
+                &:hover {
+                    border-bottom: 2px solid #8f3124;
+                    color: #8f3124;
                     font-weight: 600;
                 }
+
                 &.active {
-                    border-bottom: #8f3124 2px solid; /* Thêm đường gạch chân */
+                    border-bottom: 2px solid #8f3124;
                     color: #8f3124;
-                    font-weight: 600; /* Bôi đậm */
+                    font-weight: 600;
                 }
             }
 
+            @media (max-width: 1343px) {
+                display: none; /* Ẩn menu ngang */
+                position: fixed;
+                top: 0;
+                right: 0;
+                height: 100vh;
+                width: 250px;
+                background: #f3e7db;
+                flex-direction: column;
+                padding: 20px;
+                transform: translateX(100%);
+                transition: transform 0.3s ease-in-out;
+
+                &.menu-open {
+                    transform: translateX(0); /* Hiển thị menu */
+                    display: flex;
+                }
+
+                div {
+                    margin: 16px 0; /* Khoảng cách giữa các mục */
+                }
+            }
+        }
+
+        &__res {
+            display: none;
+            font-size: 24px;
+            color: #8f3124;
+            cursor: pointer;
+
+            @media (max-width: 1343px) {
+                display: flex; /* Hiển thị icon bar */
+            }
         }
     }
 }

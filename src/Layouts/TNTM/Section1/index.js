@@ -15,12 +15,14 @@ function Section1(){
             <input type="radio" id="inner3p3" name="section1p3"/>
             <input type="radio" id="inner4p3" name="section1p3"/>
             <div className="Section1__menu">
-                <div className="Section1__menu__inner">
+                <div className="container">
+                    <div className="Section1__menu__inner">
 
-                    <label className="Section1__menu__inner__tab lable1p3" for="inner1p3">Truyền Thuyết mẹ Âu Cơ</label>
-                    <label className="Section1__menu__inner__tab lable2p3" for="inner2p3">Truyền thuyết về tục thờ mẫu Liễu Hạnh</label>
-                    <label className="Section1__menu__inner__tab lable3p3" for="inner3p3">Truyền thuyết nàng Man Nương ở chùa Tổ Bắc Ninh</label>
-                    <label className="Section1__menu__inner__tab lable4p3" for="inner4p3">Văn hóa tín ngưỡng thờ mẩu tam phủ và mối liên hệ với Phật giáo</label>
+                        <label className="Section1__menu__inner__tab lable1p3" for="inner1p3">Truyền Thuyết mẹ Âu Cơ</label>
+                        <label className="Section1__menu__inner__tab lable2p3" for="inner2p3">Truyền thuyết về tục thờ mẫu Liễu Hạnh</label>
+                        <label className="Section1__menu__inner__tab lable3p3" for="inner3p3">Truyền thuyết nàng Man Nương ở chùa Tổ Bắc Ninh</label>
+                        <label className="Section1__menu__inner__tab lable4p3" for="inner4p3">Văn hóa tín ngưỡng thờ mẩu tam phủ và mối liên hệ với Phật giáo</label>
+                    </div>
                 </div>
             </div>
             <div className="Section1__content">

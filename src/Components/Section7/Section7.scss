@@ -37,7 +37,7 @@ $brownMode-Question-color: #C16746;
 .redMode{
     .Section7{
         margin-top: 32px;
-        padding: 32px;
+        padding: 32px 360px;
         width: 100%;
     
         .container{
@@ -57,7 +57,7 @@ $brownMode-Question-color: #C16746;
             &__title{
                 color: $RedMode-Title-color;
                 text-align: center;
-                font-size: 20px;
+                font-size: 36px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: 150%; /* 30px */
@@ -65,7 +65,6 @@ $brownMode-Question-color: #C16746;
             }
             &__disc{
                 text-align: center;
-                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 130%; /* 18.2px */
@@ -86,6 +85,14 @@ $brownMode-Question-color: #C16746;
                 }
                 input{
                     margin-top: 10px;
+                    border-radius: 8px;
+                    padding: 8px 32px;
+                    border: 1px $RedMode-Title-color solid;
+                }
+                .Section7__inner__form{
+                    padding: 0px;
+                    border-radius: 0px;
+                    border: 0px;
                 }
                 textarea{
                     height: 70px;
@@ -104,10 +111,10 @@ $brownMode-Question-color: #C16746;
                     display: flex;
                     border: 1px $RedMode-Title-color solid;
                     margin-top: 24px;
-                    font-size: 14px;
                     font-style: normal;
                     font-weight: 600;
                     line-height: 150%; /* 21px */
+                    cursor: pointer;
                 }
                 button:hover{
                     background-color: white;
@@ -117,10 +124,15 @@ $brownMode-Question-color: #C16746;
         }
     }
 }
+@media (max-width: 1092.98px){
+    .Section7{
+        padding: 32px !important;
+    }
+}
 .greenMode{
     .Section7{
         margin-top: 32px;
-        padding: 32px;
+        padding: 32px 360px;
         width: 100%;
     
         .container{
@@ -140,7 +152,7 @@ $brownMode-Question-color: #C16746;
             &__title{
                 color: $GreenMode-Title-color;
                 text-align: center;
-                font-size: 20px;
+                font-size: 36px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: 150%; /* 30px */
@@ -148,7 +160,6 @@ $brownMode-Question-color: #C16746;
             }
             &__disc{
                 text-align: center;
-                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 130%; /* 18.2px */
@@ -169,6 +180,14 @@ $brownMode-Question-color: #C16746;
                 }
                 input{
                     margin-top: 10px;
+                    border-radius: 8px;
+                    padding: 8px 32px;
+                    border: 1px $GreenMode-Title-color solid;
+                }
+                .Section7__inner__form{
+                    padding: 0px;
+                    border-radius: 0px;
+                    border: 0px;
                 }
                 textarea{
                     height: 70px;
@@ -187,10 +206,10 @@ $brownMode-Question-color: #C16746;
                     display: flex;
                     border: 1px $GreenMode-Title-color solid;
                     margin-top: 24px;
-                    font-size: 14px;
                     font-style: normal;
                     font-weight: 600;
                     line-height: 150%; /* 21px */
+                    cursor: pointer;
                 }
                 button:hover{
                     background-color: white;
@@ -203,7 +222,7 @@ $brownMode-Question-color: #C16746;
 .blueMode{
     .Section7{
         margin-top: 32px;
-        padding: 32px;
+        padding: 32px 360px;
         width: 100%;
     
         .container{
@@ -223,7 +242,7 @@ $brownMode-Question-color: #C16746;
             &__title{
                 color: $BlueMode-Title-color;
                 text-align: center;
-                font-size: 20px;
+                font-size: 36px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: 150%; /* 30px */
@@ -231,7 +250,6 @@ $brownMode-Question-color: #C16746;
             }
             &__disc{
                 text-align: center;
-                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 130%; /* 18.2px */
@@ -252,6 +270,14 @@ $brownMode-Question-color: #C16746;
                 }
                 input{
                     margin-top: 10px;
+                    border-radius: 8px;
+                    padding: 8px 32px;
+                    border: 1px $BlueMode-Title-color solid;
+                }
+                .Section7__inner__form{
+                    padding: 0px;
+                    border-radius: 0px;
+                    border: 0px;
                 }
                 textarea{
                     height: 70px;
@@ -270,10 +296,10 @@ $brownMode-Question-color: #C16746;
                     display: flex;
                     border: 1px $BlueMode-Title-color solid;
                     margin-top: 24px;
-                    font-size: 14px;
                     font-style: normal;
                     font-weight: 600;
                     line-height: 150%; /* 21px */
+                    cursor: pointer;
                 }
                 button:hover{
                     background-color: white;
@@ -286,7 +312,7 @@ $brownMode-Question-color: #C16746;
 .brownMode{
     .Section7{
         margin-top: 32px;
-        padding: 32px;
+        padding: 32px 360px;
         width: 100%;
     
         .container{
@@ -306,7 +332,7 @@ $brownMode-Question-color: #C16746;
             &__title{
                 color: $brownMode-Title-color;
                 text-align: center;
-                font-size: 20px;
+                font-size: 36px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: 150%; /* 30px */
@@ -314,7 +340,6 @@ $brownMode-Question-color: #C16746;
             }
             &__disc{
                 text-align: center;
-                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 130%; /* 18.2px */
@@ -335,6 +360,14 @@ $brownMode-Question-color: #C16746;
                 }
                 input{
                     margin-top: 10px;
+                    border-radius: 8px;
+                    padding: 8px 32px;
+                    border: 1px $brownMode-Title-color solid;
+                }
+                .Section7__inner__form{
+                    padding: 0px;
+                    border-radius: 0px;
+                    border: 0px;
                 }
                 textarea{
                     height: 70px;
@@ -353,10 +386,10 @@ $brownMode-Question-color: #C16746;
                     display: flex;
                     border: 1px $brownMode-Title-color solid;
                     margin-top: 24px;
-                    font-size: 14px;
                     font-style: normal;
                     font-weight: 600;
                     line-height: 150%; /* 21px */
+                    cursor: pointer;
                 }
                 button:hover{
                     background-color: white;
@@ -364,5 +397,10 @@ $brownMode-Question-color: #C16746;
                 }
             }
         }
+    }
+}
+@media (max-width: 661.98px){
+    .Section7__inner__title{
+        font-size: 20px;
     }
 }

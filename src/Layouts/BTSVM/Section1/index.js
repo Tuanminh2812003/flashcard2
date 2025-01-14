@@ -17,11 +17,13 @@ function Section1(){
             <input type="radio" id="inner3p3" name="section1p3"/>
             <input type="radio" id="inner4p3" name="section1p3"/>
             <div className="Section1__menu">
-                <div className="Section1__menu__inner">
+                <div className="container">
+                    <div className="Section1__menu__inner">
 
-                    <label className="Section1__menu__inner__tab lable1p3" for="inner1p3">Giới thiệu khái quát </label>
-                    <label className="Section1__menu__inner__tab lable2p3" for="inner2p3">Câu chuyện văn bia </label>
-                    {/* <label className="Section1__menu__inner__tab lable4" for="inner4">Giới thiệu khái quát về di sản</label> */}
+                        <label className="Section1__menu__inner__tab lable1p3" for="inner1p3">Giới thiệu khái quát </label>
+                        <label className="Section1__menu__inner__tab lable2p3" for="inner2p3">Câu chuyện văn bia </label>
+                        {/* <label className="Section1__menu__inner__tab lable4" for="inner4">Giới thiệu khái quát về di sản</label> */}
+                    </div>
                 </div>
             </div>
             <div className="Section1__content">

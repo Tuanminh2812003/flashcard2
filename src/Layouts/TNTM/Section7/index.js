@@ -21,7 +21,7 @@ function Section7(){
                             <label htmlFor="form__email">Email</label>
                             <input type="email" id="form__email"/>
                             <label>Đính kèm file</label>
-                            <input type="file"/>
+                            <input type="file" className="Section7__inner__form"/>
                             <button>Gửi phản hồi của bạn</button>
                         </form>
                     </div>

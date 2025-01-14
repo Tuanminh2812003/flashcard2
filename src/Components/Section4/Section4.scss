@@ -38,7 +38,6 @@ $brownMode-Question-color: #C16746;
     .Section4{
         margin-bottom: 32px;
         position: relative;
-        padding: 0px 17px;
         overflow: hidden;
     }
     .Section4__title{
@@ -55,12 +54,12 @@ $brownMode-Question-color: #C16746;
         display: flex;
         overflow: hidden; /* Ẩn các ảnh nằm ngoài slider */
         position: relative;
-        height: 70vh;
+        height: 483px;
         margin-bottom: 24px;
     
         &__image {
             height: 100%;
-            min-width: 100%;
+            width: 100%;
             flex-shrink: 0;
             transition: transform 0.5s ease-in-out;
             background-size: cover;
@@ -99,7 +98,8 @@ $brownMode-Question-color: #C16746;
         background-color: $RedMode-Title-color;
         border-radius: 50%;
         right: 30px;
-        top: 220px;
+        top: 40%; /* Căn giữa theo chiều cao */
+        transform: translateY(-50%); /* Dịch chuyển để căn giữa */
         color: white;
         font-size: 30px;
         display: flex;
@@ -135,7 +135,7 @@ $brownMode-Question-color: #C16746;
         display: flex;
         overflow: hidden; /* Ẩn các ảnh nằm ngoài slider */
         position: relative;
-        height: 70vh;
+        height: 483px;
         margin-bottom: 24px;
     
         &__image {
@@ -215,7 +215,7 @@ $brownMode-Question-color: #C16746;
         display: flex;
         overflow: hidden; /* Ẩn các ảnh nằm ngoài slider */
         position: relative;
-        height: 70vh;
+        height: 483px;
         margin-bottom: 24px;
     
         &__image {
@@ -295,7 +295,7 @@ $brownMode-Question-color: #C16746;
         display: flex;
         overflow: hidden; /* Ẩn các ảnh nằm ngoài slider */
         position: relative;
-        height: 70vh;
+        height: 483px;
         margin-bottom: 24px;
     
         &__image {

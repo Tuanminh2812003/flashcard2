@@ -1,8 +1,11 @@
+import { useState, useEffect, useRef } from "react";
 import "./Header.scss";
-import { useState, useEffect } from "react";
+import { FaBars } from "react-icons/fa";
 
 function Header() {
     const [activeSection, setActiveSection] = useState(null); // Theo dõi ID của section hiện tại
+    const [menuOpen, setMenuOpen] = useState(false); // Trạng thái hiển thị menu
+    const menuRef = useRef(null); // Tham chiếu tới menu
 
     const handleScrollToSection = (id) => {
         const section = document.getElementById(id);
@@ -10,10 +13,25 @@ function Header() {
             section.scrollIntoView({ behavior: "smooth" }); // Cuộn mượt đến phần tử
             setActiveSection(id); // Cập nhật trạng thái khi nhấn
         }
+        setMenuOpen(false); // Đóng menu sau khi chọn mục
+    };
+    const handleClickOutside = (event) => {
+        // Kiểm tra nếu click xảy ra bên ngoài menu
+        if (menuRef.current && !menuRef.current.contains(event.target)) {
+            setMenuOpen(false);
+        }
     };
 
+    useEffect(() => {
+        // Lắng nghe sự kiện click
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            // Gỡ bỏ sự kiện khi component unmount
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
+
     const handleScroll = () => {
-        // Theo dõi vị trí cuộn để xác định section hiện tại
         const sections = ["diSanThienNhien", "diSanVatThe", "diSanPhiVatThe", "diSanTuLieu"];
         let currentSection = null;
 
@@ -33,13 +51,6 @@ function Header() {
         setActiveSection(currentSection);
     };
 
-    useEffect(() => {
-        // Lắng nghe sự kiện scroll
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-            window.removeEventListener("scroll", handleScroll); // Gỡ bỏ sự kiện khi component unmount
-        };
-    }, []);
 
     return (
         <div className="header">
@@ -49,31 +60,36 @@ function Header() {
                         <img src="/Logo_do.png" alt="logo" />
                         <div className="header__inner__logo__text">HERITAGE SPIRIT</div>
                     </div>
-                    <div className="header__inner__menu">
+                    <div
+                        ref={menuRef}
+                        className={`header__inner__menu ${menuOpen ? "menu-open" : ""}`}
+                    >
                         <div
                             onClick={() => handleScrollToSection("diSanVatThe")}
-                            className={activeSection === "diSanVatThe" ? "active" : ""}
                         >
                             Di sản vật thể Thế giới
                         </div>
                         <div
                             onClick={() => handleScrollToSection("diSanThienNhien")}
-                            className={activeSection === "diSanThienNhien" ? "active" : ""}
                         >
                             Di sản thiên nhiên Thế giới
                         </div>
                         <div
                             onClick={() => handleScrollToSection("diSanPhiVatThe")}
-                            className={activeSection === "diSanPhiVatThe" ? "active" : ""}
                         >
                             Di sản phi vật thể Thế giới
                         </div>
                         <div
                             onClick={() => handleScrollToSection("diSanTuLieu")}
-                            className={activeSection === "diSanTuLieu" ? "active" : ""}
                         >
                             Di sản tư liệu
                         </div>
+                    </div>
+                    <div
+                        className="header__inner__res"
+                        onClick={() => setMenuOpen((prev) => !prev)}
+                    >
+                        <FaBars />
                     </div>
                 </div>
             </div>

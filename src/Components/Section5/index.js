@@ -35,11 +35,7 @@ function Section5(){
                                 </li>
                             </ul>
                         </div> */}
-                        <div className="Section5__inner__image" style={{
-                            backgroundImage: "url('/QTDTCDH/Section5-1.jpg')",
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                        }}></div>
+                        <img src="/QTDTCDH/Section5-1.jpg" className="Section5__inner__image"/>
                         {/* <div className="Section5__inner__disc">
                             Đàn Nam Giao là đàn tế được xây dựng ở phía Nam Kinh thành Huế vào năm 1807 nhằm thực hiện lễ tế trời đất. Đàn có hình chữ nhật với chiều dài 390, chiều rộng 265m gồm các hạng mục như đàn tế nơi thực hiện các nghi lễ tế trời đất, trai cung nơi vua ở và thần trù, thần khố. 
                         </div> */}
@@ -65,11 +61,8 @@ function Section5(){
                         <div className="Section5__inner__text2">
                             Đàn Nam Giao là đàn tế được xây dựng ở phía Nam Kinh thành Huế vào năm 1807 nhằm thực hiện lễ tế trời đất. Đàn có hình chữ nhật với chiều dài 390, chiều rộng 265m gồm các hạng mục như đàn tế nơi thực hiện các nghi lễ tế trời đất, trai cung nơi vua ở và thần trù, thần khố. 
                         </div>
-                        <div className="Section5__inner__image" style={{
-                            backgroundImage: "url('/QTDTCDH/Section5-2.jpeg')",
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                        }}></div>
+                        
+                        <img src="/QTDTCDH/Section5-2.jpeg" className="Section5__inner__image"/>
                         {/* <div className="Section5__inner__image2" style={{
                             backgroundImage: "url('/QTDTCDH/Section5-2.jfif')",
                             backgroundSize: "cover",
@@ -79,20 +72,13 @@ function Section5(){
                         <div className="Section5__inner__text2">
                         Văn Miếu được xây dựng năm 1808 trên một quả đồi nằm ở tả ngạn sông Hương. Bên trong Văn Thánh Miếu gồm 20 công trình kiến trúc với quy mô từ lớn đến nhỏ trên trục chính bao gồm Linh Tinh Môn, Văn Miếu Môn, Đại Thành Môn, điện chính Văn Miếu.. Văn Thánh Miếu Huế chính là Điện thờ đức Khổng Tử và Tứ Phối, Thập nhị triết, Đông Vu và Tây Vu thì thờ Thập nhị Hiền cùng các tiên nhỏ như Trần Khố, Trần Trù, Nhà Tổ Công…
                         </div>
-                        <div className="Section5__inner__image2" style={{
-                            backgroundImage: "url('/QTDTCDH/Section5-3.jpg')",
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                        }}></div>
+                        
+                        <img src="/QTDTCDH/Section5-3.jpg" className="Section5__inner__image"/>
                         <div className="Section5__inner__text2">
                         Tất cả các công trình kiến trúc ở đây đều có kết cấu mái gỗ quý, các đồ tự khí, kiến trúc đều toát lên vẻ uy nghi. Khu vực bên ngoài của cổng Đại thành chính là hai dãy bia gồm 32 tầm, là nơi khắc tên của 293 vị Tiến sĩ dưới triều đại nhà Nguyễn. Những tấm bia làm từ đá cẩm thạch, việc đặt bia Tiến sĩ lên lưng rùa được xem là một biểu tượng của sự kính trọng và vinh danh những người thành công trên con đường học vấn. 
                         </div>
-                        <div className="Section5__inner__image2" style={{
-                            backgroundImage: "url('/QTDTCDH/Section5-4.jpg')",
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                        }}></div>
-
+                        
+                        <img src="/QTDTCDH/Section5-4.jpg" className="Section5__inner__image"/>
                         <div className="Section5__inner__text2">
                         Với giá trị di sản văn hóa kiến trúc đồ sộ, Kinh thành Huế còn lưu giữ những hiện vật có giá trị như đồ gốm, sứ, các tác phẩm nghệ thuật, là trung tâm văn hóa lớn chứa đựng nhiều giá trị văn hóa phi vật thể và vật thể của nhân loại. Thủ tướng Chính phủ đã quyết định xếp hạng Di tích lịch sử và kiến trúc nghệ thuật Quần thể kiến trúc Cố đô Huế là di tích quốc gia đặc biệt (Quyết định số 1272/QĐ-TTg, ngày 12/08/2009).
                         </div>

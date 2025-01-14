@@ -71,16 +71,10 @@ function Section5p2(){
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                         }}></div> */}
-                        <div className="Section5__inner__image2" style={{
-                            backgroundImage: "url('/QTDTCDH/Section5p2-1.jpg')",
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                        }}></div>
-                        <div className="Section5__inner__image2" style={{
-                            backgroundImage: "url('/QTDTCDH/Section5p2-2.jpg')",
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                        }}></div>
+                        
+                        <img src="/QTDTCDH/Section5p2-1.jpg" className="Section5__inner__image"/>
+                        
+                        <img src="/QTDTCDH/Section5p2-2.jpg" className="Section5__inner__image"/>
                         {/* <div className="Section5__inner__text">
                             <ul>
                                 <li>

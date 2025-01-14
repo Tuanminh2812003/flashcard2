@@ -79,7 +79,6 @@ $brownMode-Question-color: #C16746;
             }
             &__disc{
                 font-family: Inter;
-                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 150%; /* 21px */
@@ -143,7 +142,7 @@ $brownMode-Question-color: #C16746;
     }
     
     .Footer{
-        background-color: $GreenMode-Back2-color;
+        background-color: $GreenMode-Title-color;
         display: flex;
         color: white;
         flex-direction: column;
@@ -152,8 +151,17 @@ $brownMode-Question-color: #C16746;
         &__inner{
             padding: 32px 0px;
             display: flex;
-            flex-direction: column;
             width: 100%;
+            align-items: start;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            &__row{
+                display: flex;
+                flex-direction: column;
+                width: 22%;
+                margin-right: 4px;
+            }
     
             img{
                 width: 120px;
@@ -172,7 +180,6 @@ $brownMode-Question-color: #C16746;
             }
             &__disc{
                 font-family: Inter;
-                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 150%; /* 21px */
@@ -236,7 +243,7 @@ $brownMode-Question-color: #C16746;
     }
     
     .Footer{
-        background-color: $BlueMode-Back2-color;
+        background-color: $BlueMode-Title-color;
         display: flex;
         color: white;
         flex-direction: column;
@@ -245,8 +252,17 @@ $brownMode-Question-color: #C16746;
         &__inner{
             padding: 32px 0px;
             display: flex;
-            flex-direction: column;
             width: 100%;
+            align-items: start;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            &__row{
+                display: flex;
+                flex-direction: column;
+                width: 22%;
+                margin-right: 4px;
+            }
     
             img{
                 width: 120px;
@@ -265,7 +281,6 @@ $brownMode-Question-color: #C16746;
             }
             &__disc{
                 font-family: Inter;
-                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 150%; /* 21px */
@@ -329,7 +344,7 @@ $brownMode-Question-color: #C16746;
     }
     
     .Footer{
-        background-color: $brownMode-Back2-color;
+        background-color: $brownMode-Title-color;
         display: flex;
         color: white;
         flex-direction: column;
@@ -338,8 +353,17 @@ $brownMode-Question-color: #C16746;
         &__inner{
             padding: 32px 0px;
             display: flex;
-            flex-direction: column;
             width: 100%;
+            align-items: start;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            &__row{
+                display: flex;
+                flex-direction: column;
+                width: 22%;
+                margin-right: 4px;
+            }
     
             img{
                 width: 120px;
@@ -358,7 +382,6 @@ $brownMode-Question-color: #C16746;
             }
             &__disc{
                 font-family: Inter;
-                font-size: 14px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 150%; /* 21px */
@@ -372,6 +395,13 @@ $brownMode-Question-color: #C16746;
                 align-items: center;
                 justify-content: space-between;
                 margin-top: 8px;
+    
+                svg{
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
     
                 a{
                     height: 100%;

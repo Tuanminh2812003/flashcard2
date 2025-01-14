@@ -24,12 +24,8 @@ function Section5(){
                         <div className="Section5__inner__text2">
                         Tín ngưỡng thờ Mẫu là một nét đặc sắc trong văn hóa dân gian Việt Nam, mang đậm dấu ấn nguyên thủy và có chiều dài lịch sử hàng ngàn năm. Nguồn gốc của tín ngưỡng này được cho là bắt nguồn từ thời Tiền sử, khi con người thờ cúng các thần linh thiên nhiên và tôn vinh các nữ thần – biểu tượng của sự sinh sôi, bảo vệ và che chở. Trong xã hội mẫu hệ, các nữ thần thường được gọi với những danh xưng đầy tôn kính như Mẹ, Mẫu, hay Mế. Qua thời gian, sự hòa quyện giữa tín ngưỡng thờ mẹ thiên nhiên và các yếu tố của những tôn giáo khác đã tạo nên một tín ngưỡng bản địa độc đáo của Việt Nam – tín ngưỡng thờ Mẫu.
                         </div>
-                        <div className="Section5__inner__image2" style={{
-                            backgroundImage: "url('/TNTM/Section5-1.jpg')",
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                            marginBottom: "8px"
-                        }}></div>
+                        
+                        <img src="/TNTM/Section5-1.jpg" className="Section5__inner__image"/>
                         <div className="Section5__inner__text2" style={{marginTop: "0px"}}>
                         GS. Ngô Đức Thịnh, một chuyên gia hàng đầu về đạo Mẫu, từng ví tín ngưỡng này như “một đứa trẻ bị bỏ rơi lấm lem bùn đất” và nhấn mạnh: “Đã đến lúc chúng ta cần đánh giá đúng và công bằng về tín ngưỡng thờ Mẫu. Hãy gột rửa lớp bụi thời gian để di sản này được bảo tồn và phát huy hết giá trị vốn có.” 
                         </div>

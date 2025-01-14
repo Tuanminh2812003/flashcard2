@@ -49,7 +49,7 @@ $brownMode-Question-color: #C16746;
     
             &__title {
             color: $RedMode-Title-color;
-            font-size: 20px;
+            font-size: 36px;
             font-style: normal;
             font-weight: 700;
             line-height: 150%; /* 30px */
@@ -58,7 +58,6 @@ $brownMode-Question-color: #C16746;
             }
     
             &__disc {
-            font-size: 14px;
             font-style: normal;
             font-weight: 400;
             line-height: 130%; /* 18.2px */
@@ -69,7 +68,7 @@ $brownMode-Question-color: #C16746;
             width: 100%;
             display: flex;
             position: relative;
-            height: 300px;
+            height: 704px;
             margin-top: 40px;
             align-items: center;
             justify-content: space-around;
@@ -134,7 +133,7 @@ $brownMode-Question-color: #C16746;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         z-index: 1000;
-        width: 80%;
+        width: 50%;
     
         &__content {
             h3{
@@ -213,6 +212,15 @@ $brownMode-Question-color: #C16746;
     }
 }
 
+@media (max-width: 868.98px){
+    .Section2__inner__game{
+        height: 300px !important;
+    }
+    .popup{
+        width: 80% !important;
+    }
+}
+
 .greenMode{
     .Section2 {
         display: flex;
@@ -228,7 +236,7 @@ $brownMode-Question-color: #C16746;
     
             &__title {
             color: $GreenMode-Title-color;
-            font-size: 20px;
+            font-size: 36px;
             font-style: normal;
             font-weight: 700;
             line-height: 150%; /* 30px */
@@ -237,7 +245,7 @@ $brownMode-Question-color: #C16746;
             }
     
             &__disc {
-            font-size: 14px;
+
             font-style: normal;
             font-weight: 400;
             line-height: 130%; /* 18.2px */
@@ -248,7 +256,7 @@ $brownMode-Question-color: #C16746;
             width: 100%;
             display: flex;
             position: relative;
-            height: 300px;
+            height: 704px;
             margin-top: 40px;
             align-items: center;
             justify-content: space-around;
@@ -313,7 +321,7 @@ $brownMode-Question-color: #C16746;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         z-index: 1000;
-        width: 80%;
+        width: 50%;
     
         &__content {
             h3{
@@ -407,7 +415,7 @@ $brownMode-Question-color: #C16746;
     
             &__title {
             color: $BlueMode-Title-color;
-            font-size: 20px;
+            font-size: 36px;
             font-style: normal;
             font-weight: 700;
             line-height: 150%; /* 30px */
@@ -416,7 +424,6 @@ $brownMode-Question-color: #C16746;
             }
     
             &__disc {
-            font-size: 14px;
             font-style: normal;
             font-weight: 400;
             line-height: 130%; /* 18.2px */
@@ -427,7 +434,7 @@ $brownMode-Question-color: #C16746;
             width: 100%;
             display: flex;
             position: relative;
-            height: 300px;
+            height: 704px;
             margin-top: 40px;
             align-items: center;
             justify-content: space-around;
@@ -492,7 +499,7 @@ $brownMode-Question-color: #C16746;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         z-index: 1000;
-        width: 80%;
+        width: 50%;
     
         &__content {
             h3{
@@ -586,7 +593,7 @@ $brownMode-Question-color: #C16746;
     
             &__title {
             color: $brownMode-Title-color;
-            font-size: 20px;
+            font-size: 36px;
             font-style: normal;
             font-weight: 700;
             line-height: 150%; /* 30px */
@@ -595,7 +602,6 @@ $brownMode-Question-color: #C16746;
             }
     
             &__disc {
-            font-size: 14px;
             font-style: normal;
             font-weight: 400;
             line-height: 130%; /* 18.2px */
@@ -606,7 +612,7 @@ $brownMode-Question-color: #C16746;
             width: 100%;
             display: flex;
             position: relative;
-            height: 300px;
+            height: 704px;
             margin-top: 40px;
             align-items: center;
             justify-content: space-around;
@@ -671,7 +677,7 @@ $brownMode-Question-color: #C16746;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
         z-index: 1000;
-        width: 80%;
+        width: 50%;
     
         &__content {
             h3{
@@ -747,5 +753,10 @@ $brownMode-Question-color: #C16746;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.5); /* Màu nền đen mờ */
         z-index: 999; /* Đặt dưới popup nhưng trên các phần tử khác */
+    }
+}
+@media (max-width: 661.98px){
+    .Section2__inner__title{
+        font-size: 20px !important;
     }
 }
