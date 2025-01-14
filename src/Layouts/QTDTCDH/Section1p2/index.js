@@ -88,9 +88,6 @@ function Section1p2(){
                         <div className="Section1__content__inner__text">
                             Đại Nội Huế được xây dựng với hơn 100 công trình kiến trúc lớn nhỏ, gồm cung điện, lầu gác, đình tạ, nhà cửa, ao hồ... mặt bằng Đại nội chia thành nhiều khu vực khác nhau với các chức năng đặc thù. Tử Cấm Thành có mặt bằng gần vuông, với còng tường xung quanh cao 3,5m ngăn cách nơi sinh hoạt của nhà vua, hoàng gia với bên ngoài. 
                         </div>
-                        <div className="Section1__content__inner__disc">
-                            Những đặc điểm chung trong lối kiến trúc Đại Nội
-                        </div>
                     </div>
                     <div className="Section1__content__inner inner2p2">
                         <div className="Section1__content__inner__title">
