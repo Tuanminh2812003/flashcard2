@@ -18,7 +18,7 @@ function Home(){
                             <img src="/Home/section2.png" alt="section2"/>
                             <div className="home__section2__inner__box">
                                 <div className="home__section2__inner__box__text">
-                                    <b>Heritage Spirit</b>  là bộ thẻ flash di sản tích hợp công nghệ thực tế ảo (AR), mang đến trải nghiệm học tập và khám phá di sản hoàn toàn mới.
+                                    <b>Heritage Flash XR</b>  là bộ thẻ flash di sản tích hợp công nghệ thực tế ảo (AR), mang đến trải nghiệm học tập và khám phá di sản hoàn toàn mới.
                                 </div>
                                 <div className="home__section2__inner__box__text">
                                     Bộ thẻ được chia thành 4 nhóm giúp người dùng dễ dàng phân loại và sử dụng:
