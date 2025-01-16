@@ -167,30 +167,41 @@ function Section1(){
                         </div>
                     </div>
                     <div className="Section1__content__inner inner3p3">
-                        <div className="Section1__content__inner__title">
-                        Truyền thuyết nàng Man Nương ở chùa Tổ Bắc Ninh
+                        <div className="Section1__content__inner__row">
+                            <div className="Section1__content__inner__row__text">
+                                <div className="Section1__content__inner__title">
+                                    Truyền thuyết nàng Man Nương ở chùa Tổ Bắc Ninh
+                                </div>
+                                <div className="Section1__content__inner__text">
+                                    Chùa Tổ, hay Phúc Nghiêm Tự, tọa lạc tại phường Hà Mãn, thị xã Thuận Thành, Bắc Ninh, là di tích gắn với huyền thoại về Man Nương – Phật Mẫu của Phật giáo Việt Nam. Theo truyền thuyết, Man Nương gặp thiền sư Khâu Đà La từ Ấn Độ, cảm phục đạo hạnh của ông, nàng học đạo và sau đó hạ sinh con gái mang tên là Diệu Thiện. Diệu Thiện sau này truyền bá Phật pháp, được xem là tổ sư đầu tiên của Phật giáo Việt Nam. Khi Man Nương qua đời, dân làng lập miếu thờ bà, nơi này trở thành Chùa Tổ, biểu tượng của lòng từ bi và sự giác ngộ, thu hút Phật tử và du khách.
+                                </div>
+                            </div>
+                            <div className="Section1__content__inner__row__image">
+                                <div className="Section1__content__inner__image" >
+                                    <img src="/TNTM/Section1-4.jpg" />
+                                </div>
+                            </div>
                         </div>
-                        <div className="Section1__content__inner__image" >
-                            <img src="/TNTM/Section1-4.jpg" />
-                        </div>
-                        <div className="Section1__content__inner__text">
-                        Chùa Tổ, hay Phúc Nghiêm Tự, tọa lạc tại phường Hà Mãn, thị xã Thuận Thành, Bắc Ninh, là di tích gắn với huyền thoại về Man Nương – Phật Mẫu của Phật giáo Việt Nam. Theo truyền thuyết, Man Nương gặp thiền sư Khâu Đà La từ Ấn Độ, cảm phục đạo hạnh của ông, nàng học đạo và sau đó hạ sinh con gái mang tên là Diệu Thiện. Diệu Thiện sau này truyền bá Phật pháp, được xem là tổ sư đầu tiên của Phật giáo Việt Nam. Khi Man Nương qua đời, dân làng lập miếu thờ bà, nơi này trở thành Chùa Tổ, biểu tượng của lòng từ bi và sự giác ngộ, thu hút Phật tử và du khách.
-                        </div>
-                        {/* <div className="Section1__content__inner__video">
-                            <iframe width="100%" height="200px" src="https://www.youtube.com/embed/jOKVgM3yUjE?si=HWAy-_QPGDcprus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div> */}
                     </div>
                     <div className="Section1__content__inner inner4p3">
-                        <div className="Section1__content__inner__title">
-                        Văn hóa tín ngưỡng thờ mẩu tam phủ và mối liên hệ với Phật giáo
+                    <div className="Section1__content__inner__row">
+                            <div className="Section1__content__inner__row__text">
+                                <div className="Section1__content__inner__title">
+                                    Văn hóa tín ngưỡng thờ mẩu tam phủ và mối liên hệ với Phật giáo
+                                </div>
+                                <div className="Section1__content__inner__text">
+                                    Theo sử sách được ghi lại, Đạo Phật và Đạo Mẫu luôn đồng hành và gắn bó mật thiết với nhau trog suốt triều dài lịch sử. Đạo Mẫu ra đời gắn với Thánh Mẫu Liễu Hạnh, một số nguồn thông tin ghi Mẫu Liễu Hạnh quy y nhà Phật, điều này dẫn đến việc Mẫu không để lại bất kỳ pháp môn nào riêng cho Đạo Mẫu, mà thay vào đó, người đời sau cho rằng Mẫu muốn mọi người học hỏi và thấm nhuần những giáo lý tốt đẹp của nhà Phật. Nơi đâu có bàn thờ Phật, nơi đó thường có ban thờ Mẫu, và trong các đền điện thờ Mẫu, luôn có bàn thờ Phật bên cạnh.
+                                </div>
+                            </div>
+                            <div className="Section1__content__inner__row__image">
+                                <iframe width="100%" height="315" src="https://www.artsteps.com/embed/67676a99c0d2ca7b1c862572/560/315" frameborder="0" allowfullscreen></iframe>
+                            </div>
                         </div>
+                        
                         {/* <div className="Section1__content__inner__disc">
                             Gia Long – kiến trúc sư hoạch định xây dựng Kinh thành Huế
                         </div> */}
-                        <div className="Section1__content__inner__text">
-                        Theo sử sách được ghi lại, Đạo Phật và Đạo Mẫu luôn đồng hành và gắn bó mật thiết với nhau trog suốt triều dài lịch sử. Đạo Mẫu ra đời gắn với Thánh Mẫu Liễu Hạnh, một số nguồn thông tin ghi Mẫu Liễu Hạnh quy y nhà Phật, điều này dẫn đến việc Mẫu không để lại bất kỳ pháp môn nào riêng cho Đạo Mẫu, mà thay vào đó, người đời sau cho rằng Mẫu muốn mọi người học hỏi và thấm nhuần những giáo lý tốt đẹp của nhà Phật. Nơi đâu có bàn thờ Phật, nơi đó thường có ban thờ Mẫu, và trong các đền điện thờ Mẫu, luôn có bàn thờ Phật bên cạnh.
-                        </div>
-                        <iframe width="100%" height="315" src="https://www.artsteps.com/embed/67676a99c0d2ca7b1c862572/560/315" frameborder="0" allowfullscreen></iframe>
+                        
                         {/* <div className="Section1__content__inner__icon">
                             <div className="Section1__content__inner__icon__inner">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30" fill="none">

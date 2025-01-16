@@ -4,7 +4,7 @@ function Section5(){
             <div className="Section5">
                 <div className="container">
                     <div className="Section5__inner">
-                        <div className="Section5__inner__title" style={{marginTop: "32px"}}>
+                        <div className="Section5__inner__title">
                         Giới thiệu khái quát về di sản
                         </div>
                         {/* <iframe width="100%" height="315" src="https://www.artsteps.com/embed/67681b53d6ce95d730a45aec/560/315" frameborder="0" allowfullscreen></iframe> */}
@@ -21,14 +21,20 @@ function Section5(){
                                 </li>
                             </ul>
                         </div> */}
-                        <div className="Section5__inner__text2">
-                        Tín ngưỡng thờ Mẫu là một nét đặc sắc trong văn hóa dân gian Việt Nam, mang đậm dấu ấn nguyên thủy và có chiều dài lịch sử hàng ngàn năm. Nguồn gốc của tín ngưỡng này được cho là bắt nguồn từ thời Tiền sử, khi con người thờ cúng các thần linh thiên nhiên và tôn vinh các nữ thần – biểu tượng của sự sinh sôi, bảo vệ và che chở. Trong xã hội mẫu hệ, các nữ thần thường được gọi với những danh xưng đầy tôn kính như Mẹ, Mẫu, hay Mế. Qua thời gian, sự hòa quyện giữa tín ngưỡng thờ mẹ thiên nhiên và các yếu tố của những tôn giáo khác đã tạo nên một tín ngưỡng bản địa độc đáo của Việt Nam – tín ngưỡng thờ Mẫu.
+                        <div className="Section5__inner__row1">
+                            <div className="Section5__inner__row1__text">
+                                <div className="Section5__inner__text2">
+                                    Tín ngưỡng thờ Mẫu là một nét đặc sắc trong văn hóa dân gian Việt Nam, mang đậm dấu ấn nguyên thủy và có chiều dài lịch sử hàng ngàn năm. Nguồn gốc của tín ngưỡng này được cho là bắt nguồn từ thời Tiền sử, khi con người thờ cúng các thần linh thiên nhiên và tôn vinh các nữ thần – biểu tượng của sự sinh sôi, bảo vệ và che chở. Trong xã hội mẫu hệ, các nữ thần thường được gọi với những danh xưng đầy tôn kính như Mẹ, Mẫu, hay Mế. Qua thời gian, sự hòa quyện giữa tín ngưỡng thờ mẹ thiên nhiên và các yếu tố của những tôn giáo khác đã tạo nên một tín ngưỡng bản địa độc đáo của Việt Nam – tín ngưỡng thờ Mẫu.
+                                </div>
+                                <div className="Section5__inner__text2" style={{marginTop: "0px"}}>
+                                    GS. Ngô Đức Thịnh, một chuyên gia hàng đầu về đạo Mẫu, từng ví tín ngưỡng này như “một đứa trẻ bị bỏ rơi lấm lem bùn đất” và nhấn mạnh: “Đã đến lúc chúng ta cần đánh giá đúng và công bằng về tín ngưỡng thờ Mẫu. Hãy gột rửa lớp bụi thời gian để di sản này được bảo tồn và phát huy hết giá trị vốn có.” 
+                                </div>
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <img src="/TNTM/Section5-1.jpg" className="Section5__inner__image"/>
+                            </div>
                         </div>
                         
-                        <img src="/TNTM/Section5-1.jpg" className="Section5__inner__image"/>
-                        <div className="Section5__inner__text2" style={{marginTop: "0px"}}>
-                        GS. Ngô Đức Thịnh, một chuyên gia hàng đầu về đạo Mẫu, từng ví tín ngưỡng này như “một đứa trẻ bị bỏ rơi lấm lem bùn đất” và nhấn mạnh: “Đã đến lúc chúng ta cần đánh giá đúng và công bằng về tín ngưỡng thờ Mẫu. Hãy gột rửa lớp bụi thời gian để di sản này được bảo tồn và phát huy hết giá trị vốn có.” 
-                        </div>
                         {/* <div className="Section5__inner__text2">
                         Bích Động, nằm cách không xa Tam Cốc, được biết đến với những ngôi chùa cổ kính và cảnh quan thiên nhiên tuyệt đẹp. Đặc biệt, Bích Động là nơi có ngôi chùa Bích Động nằm giữa cảnh núi non hùng vĩ, được xây dựng từ thế kỷ 15. Đây là một địa điểm hành hương nổi tiếng và là điểm đến hấp dẫn cho những ai yêu thích sự yên bình và vẻ đẹp tâm linh.
                         </div>

@@ -40,16 +40,51 @@ $brownMode-Question-color: #C16746;
         width: 100%;
         background-color: $RedMode-Back2-color;
         padding: 32px 0px;
-        margin-bottom: 56px;
     
         &__inner{
             display: flex;
             flex-direction: column;
             width: 100%;
             align-items: center;
+
+            iframe{
+                margin-top: 24px;
+            }
+
+            &__row1{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+
+                &__text{
+                    width: 48%;
+                    max-height: 400px;
+                    overflow: auto;
+                }
+                &__image{
+                    width: 48%;
+                }
+            }
+            &__row2{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: row-reverse;
+
+                &__text{
+                    width: 48%;
+                    max-height: 400px;
+                    overflow: auto;
+                }
+                &__image{
+                    width: 48%;
+                }
+            }
     
             &__textImage{
-                margin-top: -8px;
+                margin-top: 8px;
                 text-align: center;
                 font-size: 12px;
                 line-height: 130%; /* 15.6px */
@@ -62,7 +97,6 @@ $brownMode-Question-color: #C16746;
                 font-weight: 700;
                 line-height: 150%; /* 30px */
                 text-align: center;
-                margin-bottom: 24px;
                 color: $RedMode-Title-color;
                 text-transform: uppercase;
                 width: 100%;
@@ -91,9 +125,8 @@ $brownMode-Question-color: #C16746;
                 }
             }
             &__image{
-                width: 70%;
+                width: 100%;
                 height: auto;
-                margin-bottom: 24px;
                 margin-top: 24px;
             }
             &__mainText2{
@@ -123,16 +156,51 @@ $brownMode-Question-color: #C16746;
         background-color: $GreenMode-Back2-color;
         color: white;
         padding: 32px 0px;
-        margin-bottom: 56px;
     
         &__inner{
             display: flex;
             flex-direction: column;
             width: 100%;
             align-items: center;
+
+            iframe{
+                margin-top: 24px;
+            }
+
+            &__row1{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+
+                &__text{
+                    width: 48%;
+                    max-height: 400px;
+                    overflow: auto;
+                }
+                &__image{
+                    width: 48%;
+                }
+            }
+            &__row2{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: row-reverse;
+
+                &__text{
+                    width: 48%;
+                    max-height: 400px;
+                    overflow: auto;
+                }
+                &__image{
+                    width: 48%;
+                }
+            }
     
             &__textImage{
-                margin-top: -8px;
+                margin-top: 8px;
                 text-align: center;
                 font-size: 12px;
                 line-height: 130%; /* 15.6px */
@@ -145,7 +213,6 @@ $brownMode-Question-color: #C16746;
                 font-weight: 700;
                 line-height: 150%; /* 30px */
                 text-align: center;
-                margin-bottom: 24px;
                 color: white;
                 text-transform: uppercase;
                 width: 100%;
@@ -174,9 +241,8 @@ $brownMode-Question-color: #C16746;
                 }
             }
             &__image{
-                width: 70%;
+                width: 100%;
                 height: auto;
-                margin-bottom: 24px;
                 margin-top: 24px;
             }
             &__mainText2{
@@ -206,16 +272,51 @@ $brownMode-Question-color: #C16746;
         background-color: $BlueMode-Back2-color;
         color: white;
         padding: 32px 0px;
-        margin-bottom: 56px;
     
         &__inner{
             display: flex;
             flex-direction: column;
             width: 100%;
             align-items: center;
+
+            iframe{
+                margin-top: 24px;
+            }
+
+            &__row1{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+
+                &__text{
+                    width: 48%;
+                    max-height: 400px;
+                    overflow: auto;
+                }
+                &__image{
+                    width: 48%;
+                }
+            }
+            &__row2{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: row-reverse;
+
+                &__text{
+                    width: 48%;
+                    max-height: 400px;
+                    overflow: auto;
+                }
+                &__image{
+                    width: 48%;
+                }
+            }
     
             &__textImage{
-                margin-top: -8px;
+                margin-top: 8px;
                 text-align: center;
                 font-size: 12px;
                 line-height: 130%; /* 15.6px */
@@ -228,7 +329,6 @@ $brownMode-Question-color: #C16746;
                 font-weight: 700;
                 line-height: 150%; /* 30px */
                 text-align: center;
-                margin-bottom: 24px;
                 color: white;
                 text-transform: uppercase;
                 width: 100%;
@@ -257,9 +357,8 @@ $brownMode-Question-color: #C16746;
                 }
             }
             &__image{
-                width: 70%;
+                width: 100%;
                 height: auto;
-                margin-bottom: 24px;
                 margin-top: 24px;
             }
             &__mainText2{
@@ -290,16 +389,51 @@ $brownMode-Question-color: #C16746;
         color: white;
         padding: 32px 0px;
         margin-bottom: 56px;
-        margin-top: 56px;
     
         &__inner{
             display: flex;
             flex-direction: column;
             width: 100%;
             align-items: center;
+
+            iframe{
+                margin-top: 24px;
+            }
+
+            &__row1{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+
+                &__text{
+                    width: 48%;
+                    max-height: 400px;
+                    overflow: auto;
+                }
+                &__image{
+                    width: 48%;
+                }
+            }
+            &__row2{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: row-reverse;
+
+                &__text{
+                    width: 48%;
+                    max-height: 400px;
+                    overflow: auto;
+                }
+                &__image{
+                    width: 48%;
+                }
+            }
     
             &__textImage{
-                margin-top: -8px;
+                margin-top: 8px;
                 text-align: center;
                 font-size: 12px;
                 line-height: 130%; /* 15.6px */
@@ -312,7 +446,6 @@ $brownMode-Question-color: #C16746;
                 font-weight: 700;
                 line-height: 150%; /* 30px */
                 text-align: center;
-                margin-bottom: 24px;
                 color: white;
                 text-transform: uppercase;
                 width: 100%;
@@ -341,9 +474,8 @@ $brownMode-Question-color: #C16746;
                 }
             }
             &__image{
-                width: 70%;
+                width: 100%;
                 height: auto;
-                margin-bottom: 24px;
                 margin-top: 24px;
             }
             &__mainText2{
@@ -371,6 +503,12 @@ $brownMode-Question-color: #C16746;
         font-size: 20px !important;
     }
     .Section5__inner__image{
+        width: 100% !important;
+    }
+    .Section5__inner__row1__text{
+        width: 100% !important;
+    }
+    .Section5__inner__row1__image{
         width: 100% !important;
     }
 }

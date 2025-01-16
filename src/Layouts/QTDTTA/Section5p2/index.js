@@ -7,40 +7,45 @@ function Section5p2(){
                         <div className="Section5__inner__title" style={{marginBottom: "0px"}}>
                         KHÔNG GIAN GIÁ TRỊ KINH TẾ - DU LỊCH
                         </div>
-                        {/* <div className="Section5__inner__disc">
-                        Khu danh thắng Tràng An – Tam Cốc – Bích Động: 
-                        </div> */}
-                        {/* <div className="Section5__inner__mainText">
-                            Kinh thành Huế
-                        </div> */}
-                        {/* <div className="Section5__inner__text">
-                            <ul>
-                                <li>
-                                    Rạng sáng ngày 9 tháng 8 năm 1866, Anh em Đoàn Hữu Trưng và đồng bọn gồm hơn 100 tên nhân lúc sơ hở làm phản, vào Ngọ Môn đến Tả Tuyên Môn thì bị Thị vệ họ Hoàng cùng binh mạnh chặn lại, bắt được. Bè đảng của Đoàn Hữu Trưng kinh hãi, chạy tán loạn, nhiều người bị bắt hoặc chém đầu. Triều Nguyễn gọi cuộc khởi nghĩa này là loạn Chày Vôi, bởi lẽ binh lính và thợ thuyền đã sử dụng công cụ lao động là chày vôi làm vũ khí tấn công vào Đại nội Huế. Sau cuộc khởi nghĩa dân chúng oán thán “Vạn niên là vạn niên nào thành xây xương lính, hào đào máu dân”, trước tình thế đó để xóa đi những ký ức ấy trong dân chúng vua cho đổi tên công trình từ “Vạn Niên” thành “Khiêm cung” sau này vua mất gọi là Khiêm Lăng. 
-                                </li>
-                            </ul>
-                        </div> */}
-                        <div className="Section5__inner__text2">
-                        Tràng An là một khu vực nổi bật với hệ thống núi đá vôi kỳ vĩ, các hang động và sông nước tạo nên một cảnh quan thơ mộng, hoang sơ. Du khách có thể tham gia đi thuyền ngược dòng sông, qua các hang động thạch nhũ và chiêm ngưỡng phong cảnh núi non nơi này, đồng thời khám phá các di tích lịch sử, như đền thờ, lăng mộ, chùa chiền gắn liền với lịch sử hình thành và phát triển của đất nước.
-                        </div>
-                        
                         <img src="/QTDTTA/Section5p2-1.jpg" className="Section5__inner__image"/>
                         <div className="Section5__inner__textImage">
-                        Ảnh của TRẦN NGỌC MINH (Nguồn TC số 292/4/2024)
+                            Ảnh của TRẦN NGỌC MINH (Nguồn TC số 292/4/2024)
+                        </div>
+                        <div className="Section5__inner__row1">
+                            <div className="Section5__inner__row1__text">
+                                <div className="Section5__inner__text2">
+                                    Tràng An là một khu vực nổi bật với hệ thống núi đá vôi kỳ vĩ, các hang động và sông nước tạo nên một cảnh quan thơ mộng, hoang sơ. Du khách có thể tham gia đi thuyền ngược dòng sông, qua các hang động thạch nhũ và chiêm ngưỡng phong cảnh núi non nơi này, đồng thời khám phá các di tích lịch sử, như đền thờ, lăng mộ, chùa chiền gắn liền với lịch sử hình thành và phát triển của đất nước.
+                                </div>
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <img src="/QTDTTA/Section1-1.jpg" className="Section5__inner__image"/>  
+                            </div>
                         </div>
 
-                        <div className="Section5__inner__text2">
-                        Tam Cốc được ví như “Hạ Long trên cạn" với ba hang động xuyên qua núi mang nhiều hình thù độc đáo đa dạng mà du khách có thể chiêm ngưỡng khi di chuyển bằng thuyền dọc theo con sông Ngô Đồng. Với những ruộng lúa bát ngát vào mùa nước đổ, kết hợp với hình ảnh núi đá vôi trùng điệp và những cánh đồng lúa xanh mướt, Tam Cốc không chỉ có vẻ đẹp thiên nhiên mà còn là nơi lưu giữ những giá trị văn hóa, lịch sử sâu sắc của vùng đất Cố đô Hoa Lư.
+                        <div className="Section5__inner__row2">
+                            <div className="Section5__inner__row1__text">
+                                <div className="Section5__inner__text2">
+                                    Tam Cốc được ví như “Hạ Long trên cạn" với ba hang động xuyên qua núi mang nhiều hình thù độc đáo đa dạng mà du khách có thể chiêm ngưỡng khi di chuyển bằng thuyền dọc theo con sông Ngô Đồng. Với những ruộng lúa bát ngát vào mùa nước đổ, kết hợp với hình ảnh núi đá vôi trùng điệp và những cánh đồng lúa xanh mướt, Tam Cốc không chỉ có vẻ đẹp thiên nhiên mà còn là nơi lưu giữ những giá trị văn hóa, lịch sử sâu sắc của vùng đất Cố đô Hoa Lư.
+                                </div>
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <img src="/QTDTTA/Section1-2.jpg" className="Section5__inner__image"/>
+                                
+                            </div>
                         </div>
                         
-                        <img src="/QTDTTA/Section1-1.jpg" className="Section5__inner__image"/>
-                        <div className="Section5__inner__text2">
-                        Bích Động, nằm cách không xa Tam Cốc, được biết đến với những ngôi chùa cổ kính và cảnh quan thiên nhiên tuyệt đẹp. Đặc biệt, Bích Động là nơi có ngôi chùa Bích Động nằm giữa cảnh núi non hùng vĩ, được xây dựng từ thế kỷ 15. Đây là một địa điểm hành hương nổi tiếng và là điểm đến hấp dẫn cho những ai yêu thích sự yên bình và vẻ đẹp tâm linh.
+                        <div className="Section5__inner__row1">
+                            <div className="Section5__inner__row1__text">
+                                <div className="Section5__inner__text2">
+                                    Bích Động, nằm cách không xa Tam Cốc, được biết đến với những ngôi chùa cổ kính và cảnh quan thiên nhiên tuyệt đẹp. Đặc biệt, Bích Động là nơi có ngôi chùa Bích Động nằm giữa cảnh núi non hùng vĩ, được xây dựng từ thế kỷ 15. Đây là một địa điểm hành hương nổi tiếng và là điểm đến hấp dẫn cho những ai yêu thích sự yên bình và vẻ đẹp tâm linh.
+                                </div>
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <img src="/QTDTTA/Section1-3.jpg" className="Section5__inner__image"/>
+                            </div>
                         </div>
+
                         
-                        <img src="/QTDTTA/Section1-2.jpg" className="Section5__inner__image"/>
-                        
-                        <img src="/QTDTTA/Section1-3.jpg" className="Section5__inner__image"/>
                         {/* <div className="Section5__inner__disc">
                         Rừng nguyên sinh đặc dụng Hoa Lư:
                         </div> */}

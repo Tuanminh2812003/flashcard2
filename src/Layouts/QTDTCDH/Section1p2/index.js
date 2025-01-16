@@ -84,54 +84,66 @@ function Section1p2(){
                         <div className="Section1__content__inner__footer">
                             Theo Đại Việt sử ký toàn thư
                         </div> */}
-                        <iframe width="100%" height="315" src="https://www.artsteps.com/embed/67682ee59f760cfbea373ec1/560/315" frameborder="0" allowfullscreen></iframe>
-                        <div className="Section1__content__inner__text">
-                            Đại Nội Huế được xây dựng với hơn 100 công trình kiến trúc lớn nhỏ, gồm cung điện, lầu gác, đình tạ, nhà cửa, ao hồ... mặt bằng Đại nội chia thành nhiều khu vực khác nhau với các chức năng đặc thù. Tử Cấm Thành có mặt bằng gần vuông, với còng tường xung quanh cao 3,5m ngăn cách nơi sinh hoạt của nhà vua, hoàng gia với bên ngoài. 
+                        <div className="Section1__content__inner__row">
+                            <div className="Section1__content__inner__row__text">
+                                <div className="Section1__content__inner__text">
+                                    Đại Nội Huế được xây dựng với hơn 100 công trình kiến trúc lớn nhỏ, gồm cung điện, lầu gác, đình tạ, nhà cửa, ao hồ... mặt bằng Đại nội chia thành nhiều khu vực khác nhau với các chức năng đặc thù. Tử Cấm Thành có mặt bằng gần vuông, với còng tường xung quanh cao 3,5m ngăn cách nơi sinh hoạt của nhà vua, hoàng gia với bên ngoài. 
+                                </div>
+                            </div>
+                            <div className="Section1__content__inner__row__image">
+                                <iframe width="100%" height="315" src="https://www.artsteps.com/embed/67682ee59f760cfbea373ec1/560/315" frameborder="0" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                     <div className="Section1__content__inner inner2p2">
-                        <div className="Section1__content__inner__title">
-                            Câu chuyện kiến trúc
-                        </div>
-                        <div className="Section1__content__inner__disc">
-                            Kiến trúc “nhất thi nhất họa” – dấu ấn Việt
-                        </div>
-                        <div className="Section1__content__inner__text">
-                            Điện Thái Hòa có 80 cột gỗ liêm được sơn son thếp vàng, trang trí rồng mây cùng motip “nhất thi nhất họa” với hàng trăm bài thơ chữ Hán trên các ô hộc ở phần liên ba, đố bản bên trong điện và trên dải cổ diêm ở mái đã đem lại nét độc đáo cho công trình. Thơ chạm khắc trên gỗ ở nội thất điện có 248 ô, thơ tráng trên pháp lam trang trí ở cổ diềm có 53 ô, những bài thơ trang trí trên điện mang ý nghĩa chính trị với phần lớn mang nội dung tuyên ngôn của một triều đại hay các chủ đề về xã hội, ca ngợi sắc xuân, cảnh xuân , gắn bó nguyện vọng được mùa, cây trái, cỏ hoa mơn mởn. Thơ ở điện Thái Hoà mang tính châm ngôn, là phương châm rèn luyện của vua quan. Bên cạnh đó, nhà vua còn gửi gắm ước mơ vào câu thơ với mong muốn thái bình thịnh vượng, thể hiện ước vọng chinh phục tự nhiên, điều hòa thủy hạn, mùa màng bội thu, dân cư an lạc. 
-                        </div>
-                        <div className="Section1__content__inner__text">
-                            Hai bài thơ nổi tiếng của Điện Thái Hòa 
-                        </div>
-                        
-                        <div className="Section1__content__inner__tho">
-                            <div className="Section1__content__inner__tho__title">
-                                “Văn hiến thiên niên quốc” được khắc giữa điện Thái Hòa:
+                        <div className="Section1__content__inner__row">
+                            <div className="Section1__content__inner__row__text">
+                                <div className="Section1__content__inner__title">
+                                    Câu chuyện kiến trúc
+                                </div>
+                                <div className="Section1__content__inner__disc">
+                                    Kiến trúc “nhất thi nhất họa” – dấu ấn Việt
+                                </div>
+                                <div className="Section1__content__inner__text">
+                                    Điện Thái Hòa có 80 cột gỗ liêm được sơn son thếp vàng, trang trí rồng mây cùng motip “nhất thi nhất họa” với hàng trăm bài thơ chữ Hán trên các ô hộc ở phần liên ba, đố bản bên trong điện và trên dải cổ diêm ở mái đã đem lại nét độc đáo cho công trình. Thơ chạm khắc trên gỗ ở nội thất điện có 248 ô, thơ tráng trên pháp lam trang trí ở cổ diềm có 53 ô, những bài thơ trang trí trên điện mang ý nghĩa chính trị với phần lớn mang nội dung tuyên ngôn của một triều đại hay các chủ đề về xã hội, ca ngợi sắc xuân, cảnh xuân , gắn bó nguyện vọng được mùa, cây trái, cỏ hoa mơn mởn. Thơ ở điện Thái Hoà mang tính châm ngôn, là phương châm rèn luyện của vua quan. Bên cạnh đó, nhà vua còn gửi gắm ước mơ vào câu thơ với mong muốn thái bình thịnh vượng, thể hiện ước vọng chinh phục tự nhiên, điều hòa thủy hạn, mùa màng bội thu, dân cư an lạc. 
+                                </div>
                             </div>
-                            <div className="Section1__content__inner__tho__inner">
-                            “Nước ngàn năm văn hiến
-                            </div>
-                            <div className="Section1__content__inner__tho__inner">
-                            Đất vạn dặm hợp cùng                            </div>
-                            <div className="Section1__content__inner__tho__inner">
-                            Đã mở mang lớn mạnh                            </div>
-                            <div className="Section1__content__inner__tho__inner">
-                            Đường Ngu ở Nam phương”                            
-                            </div>
+                            <div className="Section1__content__inner__row__image">
+                                <div className="Section1__content__inner__text">
+                                    Hai bài thơ nổi tiếng của Điện Thái Hòa 
+                                </div>
+                                
+                                <div className="Section1__content__inner__tho">
+                                    <div className="Section1__content__inner__tho__title">
+                                        “Văn hiến thiên niên quốc” được khắc giữa điện Thái Hòa:
+                                    </div>
+                                    <div className="Section1__content__inner__tho__inner">
+                                    “Nước ngàn năm văn hiến
+                                    </div>
+                                    <div className="Section1__content__inner__tho__inner">
+                                    Đất vạn dặm hợp cùng                            </div>
+                                    <div className="Section1__content__inner__tho__inner">
+                                    Đã mở mang lớn mạnh                            </div>
+                                    <div className="Section1__content__inner__tho__inner">
+                                    Đường Ngu ở Nam phương”                            
+                                    </div>
 
-                        </div>
-                        <div className="Section1__content__inner__tho">
-                            <div className="Section1__content__inner__tho__title">
-                            Thái bình tân chế độ
-                            </div>
-                            <div className="Section1__content__inner__tho__inner">
-                            “Thái bình chế độ mới
-                            </div>
-                            <div className="Section1__content__inner__tho__inner">
-                            Rộng mở quy mô xưa                          </div>
-                            <div className="Section1__content__inner__tho__inner">
-                            Văn vật lừng danh tiếng                           </div>
-                            <div className="Section1__content__inner__tho__inner">
-                            Gió xuân khắp Đế đô”.                         
+                                </div>
+                                <div className="Section1__content__inner__tho">
+                                    <div className="Section1__content__inner__tho__title">
+                                    Thái bình tân chế độ
+                                    </div>
+                                    <div className="Section1__content__inner__tho__inner">
+                                    “Thái bình chế độ mới
+                                    </div>
+                                    <div className="Section1__content__inner__tho__inner">
+                                    Rộng mở quy mô xưa                          </div>
+                                    <div className="Section1__content__inner__tho__inner">
+                                    Văn vật lừng danh tiếng                           </div>
+                                    <div className="Section1__content__inner__tho__inner">
+                                    Gió xuân khắp Đế đô”.                         
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         {/* <div className="Section1__content__inner__icon">

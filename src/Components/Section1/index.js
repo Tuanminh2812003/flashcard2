@@ -28,14 +28,20 @@ function Section1(){
                 <div className="container">
 
                     <div className="Section1__content__inner inner1">
-                        <div className="Section1__content__inner__title">
-                            Vị trí địa lí
-                        </div>
-                        <div className="Section1__content__inner__text">
-                            Nằm dọc hai bên bờ sông Hương thuộc thành phố Huế, nơi đây là trung tâm văn hoá, chính trị, kinh tế của tỉnh, là kinh đô của Việt Nam thời phong kiến triều nhà Nguyễn (1802 – 1945).
-                        </div>
-                        <div className="Section1__content__inner__image" >
-                            <img src="/QTDTCDH/Section1-1.jpg" />
+                        <div className="Section1__content__inner__row">
+                            <div className="Section1__content__inner__row__text">
+                                <div className="Section1__content__inner__title">
+                                    Vị trí địa lí
+                                </div>
+                                <div className="Section1__content__inner__text">
+                                    Nằm dọc hai bên bờ sông Hương thuộc thành phố Huế, nơi đây là trung tâm văn hoá, chính trị, kinh tế của tỉnh, là kinh đô của Việt Nam thời phong kiến triều nhà Nguyễn (1802 – 1945).
+                                </div>
+                            </div>
+                            <div className="Section1__content__inner__row__image">
+                                <div className="Section1__content__inner__image" >
+                                    <img src="/QTDTCDH/Section1-1.jpg" />
+                                </div>
+                            </div>
                         </div>
                         {/* <div className="Section1__content__inner__text">
                             Theo sách Đại Nam thực lục chép, sau khi giành thắng lợi trước nhà Tây Sơn (1802), vua Gia Long đã nghĩ ngay đến việc xây dựng kinh đô cho vương triều Nguyễn. Nhận thấy thế đất vùng Phú Xuân có nhiều thuận lợi vì vậy năm 1803, vua sai giám thành Nguyễn Văn Yến ra bốn mặt ngoài thành cũ
@@ -142,20 +148,27 @@ function Section1(){
                         </div> */}
                     </div>
                     <div className="Section1__content__inner inner3">
-                        <div className="Section1__content__inner__title">
-                            Giới thiệu khái quát
+                        <div className="Section1__content__inner__row">
+                            <div className="Section1__content__inner__row__text">
+                                <div className="Section1__content__inner__title">
+                                    Giới thiệu khái quát
+                                </div>
+                                <div className="Section1__content__inner__text">
+                                    Quần thể di tích Cố đô Huế bao gồm những di tích tiêu biểu như Kinh thành, Hoàng thành và Tử Cấm thành, hệ thống các lăng tẩm của vua triều Nguyễn, Cung An Định, Trai cung, điện Hòn Chén, Văn miếu và Võ miếu,... những công trình kiến trúc này được kết hợp độc đáo giữa nguyên tắc kiến trúc truyền thống Việt Nam với tư tưởng triết lý phương Đông, cùng những đặc điểm mang dấu ấn kiến trúc phương Tây.
+                                </div>
+                            </div>
+                            <div className="Section1__content__inner__row__image">
+                                <div className="Section1__content__inner__image" >
+                                    <img src="/QTDTCDH/Section1-2.webp" />
+                                </div>
+                                <div className="Section1__content__inner__video">
+                                    <iframe width="100%" height="200px" src="https://www.youtube.com/embed/jOKVgM3yUjE?si=HWAy-_QPGDcprus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
                         </div>
-                        <div className="Section1__content__inner__text">
-                            Quần thể di tích Cố đô Huế bao gồm những di tích tiêu biểu như Kinh thành, Hoàng thành và Tử Cấm thành, hệ thống các lăng tẩm của vua triều Nguyễn, Cung An Định, Trai cung, điện Hòn Chén, Văn miếu và Võ miếu,... những công trình kiến trúc này được kết hợp độc đáo giữa nguyên tắc kiến trúc truyền thống Việt Nam với tư tưởng triết lý phương Đông, cùng những đặc điểm mang dấu ấn kiến trúc phương Tây.
-                        </div>
-                        <div className="Section1__content__inner__image" >
-                            <img src="/QTDTCDH/Section1-2.webp" />
-                        </div>
-                        <div className="Section1__content__inner__video">
-                            <iframe width="100%" height="200px" src="https://www.youtube.com/embed/jOKVgM3yUjE?si=HWAy-_QPGDcprus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
+                        
                     </div>
-                    <div className="Section1__content__inner inner4">
+                    {/* <div className="Section1__content__inner inner4">
                         <div className="Section1__content__inner__title">
                             Giới thiệu khái quát về di sản
                         </div>
@@ -208,7 +221,7 @@ function Section1(){
                         <div className="Section1__content__inner__footer">
                             Theo Đại Việt sử ký toàn thư
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

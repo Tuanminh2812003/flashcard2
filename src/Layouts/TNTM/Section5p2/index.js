@@ -7,18 +7,27 @@ function Section5p2(){
                         <div className="Section5__inner__title" style={{marginBottom: "0px"}}>
                         KHÔNG GIAN LỊCH SỬ VĂN HIẾN 
                         </div>
-                        <div className="Section5__inner__disc">
-                        TÍN NGƯỠNG THỜ MẪU: NÉT VĂN HÓA CẦN LƯU GIỮ
+                        <div className="Section5__inner__row1">
+                            <div className="Section5__inner__row1__text">
+                                <div className="Section5__inner__disc">
+                                    TÍN NGƯỠNG THỜ MẪU: NÉT VĂN HÓA CẦN LƯU GIỮ
+                                </div>
+                                <div className="Section5__inner__text2">
+                                    Trong suốt quá trình dựng nước và giữ nước, tín ngưỡng thờ Mẫu được xây dựng và bảo tồn qua những truyền thuyết và câu chuyện về các anh hùng dân tộc. Những thần tích về các vị nữ thần và anh hùng được lưu giữ trong sử sách, truyền lại qua các thế hệ, tạo nên những lễ hội và hình thức diễn xướng đặc sắc như hát chầu văn hay hầu bóng. Điều này không chỉ giúp bảo tồn truyền thống mà còn thể hiện tinh thần yêu nước và niềm tôn kính sâu sắc dành cho những người đã cống hiến vì dân tộc. Người Việt có truyền thống thờ nữ thần đó là hệ quả của một đời sống tâm linh của cư dân lấy sự trồng cấy nông nghiệp đặc biệt là trồng cấy lúa nước làm cơ sở cho hoạt động kinh tế. Thủy tổ quốc mẫu là Mẹ Âu Cơ và những nữ thần các giai  đoạn lần lượt là Mỵ Nương, Man Nương và Liễu Hạnh.  Người Việt Nam thoạt tiên tôn mẹ Âu Cơ làm quốc mẫu.
+                                </div>
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <img src="/TNTM/Section5p2-1.jpg" className="Section5__inner__image"/>
+                            </div>
                         </div>
-                        
-                        <img src="/TNTM/Section5p2-1.jpg" className="Section5__inner__image"/>
-                        <div className="Section5__inner__text2">
-                        Trong suốt quá trình dựng nước và giữ nước, tín ngưỡng thờ Mẫu được xây dựng và bảo tồn qua những truyền thuyết và câu chuyện về các anh hùng dân tộc. Những thần tích về các vị nữ thần và anh hùng được lưu giữ trong sử sách, truyền lại qua các thế hệ, tạo nên những lễ hội và hình thức diễn xướng đặc sắc như hát chầu văn hay hầu bóng. Điều này không chỉ giúp bảo tồn truyền thống mà còn thể hiện tinh thần yêu nước và niềm tôn kính sâu sắc dành cho những người đã cống hiến vì dân tộc. Người Việt có truyền thống thờ nữ thần đó là hệ quả của một đời sống tâm linh của cư dân lấy sự trồng cấy nông nghiệp đặc biệt là trồng cấy lúa nước làm cơ sở cho hoạt động kinh tế. Thủy tổ quốc mẫu là Mẹ Âu Cơ và những nữ thần các giai  đoạn lần lượt là Mỵ Nương, Man Nương và Liễu Hạnh.  Người Việt Nam thoạt tiên tôn mẹ Âu Cơ làm quốc mẫu.
+                        <div className="Section5__inner__row1">
+                            <div className="Section5__inner__row1__image">
+                                <img src="/TNTM/Section5p2-2.jpg" className="Section5__inner__image"/>
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <img src="/TNTM/Section5p2-3.jpg" className="Section5__inner__image"/>
+                            </div>
                         </div>
-                        
-                        <img src="/TNTM/Section5p2-2.jpg" className="Section5__inner__image"/>
-                        
-                        <img src="/TNTM/Section5p2-3.jpg" className="Section5__inner__image"/>
                         {/* <div className="Section5__inner__mainText">
                             Kinh thành Huế
                         </div> */}

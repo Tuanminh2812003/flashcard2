@@ -29,25 +29,43 @@ function Section5p3(){
                                 </li>
                             </ul>
                         </div> */}
-                        <div className="Section5__inner__text2">
-                        Tín ngưỡng thờ mẩu là biểu hiện trong đời sống tâm linh của người Việt
+                        <div className="Section5__inner__row1">
+                            <div className="Section5__inner__row1__text">
+                                <div className="Section5__inner__disc">
+                                    Tín ngưỡng thờ mẩu là biểu hiện trong đời sống tâm linh của người Việt
+                                </div>
+                                <div className="Section5__inner__text2">
+                                    Niềm tin vào Mẫu, là hướng tới những điều thiêng liêng, cao cả, cái tố đẹp muôn đời, thể hiện tâm thức dân tộc Việt Nam luôn khao khát hòa bình, sống giản dị, sống dưới mái ấm gia đình với tình yêu thương yêu bao la của người mẹ. 
+                                </div>
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <img src="/TNTM/Section5p3-1.jpg" className="Section5__inner__image"/>
+                            </div>
                         </div>
-                        <div className="Section5__inner__text2">
-                        Niềm tin vào Mẫu, là hướng tới những điều thiêng liêng, cao cả, cái tố đẹp muôn đời, thể hiện tâm thức dân tộc Việt Nam luôn khao khát hòa bình, sống giản dị, sống dưới mái ấm gia đình với tình yêu thương yêu bao la của người mẹ. 
+
+                        <div className="Section5__inner__row2">
+                            <div className="Section5__inner__row1__text">
+                                <div className="Section5__inner__text2">
+                                    Các buổi hầu đồng và lễ nghi liên quan, không chỉ mang ý nghĩa tâm linh mà còn gắn bó chặt chẽ với đời sống thường nhật của người dân. Những nghi thức này phản ánh rõ ràng những mong mỏi cụ thể và khát vọng thiết thực của họ. 
+                                </div>
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <img src="/TNTM/Section5p3-2.jpg" className="Section5__inner__image"/>
+                            </div>
                         </div>
-                        <img src="/TNTM/Section5p3-1.jpg" className="Section5__inner__image"/>
-                        <div className="Section5__inner__text2">
-                        Các buổi hầu đồng và lễ nghi liên quan, không chỉ mang ý nghĩa tâm linh mà còn gắn bó chặt chẽ với đời sống thường nhật của người dân. Những nghi thức này phản ánh rõ ràng những mong mỏi cụ thể và khát vọng thiết thực của họ. 
-                        </div>
-                        
-                        <img src="/TNTM/Section5p3-2.jpg" className="Section5__inner__image"/>
-                        <div className="Section5__inner__text2">
-                        Niềm tin mãnh liệt vào quyền năng siêu nhiên của các vị Thánh Mẫu và các hóa thân của Người – những đấng được cho là có thể chi phối mọi khía cạnh của đời sống – đã tiếp thêm sức mạnh tinh thần, giúp họ vững tâm đối mặt với những khó khăn, thử thách trong cuộc sống
-                        </div>
-                        
-                        <img src="/TNTM/Section5p3-3.jpg" className="Section5__inner__image"/>
-                        <div className="Section5__inner__text2">
-                        Giáo sư Đinh Gia Khánh từng nhận định, tín ngưỡng thờ Mẫu cùng các loại hình tín ngưỡng khác đã góp phần “gắn kết các thành viên trong cộng đồng, giúp cả làng xóm cùng chia sẻ một nhãn quan chung về thế giới, xã hội; cùng chung những lo toan, nguyện vọng; đồng thời khơi dậy niềm tự hào về quá khứ và niềm tin vào tương lai. Từ đó, vun đắp lòng yêu quê hương, yêu đồng bào và yêu tổ quốc.” 
+
+                        <div className="Section5__inner__row1">
+                            <div className="Section5__inner__row1__text">
+                                <div className="Section5__inner__text2">
+                                    Niềm tin mãnh liệt vào quyền năng siêu nhiên của các vị Thánh Mẫu và các hóa thân của Người – những đấng được cho là có thể chi phối mọi khía cạnh của đời sống – đã tiếp thêm sức mạnh tinh thần, giúp họ vững tâm đối mặt với những khó khăn, thử thách trong cuộc sống
+                                </div>
+                                <div className="Section5__inner__text2">
+                                    Giáo sư Đinh Gia Khánh từng nhận định, tín ngưỡng thờ Mẫu cùng các loại hình tín ngưỡng khác đã góp phần “gắn kết các thành viên trong cộng đồng, giúp cả làng xóm cùng chia sẻ một nhãn quan chung về thế giới, xã hội; cùng chung những lo toan, nguyện vọng; đồng thời khơi dậy niềm tự hào về quá khứ và niềm tin vào tương lai. Từ đó, vun đắp lòng yêu quê hương, yêu đồng bào và yêu tổ quốc.” 
+                                </div>
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <img src="/TNTM/Section5p3-3.jpg" className="Section5__inner__image"/>
+                            </div>
                         </div>
                         {/* <div className="Section5__inner__disc">
                             Đàn Nam Giao là đàn tế được xây dựng ở phía Nam Kinh thành Huế vào năm 1807 nhằm thực hiện lễ tế trời đất. Đàn có hình chữ nhật với chiều dài 390, chiều rộng 265m gồm các hạng mục như đàn tế nơi thực hiện các nghi lễ tế trời đất, trai cung nơi vua ở và thần trù, thần khố. 

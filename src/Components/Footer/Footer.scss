@@ -93,18 +93,11 @@ $brownMode-Question-color: #C16746;
                 color: white;
             }
             &__icon{
-                width: 50%;
+                width: 60%;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 margin-top: 8px;
-    
-                svg{
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
     
                 a{
                     height: 100%;
@@ -113,6 +106,7 @@ $brownMode-Question-color: #C16746;
                     justify-content: center;
                     color: white;
                     font-size: 20px;
+                    margin-right: 4px;
                 }
             }
         }
@@ -200,18 +194,11 @@ $brownMode-Question-color: #C16746;
                 color: white;
             }
             &__icon{
-                width: 50%;
+                width: 60%;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 margin-top: 8px;
-    
-                svg{
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
     
                 a{
                     height: 100%;
@@ -220,6 +207,7 @@ $brownMode-Question-color: #C16746;
                     justify-content: center;
                     color: white;
                     font-size: 20px;
+                    margin-right: 4px;
                 }
             }
         }
@@ -307,18 +295,11 @@ $brownMode-Question-color: #C16746;
                 color: white;
             }
             &__icon{
-                width: 50%;
+                width: 60%;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 margin-top: 8px;
-    
-                svg{
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
     
                 a{
                     height: 100%;
@@ -327,6 +308,7 @@ $brownMode-Question-color: #C16746;
                     justify-content: center;
                     color: white;
                     font-size: 20px;
+                    margin-right: 4px;
                 }
             }
         }
@@ -414,18 +396,11 @@ $brownMode-Question-color: #C16746;
                 color: white;
             }
             &__icon{
-                width: 50%;
+                width: 60%;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 margin-top: 8px;
-    
-                svg{
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
     
                 a{
                     height: 100%;
@@ -434,6 +409,7 @@ $brownMode-Question-color: #C16746;
                     justify-content: center;
                     color: white;
                     font-size: 20px;
+                    margin-right: 4px;
                 }
             }
         }
@@ -471,5 +447,8 @@ $brownMode-Question-color: #C16746;
                 width: 100% !important;
             }
         }
+    }
+    .Footer__inner__icon{
+        width: 20% !important;
     }
 }

@@ -7,15 +7,26 @@ function Section5p3(){
                         <div className="Section5__inner__title">
                             Câu chuyện kết nối
                         </div>
-                        <div className="Section5__inner__disc">
-                        FESTIVAL NINH BÌNH - DI SẢN VĂN HÓA VỚI HỘI NHẬP, PHÁT TRIỂN
+                        <div className="Section5__inner__row1">
+                            <div className="Section5__inner__row1__text">
+                                <div className="Section5__inner__disc">
+                                    FESTIVAL NINH BÌNH - DI SẢN VĂN HÓA VỚI HỘI NHẬP, PHÁT TRIỂN
+                                </div>
+                                <div className="Section5__inner__text">
+                                    Tiếp nối thành công của Festival Ninh Bình lần thứ I, tỉnh Ninh Bình tiếp tục tổ chức Festival Ninh Bình những năm tiếp theo cùng nhiều chủ đề khác nhau với quy mô lớn và chất lượng cao nhằm quảng bá hình ảnh, đất nước, di sản Ninh Bình với bạn bè trong nước và quốc tế. Đây là sự kiện văn hóa-du lịch tầm quốc gia, cũng là thương hiệu lễ hội riêng của tỉnh Ninh Bình nhằm đẩy mạnh các hoạt động giao lưu văn hóa và tôn vinh các di sản văn hóa gắn với phát triển du lịch.
+                                </div>
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <div className="Section1__content__inner__video">
+                                    <iframe width="100%" height="150px" src="https://www.youtube.com/embed/44CNm57Sv6w?si=V4OIAZWLnukDw6D-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
                         </div>
+                        
                         {/* <div className="Section5__inner__mainText">
                             Kinh thành Huế
                         </div> */}
-                        <div className="Section5__inner__text">
-                        Tiếp nối thành công của Festival Ninh Bình lần thứ I, tỉnh Ninh Bình tiếp tục tổ chức Festival Ninh Bình những năm tiếp theo cùng nhiều chủ đề khác nhau với quy mô lớn và chất lượng cao nhằm quảng bá hình ảnh, đất nước, di sản Ninh Bình với bạn bè trong nước và quốc tế. Đây là sự kiện văn hóa-du lịch tầm quốc gia, cũng là thương hiệu lễ hội riêng của tỉnh Ninh Bình nhằm đẩy mạnh các hoạt động giao lưu văn hóa và tôn vinh các di sản văn hóa gắn với phát triển du lịch.
-                        </div>
+                        
                         {/* <div className="Section5__inner__mainText">
                             Lăng tẩm các vua Nguyễn
                         </div> */}
@@ -101,9 +112,7 @@ function Section5p3(){
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                         }}></div> */}
-                        <div className="Section1__content__inner__video">
-                            <iframe width="100%" height="200px" src="https://www.youtube.com/embed/44CNm57Sv6w?si=V4OIAZWLnukDw6D-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

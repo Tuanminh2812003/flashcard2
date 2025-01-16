@@ -5,30 +5,47 @@ function Section5(){
                 <div className="container">
                     <div className="Section5__inner">
                         <div className="Section5__inner__title">
-                        KHÔNG GIAN LỊCH SỬ VĂN HIẾN 
+                            KHÔNG GIAN LỊCH SỬ VĂN HIẾN 
                         </div>
-                        {/* <iframe width="100%" height="315" src="https://www.artsteps.com/embed/67681b53d6ce95d730a45aec/560/315" frameborder="0" allowfullscreen></iframe> */}
-                        <div className="Section5__inner__disc" style={{marginTop: "24px", marginBottom: "0px"}}>
-                        Vị trí địa lí: Đặt tại Văn Miếu – Quốc Tử Giám (Hà Nội)
-                        </div>
-                        
-                        <img src="/BTSVM/Section5-1.jpg" className="Section5__inner__image"/>
-                        <div className="Section5__inner__disc" style={{marginTop: "24px", marginBottom: "0px"}}>
-                        Niên đại và thời kỳ 
-                        </div>
-                        <div className="Section5__inner__text2">
-                        Bia tiến sĩ ở Văn Miếu Quốc Tử Giám bắt đầu được khởi công ngày 15/8 năm Giáp Thìn, niên hiệu Hồng Đức thứ 15 Triều Lê Thánh Tông (1482), và kết thúc vào năm Canh Tý niên hiệu Cảnh Hưng thứ 41 Triều Lê Hiển Tông (1780).
+                        <div className="Section5__inner__row1">
+                            <div className="Section5__inner__row1__text">
+                                <div className="Section5__inner__disc" style={{marginTop: "24px", marginBottom: "0px"}}>
+                                    Vị trí địa lí: Đặt tại Văn Miếu – Quốc Tử Giám (Hà Nội)
+                                </div>
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <img src="/BTSVM/Section5-1.jpg" className="Section5__inner__image"/>
+                            </div>
                         </div>
                         
-                        <img src="/BTSVM/Section5-2.jpg" className="Section5__inner__image"/>
-                        <div className="Section5__inner__disc" style={{marginTop: "24px", marginBottom: "0px"}}>
-                        BIA ĐÁ NGÀN NĂM – TÔN VINH HIỀN TÀI
+                        <div className="Section5__inner__row2">
+                            <div className="Section5__inner__row1__text">
+                                <div className="Section5__inner__disc" style={{marginTop: "24px", marginBottom: "0px"}}>
+                                    Niên đại và thời kỳ 
+                                </div>
+                                <div className="Section5__inner__text2">
+                                    Bia tiến sĩ ở Văn Miếu Quốc Tử Giám bắt đầu được khởi công ngày 15/8 năm Giáp Thìn, niên hiệu Hồng Đức thứ 15 Triều Lê Thánh Tông (1482), và kết thúc vào năm Canh Tý niên hiệu Cảnh Hưng thứ 41 Triều Lê Hiển Tông (1780).
+                                </div>
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <img src="/BTSVM/Section5-2.jpg" className="Section5__inner__image"/>
+                            </div>
                         </div>
-                        <div className="Section5__inner__text2">
-                        Trong lịch sử giáo dục Việt Nam, việc dạy và học Nho học ở nước ta bắt đầu từ triều Lý, phát triển qua các triều đại Trần, Hồ, đặc biệt phát triển dưới triều Lê, kết quả đã đào tạo ra hàng nghìn nhân tài cho đất nước. Dưới thời trị vì của vua Lê Thánh Tông (1442-1497), vua xuống chiếu cho dựng để tôn vinh những người đỗ đạt. Trên các tấm bia có khắc họ tên, quê quán của 1304 vị Tiến sĩ đỗ trong các khoa thi được tổ chức từ 1442 đến 1779 dưới triều Lê và triều Mạc. 
+
+                        <div className="Section5__inner__row1">
+                            <div className="Section5__inner__row1__text">
+                                <div className="Section5__inner__disc" style={{marginTop: "24px", marginBottom: "0px"}}>
+                                    BIA ĐÁ NGÀN NĂM – TÔN VINH HIỀN TÀI
+                                </div>
+                                <div className="Section5__inner__text2">
+                                    Trong lịch sử giáo dục Việt Nam, việc dạy và học Nho học ở nước ta bắt đầu từ triều Lý, phát triển qua các triều đại Trần, Hồ, đặc biệt phát triển dưới triều Lê, kết quả đã đào tạo ra hàng nghìn nhân tài cho đất nước. Dưới thời trị vì của vua Lê Thánh Tông (1442-1497), vua xuống chiếu cho dựng để tôn vinh những người đỗ đạt. Trên các tấm bia có khắc họ tên, quê quán của 1304 vị Tiến sĩ đỗ trong các khoa thi được tổ chức từ 1442 đến 1779 dưới triều Lê và triều Mạc. 
+                                </div>
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <img src="/BTSVM/Section5-3.jpg" className="Section5__inner__image"/>
+                            </div>
                         </div>
                         
-                        <img src="/BTSVM/Section5-3.jpg" className="Section5__inner__image"/>
                         {/* <div className="Section5__inner__mainText">
                             Kinh thành Huế
                         </div> */}
