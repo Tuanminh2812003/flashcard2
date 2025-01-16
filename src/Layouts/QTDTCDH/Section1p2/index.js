@@ -107,8 +107,6 @@ function Section1p2(){
                                 <div className="Section1__content__inner__text">
                                     Điện Thái Hòa có 80 cột gỗ liêm được sơn son thếp vàng, trang trí rồng mây cùng motip “nhất thi nhất họa” với hàng trăm bài thơ chữ Hán trên các ô hộc ở phần liên ba, đố bản bên trong điện và trên dải cổ diêm ở mái đã đem lại nét độc đáo cho công trình. Thơ chạm khắc trên gỗ ở nội thất điện có 248 ô, thơ tráng trên pháp lam trang trí ở cổ diềm có 53 ô, những bài thơ trang trí trên điện mang ý nghĩa chính trị với phần lớn mang nội dung tuyên ngôn của một triều đại hay các chủ đề về xã hội, ca ngợi sắc xuân, cảnh xuân , gắn bó nguyện vọng được mùa, cây trái, cỏ hoa mơn mởn. Thơ ở điện Thái Hoà mang tính châm ngôn, là phương châm rèn luyện của vua quan. Bên cạnh đó, nhà vua còn gửi gắm ước mơ vào câu thơ với mong muốn thái bình thịnh vượng, thể hiện ước vọng chinh phục tự nhiên, điều hòa thủy hạn, mùa màng bội thu, dân cư an lạc. 
                                 </div>
-                            </div>
-                            <div className="Section1__content__inner__row__image">
                                 <div className="Section1__content__inner__text">
                                     Hai bài thơ nổi tiếng của Điện Thái Hòa 
                                 </div>
@@ -143,6 +141,11 @@ function Section1p2(){
                                     <div className="Section1__content__inner__tho__inner">
                                     Gió xuân khắp Đế đô”.                         
                                     </div>
+                                </div>
+                            </div>
+                            <div className="Section1__content__inner__row__image">
+                                <div className="Section1__content__inner__image" >
+                                    <img src="/QTDTCDH/Section1-2.webp" />
                                 </div>
                             </div>
                         </div>

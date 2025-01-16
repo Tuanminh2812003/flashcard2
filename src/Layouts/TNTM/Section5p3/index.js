@@ -38,8 +38,8 @@ function Section5p3(){
                                     Niềm tin vào Mẫu, là hướng tới những điều thiêng liêng, cao cả, cái tố đẹp muôn đời, thể hiện tâm thức dân tộc Việt Nam luôn khao khát hòa bình, sống giản dị, sống dưới mái ấm gia đình với tình yêu thương yêu bao la của người mẹ. 
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image">
-                                <img src="/TNTM/Section5p3-1.jpg" className="Section5__inner__image"/>
+                            <div className="Section5__inner__row1__image" style={{backgroundImage: "url('/TNTM/Section5p3-1.jpg')",}}>
+
                             </div>
                         </div>
 
@@ -49,8 +49,8 @@ function Section5p3(){
                                     Các buổi hầu đồng và lễ nghi liên quan, không chỉ mang ý nghĩa tâm linh mà còn gắn bó chặt chẽ với đời sống thường nhật của người dân. Những nghi thức này phản ánh rõ ràng những mong mỏi cụ thể và khát vọng thiết thực của họ. 
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image">
-                                <img src="/TNTM/Section5p3-2.jpg" className="Section5__inner__image"/>
+                            <div className="Section5__inner__row1__image" style={{backgroundImage: "url('/TNTM/Section5p3-2.jpg')",}}>
+
                             </div>
                         </div>
 
@@ -63,8 +63,7 @@ function Section5p3(){
                                     Giáo sư Đinh Gia Khánh từng nhận định, tín ngưỡng thờ Mẫu cùng các loại hình tín ngưỡng khác đã góp phần “gắn kết các thành viên trong cộng đồng, giúp cả làng xóm cùng chia sẻ một nhãn quan chung về thế giới, xã hội; cùng chung những lo toan, nguyện vọng; đồng thời khơi dậy niềm tự hào về quá khứ và niềm tin vào tương lai. Từ đó, vun đắp lòng yêu quê hương, yêu đồng bào và yêu tổ quốc.” 
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image">
-                                <img src="/TNTM/Section5p3-3.jpg" className="Section5__inner__image"/>
+                            <div className="Section5__inner__row1__image" style={{backgroundImage: "url('/TNTM/Section5p3-3.jpg')",}}>
                             </div>
                         </div>
                         {/* <div className="Section5__inner__disc">

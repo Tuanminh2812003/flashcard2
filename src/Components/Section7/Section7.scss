@@ -36,8 +36,7 @@ $brownMode-Question-color: #C16746;
 
 .redMode{
     .Section7{
-        margin-top: 32px;
-        padding: 32px 360px;
+        padding: 60px 460px;
         width: 100%;
     
         .container{
@@ -124,15 +123,19 @@ $brownMode-Question-color: #C16746;
         }
     }
 }
-@media (max-width: 1092.98px){
+@media (max-width: 1500.98px){
     .Section7{
-        padding: 32px !important;
+        padding: 60px 360px !important;
+    }
+}
+@media (max-width: 1027.98px){
+    .Section7{
+        padding: 60px !important;
     }
 }
 .greenMode{
     .Section7{
-        margin-top: 32px;
-        padding: 32px 360px;
+        padding: 60px 460px;
         width: 100%;
     
         .container{
@@ -221,8 +224,7 @@ $brownMode-Question-color: #C16746;
 }
 .blueMode{
     .Section7{
-        margin-top: 32px;
-        padding: 32px 360px;
+        padding: 60px 460px;
         width: 100%;
     
         .container{
@@ -311,8 +313,7 @@ $brownMode-Question-color: #C16746;
 }
 .brownMode{
     .Section7{
-        margin-top: 32px;
-        padding: 32px 360px;
+        padding: 60px 460px;
         width: 100%;
     
         .container{
@@ -402,5 +403,8 @@ $brownMode-Question-color: #C16746;
 @media (max-width: 661.98px){
     .Section7__inner__title{
         font-size: 20px !important;
+    }
+    .Section7{
+        padding: 32px !important;
     }
 }

@@ -18,8 +18,10 @@ function Section5(){
                                     Rạng sáng ngày 9 tháng 8 năm 1866, Anh em Đoàn Hữu Trưng và đồng bọn gồm hơn 100 tên nhân lúc sơ hở làm phản, vào Ngọ Môn đến Tả Tuyên Môn thì bị Thị vệ họ Hoàng cùng binh mạnh chặn lại, bắt được. Bè đảng của Đoàn Hữu Trưng kinh hãi, chạy tán loạn, nhiều người bị bắt hoặc chém đầu. Triều Nguyễn gọi cuộc khởi nghĩa này là loạn Chày Vôi, bởi lẽ binh lính và thợ thuyền đã sử dụng công cụ lao động là chày vôi làm vũ khí tấn công vào Đại nội Huế. Sau cuộc khởi nghĩa dân chúng oán thán “Vạn niên là vạn niên nào thành xây xương lính, hào đào máu dân”, trước tình thế đó để xóa đi những ký ức ấy trong dân chúng vua cho đổi tên công trình từ “Vạn Niên” thành “Khiêm cung” sau này vua mất gọi là Khiêm Lăng. 
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image">
-                                <img src="/QTDTCDH/Section5-1.jpg" className="Section5__inner__image"/>
+                            <div className="Section5__inner__row1__image"
+                                style={{backgroundImage: "url('/QTDTCDH/Section5-1.jpg')",}}
+                            >
+
                             </div>
                         </div>
                         <div className="Section5__inner__row2">
@@ -28,8 +30,10 @@ function Section5(){
                                     Đàn Nam Giao là đàn tế được xây dựng ở phía Nam Kinh thành Huế vào năm 1807 nhằm thực hiện lễ tế trời đất. Đàn có hình chữ nhật với chiều dài 390, chiều rộng 265m gồm các hạng mục như đàn tế nơi thực hiện các nghi lễ tế trời đất, trai cung nơi vua ở và thần trù, thần khố. 
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image">
-                                <img src="/QTDTCDH/Section5-2.jpeg" className="Section5__inner__image"/>
+                            <div className="Section5__inner__row1__image"
+                                style={{backgroundImage: "url('/QTDTCDH/Section5-2.jpeg')",}}
+                            >
+                                
                             </div>
                         </div>
 
@@ -39,8 +43,10 @@ function Section5(){
                                     Văn Miếu được xây dựng năm 1808 trên một quả đồi nằm ở tả ngạn sông Hương. Bên trong Văn Thánh Miếu gồm 20 công trình kiến trúc với quy mô từ lớn đến nhỏ trên trục chính bao gồm Linh Tinh Môn, Văn Miếu Môn, Đại Thành Môn, điện chính Văn Miếu.. Văn Thánh Miếu Huế chính là Điện thờ đức Khổng Tử và Tứ Phối, Thập nhị triết, Đông Vu và Tây Vu thì thờ Thập nhị Hiền cùng các tiên nhỏ như Trần Khố, Trần Trù, Nhà Tổ Công…
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image">
-                                <img src="/QTDTCDH/Section5-3.jpg" className="Section5__inner__image"/> 
+                            <div className="Section5__inner__row1__image"
+                                style={{backgroundImage: "url('/QTDTCDH/Section5-3.jpg')",}}
+                            >
+                                
                             </div>
                         </div>
 
@@ -50,8 +56,10 @@ function Section5(){
                                     Tất cả các công trình kiến trúc ở đây đều có kết cấu mái gỗ quý, các đồ tự khí, kiến trúc đều toát lên vẻ uy nghi. Khu vực bên ngoài của cổng Đại thành chính là hai dãy bia gồm 32 tầm, là nơi khắc tên của 293 vị Tiến sĩ dưới triều đại nhà Nguyễn. Những tấm bia làm từ đá cẩm thạch, việc đặt bia Tiến sĩ lên lưng rùa được xem là một biểu tượng của sự kính trọng và vinh danh những người thành công trên con đường học vấn. 
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image">
-                                <img src="/QTDTCDH/Section5-4.jpg" className="Section5__inner__image"/>
+                            <div className="Section5__inner__row1__image"
+                                style={{backgroundImage: "url('/QTDTCDH/Section5-4.jpg')",}}
+                            >
+                                
                             </div>
                         </div>
 
@@ -61,8 +69,10 @@ function Section5(){
                                     Với giá trị di sản văn hóa kiến trúc đồ sộ, Kinh thành Huế còn lưu giữ những hiện vật có giá trị như đồ gốm, sứ, các tác phẩm nghệ thuật, là trung tâm văn hóa lớn chứa đựng nhiều giá trị văn hóa phi vật thể và vật thể của nhân loại. Thủ tướng Chính phủ đã quyết định xếp hạng Di tích lịch sử và kiến trúc nghệ thuật Quần thể kiến trúc Cố đô Huế là di tích quốc gia đặc biệt (Quyết định số 1272/QĐ-TTg, ngày 12/08/2009).
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image">
-                                <img src="/QTDTCDH/Section5-5.jpg" className="Section5__inner__image"/>
+                            <div className="Section5__inner__row1__image"
+                                style={{backgroundImage: "url('/QTDTCDH/Section5-5.jpg')",}}
+                            >
+                                
                             </div>
                         </div>
                     </div>

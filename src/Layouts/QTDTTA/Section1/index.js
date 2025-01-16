@@ -1,4 +1,4 @@
-
+import Audio from "../../../Components/Audio";
 
 function Section1(){
     return(
@@ -33,6 +33,7 @@ function Section1(){
                                 <div className="Section1__content__inner__title">
                                     Lịch sử hình thành
                                 </div>
+                                
                                 <div className="Section1__content__inner__text">
                                     Quần thể danh thắng Tràng An có mối liên hệ mật thiết với lịch sử của vùng đất Ninh Bình, đặc biệt là với Cố đô Hoa Lư - thủ đô của Đại Cồ Việt vào thế kỷ 10. Khi triều đại Đinh Tiên Hoàng lập nên Nhà nước Đại Cồ Việt (năm 968), Hoa Lư trở thành trung tâm chính trị quan trọng. Những di tích lịch sử như đền thờ Đinh Tiên Hoàng, Lê Đại Hành và các công trình kiến trúc cổ tại Tràng An phản ánh sự kết nối giữa vùng đất này và các sự kiện lịch sử quan trọng trong lịch sử Việt Nam.
                                 </div>
@@ -103,25 +104,28 @@ function Section1(){
                         </div> */}
                     </div>
                     <div className="Section1__content__inner inner2p3">
-                        <div className="Section1__content__inner__audio">
-                            <audio controls autoplay muted>
-                                <source src="/QTDTTA/quan_the_danh_thang_trang_an_khong_gian_lich_su.mp3" type="audio/mpeg"/>
-                            </audio>
-                        </div>
-                        <div className="Section1__content__inner__title">
-                        Giới thiệu khái quát
-                        </div>
-                        {/* <div className="Section1__content__inner__disc">
-                            Gia Long – kiến trúc sư hoạch định xây dựng Kinh thành Huế
-                        </div> */}
-                        <div className="Section1__content__inner__text">
-                        Quần thể danh thắng Tràng An là di sản thế giới được UNESCO công nhận vào năm 2014, tọa lạc tại Ninh Bình. Nơi đây gây ấn tượng với những dãy núi đá vôi trùng điệp, hang động ngập nước huyền bí và hệ sinh thái phong phú. Đây là một điểm đến tuyệt vời để du khách hòa mình vào thiên nhiên hoang sơ để khám phá những giá trị văn hóa, lịch sử sâu sắc. 
-                        </div>
-                        <div className="Section1__content__inner__text">
-                        Quần thể danh thắng Tràng An bao gồm ba khu vực liền kề nhau là: Di tích quốc gia đặc biệt Cố Đô Hoa Lư, Khu danh thắng Tràng An - Tam Cốc - Bích Động và Rừng nguyên sinh đặc dụng Hoa Lư, thuộc địa bàn các huyện, thị xã và thành phố thuộc tỉnh Ninh Bình. Quần thể danh thắng Tràng An là vùng bán sơn địa, đan xen giữa các dãy đá vôi là hệ thống đa dạng các thung lũng, đầm lầy, hệ thống hang động xuyên thủy, thảm thực vật nguyên sinh phát triển rậm rạp trên đá vôi như ở đền Trần - Tràng An, Trường Yên, Bái Đính, rừng đặc dụng Hoa Lư,...
-                        </div>
-                        <div className="Section1__content__inner__text">
-                        Hòa quyện với cấu trúc và vẻ đẹp của cảnh quan các-xtơ đá vôi là thảm rừng nhiệt đới nguyên sinh bao trùm khắp cảnh quan. Những ngôi chùa, đền tựa mình bên vách đá với mái ngói cổ kính, rêu phong, thâm trầm đồng điệu với cảnh quan sông nước núi đá. Chính những rặng núi cổ kính, các hang động bí ẩn và nhiều địa điểm linh thiêng của Tràng An đã truyền cảm hứng cho con người, thu hút du khách qua nhiều thế hệ.
+
+                        <div className="Section1__content__inner__row">
+                            <div className="Section1__content__inner__row__text">
+                                <div className="Section1__content__inner__title">
+                                    Giới thiệu khái quát
+                                </div>
+                                <div className="Section1__content__inner__text">
+                                    Quần thể danh thắng Tràng An là di sản thế giới được UNESCO công nhận vào năm 2014, tọa lạc tại Ninh Bình. Nơi đây gây ấn tượng với những dãy núi đá vôi trùng điệp, hang động ngập nước huyền bí và hệ sinh thái phong phú. Đây là một điểm đến tuyệt vời để du khách hòa mình vào thiên nhiên hoang sơ để khám phá những giá trị văn hóa, lịch sử sâu sắc. 
+                                </div>
+                                <div className="Section1__content__inner__text">
+                                    Quần thể danh thắng Tràng An bao gồm ba khu vực liền kề nhau là: Di tích quốc gia đặc biệt Cố Đô Hoa Lư, Khu danh thắng Tràng An - Tam Cốc - Bích Động và Rừng nguyên sinh đặc dụng Hoa Lư, thuộc địa bàn các huyện, thị xã và thành phố thuộc tỉnh Ninh Bình. Quần thể danh thắng Tràng An là vùng bán sơn địa, đan xen giữa các dãy đá vôi là hệ thống đa dạng các thung lũng, đầm lầy, hệ thống hang động xuyên thủy, thảm thực vật nguyên sinh phát triển rậm rạp trên đá vôi như ở đền Trần - Tràng An, Trường Yên, Bái Đính, rừng đặc dụng Hoa Lư,...
+                                </div>
+                                <div className="Section1__content__inner__text">
+                                    Hòa quyện với cấu trúc và vẻ đẹp của cảnh quan các-xtơ đá vôi là thảm rừng nhiệt đới nguyên sinh bao trùm khắp cảnh quan. Những ngôi chùa, đền tựa mình bên vách đá với mái ngói cổ kính, rêu phong, thâm trầm đồng điệu với cảnh quan sông nước núi đá. Chính những rặng núi cổ kính, các hang động bí ẩn và nhiều địa điểm linh thiêng của Tràng An đã truyền cảm hứng cho con người, thu hút du khách qua nhiều thế hệ.
+                                </div>
+                            </div>
+                            <div className="Section1__content__inner__row__image">
+                                <div className="Section1__content__inner__image" >
+                                    <img src="/QTDTTA/Section1-3.jpg" />
+                                </div>
+                                <Audio url="/QTDTTA/Section1-1.jpg" title="Quần thể danh thắng Tràng An" disc="UNESCO" audio="/QTDTTA/quan_the_danh_thang_trang_an_khong_gian_lich_su.mp3"/>
+                            </div>
                         </div>
                         {/* <div className="Section1__content__inner__icon">
                             <div className="Section1__content__inner__icon__inner">

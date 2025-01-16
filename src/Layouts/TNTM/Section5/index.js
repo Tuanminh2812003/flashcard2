@@ -21,6 +21,7 @@ function Section5(){
                                 </li>
                             </ul>
                         </div> */}
+                        
                         <div className="Section5__inner__row1">
                             <div className="Section5__inner__row1__text">
                                 <div className="Section5__inner__text2">
@@ -30,8 +31,10 @@ function Section5(){
                                     GS. Ngô Đức Thịnh, một chuyên gia hàng đầu về đạo Mẫu, từng ví tín ngưỡng này như “một đứa trẻ bị bỏ rơi lấm lem bùn đất” và nhấn mạnh: “Đã đến lúc chúng ta cần đánh giá đúng và công bằng về tín ngưỡng thờ Mẫu. Hãy gột rửa lớp bụi thời gian để di sản này được bảo tồn và phát huy hết giá trị vốn có.” 
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image">
-                                <img src="/TNTM/Section5-1.jpg" className="Section5__inner__image"/>
+                            <div className="Section5__inner__row1__image"
+                                style={{backgroundImage: "url('/TNTM/Section5-1.jpg",}}
+                            >
+
                             </div>
                         </div>
                         

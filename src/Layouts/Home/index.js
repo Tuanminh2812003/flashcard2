@@ -34,7 +34,7 @@ function Home(){
                                         Di sản phi vật thể Thế giới
                                     </li>
                                     <li>
-                                        Di sản tư liệu
+                                        Di sản tư liệu Thế giới
                                     </li>
                                 </ul>
                                 <div className="home__section2__inner__box__text">

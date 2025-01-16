@@ -1,4 +1,4 @@
-
+import Audio from "../../../Components/Audio";
 
 function Section1p2(){
     return(
@@ -24,30 +24,36 @@ function Section1p2(){
             </div> */}
             <div className="Section1__content">
                 <div className="container">
-                    <div className="Section1__content__inner__audio">
-                        <audio controls>
-                            <source src="/QTDTTA/quan_the_danh_thang_trang_an_khong_gian_van_hoa.mp3" type="audio/mpeg"/>
-                        </audio>
-                    </div>
                     <div className="Section1__content__inner inner1">
                         {/* <div className="Section1__content__inner__title">
                         Lịch sử hình thành
                         </div> */}
-                        <div className="Section1__content__inner__text">
-                        Không chỉ nổi bật với vẻ đẹp thiên nhiên hùng vĩ, Quần thể danh thắng Tràng An còn chứa đựng một không gian văn hóa tâm linh đặc sắc với sự kết hợp hoàn hảo giữa cảnh quan thiên nhiên và các giá trị văn hóa, lịch sử, tôn giáo. Không gian văn hóa tâm linh ở Tràng An phản ánh một phần quan trọng trong đời sống tâm linh của người Việt, đặc biệt là qua các chùa, đền, và những truyền thống tâm linh gắn liền với cảnh quan nơi đây.
+                        <div className="Section1__content__inner__row">
+                            <div className="Section1__content__inner__row__text">
+                                <div className="Section1__content__inner__text">
+                                    Không chỉ nổi bật với vẻ đẹp thiên nhiên hùng vĩ, Quần thể danh thắng Tràng An còn chứa đựng một không gian văn hóa tâm linh đặc sắc với sự kết hợp hoàn hảo giữa cảnh quan thiên nhiên và các giá trị văn hóa, lịch sử, tôn giáo. Không gian văn hóa tâm linh ở Tràng An phản ánh một phần quan trọng trong đời sống tâm linh của người Việt, đặc biệt là qua các chùa, đền, và những truyền thống tâm linh gắn liền với cảnh quan nơi đây.
+                                </div>
+                                <div className="Section1__content__inner__title">
+                                    Câu chuyện về đền Trần
+                                </div>
+                                <div className="Section1__content__inner__text">
+                                    Đền Trần Tràng An là một ngồi đền cổ linh thiêng và là một công trình kiến trúc bằng đá độc đáo. Ngoài ra, đây còn là nơi diễn ra các hoạt động lễ hội văn hoá truyền thống đặc sắc. Đền được xây dựng từ thời vua Đinh Tiên Hoàng, ban đầu có tên là Đền Nội Lâm. Đến thế kỷ thứ VII, vua Trần Thái Tông cho tu sửa và đổi tên thành Đền Trần như hiện nay. 
+                                </div>
+                                <div className="Section1__content__inner__text">
+                                    Truyền thuyết về mảnh đất xung quanh đền Trần từ lâu đã gắn liền với một câu chuyện bi thương. Vào thời kỳ loạn lạc, khi nhà Đinh suy vong, Lê Hoàn lên ngôi, tướng Phạm Bạch Hổ dẫn 1.000 binh sĩ vào thung Thắm với mong muốn phục hưng nhà Đinh. Tuy nhiên trước sự phản công của nhà Lê, quân của Phạm Bạch Hổ thất trận. Nhiều chiến binh trung thành với nhà Đinh chọn cái chết bằng thuốc độc thay vì đầu hàng. 
+                                </div>
+                                <div className="Section1__content__inner__text">
+                                    Máu chảy thành vũng, tạo nên Vũng Thắm (Vũng Máu). Ngôi đền nhỏ nơi đây cũng mang tên Đền Thắm. Truyền thuyết kể rằng sau đó, người dân trồng cây si trên mộ các chiến sĩ. Những cây si mọc mạnh mẽ, quấn rễ vào nhau, như biểu tượng cho sự kết nối bền chặt. Theo người dân nơi đây thì câu chuyện này chỉ là truyền thuyết, được ghi lại tại Đền Trần, trong thực tế ngồi đền này chính là nhân chứng lịch sử của triều đại nhà Trần Kháng chiến chống quân Nguyên 
+                                </div>
+                            </div>
+                            <div className="Section1__content__inner__row__image">
+                                <div className="Section1__content__inner__image" >
+                                    <img src="/QTDTTA/Section1-3.jpg" />
+                                </div>
+                                <Audio url="/QTDTTA/Section1-1.jpg" title="Câu chuyện về đền Trần" disc="UNESCO" audio="/QTDTTA/quan_the_danh_thang_trang_an_khong_gian_van_hoa.mp3"/>
+                            </div>
                         </div>
-                        <div className="Section1__content__inner__title">
-                        Câu chuyện về đền Trần
-                        </div>
-                        <div className="Section1__content__inner__text">
-                        Đền Trần Tràng An là một ngồi đền cổ linh thiêng và là một công trình kiến trúc bằng đá độc đáo. Ngoài ra, đây còn là nơi diễn ra các hoạt động lễ hội văn hoá truyền thống đặc sắc. Đền được xây dựng từ thời vua Đinh Tiên Hoàng, ban đầu có tên là Đền Nội Lâm. Đến thế kỷ thứ VII, vua Trần Thái Tông cho tu sửa và đổi tên thành Đền Trần như hiện nay. 
-                        </div>
-                        <div className="Section1__content__inner__text">
-                        Truyền thuyết về mảnh đất xung quanh đền Trần từ lâu đã gắn liền với một câu chuyện bi thương. Vào thời kỳ loạn lạc, khi nhà Đinh suy vong, Lê Hoàn lên ngôi, tướng Phạm Bạch Hổ dẫn 1.000 binh sĩ vào thung Thắm với mong muốn phục hưng nhà Đinh. Tuy nhiên trước sự phản công của nhà Lê, quân của Phạm Bạch Hổ thất trận. Nhiều chiến binh trung thành với nhà Đinh chọn cái chết bằng thuốc độc thay vì đầu hàng. 
-                        </div>
-                        <div className="Section1__content__inner__text">
-                        Máu chảy thành vũng, tạo nên Vũng Thắm (Vũng Máu). Ngôi đền nhỏ nơi đây cũng mang tên Đền Thắm. Truyền thuyết kể rằng sau đó, người dân trồng cây si trên mộ các chiến sĩ. Những cây si mọc mạnh mẽ, quấn rễ vào nhau, như biểu tượng cho sự kết nối bền chặt. Theo người dân nơi đây thì câu chuyện này chỉ là truyền thuyết, được ghi lại tại Đền Trần, trong thực tế ngồi đền này chính là nhân chứng lịch sử của triều đại nhà Trần Kháng chiến chống quân Nguyên 
-                        </div>
+                        
                         {/* <div className="Section1__content__inner__image" >
                             <img src="/QTDTTA/Section1-1.jpg" />
                         </div>

@@ -37,7 +37,7 @@ $brownMode-Question-color: #C16746;;
 
 .redMode{
     .Section1__title{
-        margin-top: 40px;
+        margin-top: 60px;
         font-weight: 700;
         text-align: center;
         color: $RedMode-Title-color;
@@ -83,7 +83,7 @@ $brownMode-Question-color: #C16746;;
         }
     }
     .Section1__content{
-        padding-bottom: 32px;
+        padding-bottom: 60px;
     
         .container{
             flex-direction: column;
@@ -371,6 +371,7 @@ $brownMode-Question-color: #C16746;;
 }
 @media (max-width: 661.98px){
     .Section1__title{
+        margin-top: 32px !important;
 
         &__inner{
             font-size: 20px !important;
@@ -381,15 +382,23 @@ $brownMode-Question-color: #C16746;;
     }
     .Section1__content__inner__row__text{
         width: 100% !important;
+        max-height:fit-content !important;
     }
     .Section1__content__inner__row__image{
         width: 100% !important;
+        max-height:fit-content !important;
+    }
+    .Section1__content__inner__title{
+        font-size: 18px !important;
+    }
+    .Section1__content{
+        padding-bottom: 32px !important;
     }
 }
 
 .blueMode{
     .Section1__title{
-        margin-top: 40px;
+        margin-top: 60px;
         font-weight: 700;
         text-align: center;
         color: $BlueMode-Title-color;
@@ -436,6 +445,7 @@ $brownMode-Question-color: #C16746;;
     }
     .Section1__content{
         padding-bottom: 32px;
+        padding-bottom: 60px;
     
         .container{
             flex-direction: column;
@@ -726,7 +736,7 @@ $brownMode-Question-color: #C16746;;
 
 .greenMode{
     .Section1__title{
-        margin-top: 40px;
+        margin-top: 60px;
         font-weight: 700;
         text-align: center;
         color: $GreenMode-Title-color;
@@ -773,6 +783,7 @@ $brownMode-Question-color: #C16746;;
     }
     .Section1__content{
         padding-bottom: 32px;
+        padding-bottom: 60px;
     
         .container{
             flex-direction: column;
@@ -1076,7 +1087,7 @@ $brownMode-Question-color: #C16746;;
 
 .brownMode{
     .Section1__title{
-        margin-top: 40px;
+        margin-top: 60px;
         font-weight: 700;
         line-height: 150%; /* 30px */
         text-align: center;
@@ -1125,6 +1136,7 @@ $brownMode-Question-color: #C16746;;
     }
     .Section1__content{
         padding-bottom: 32px;
+        padding-bottom: 60px;
     
         .container{
             flex-direction: column;

@@ -1,7 +1,7 @@
 function Section5p3(){
     return(
         <>
-            <div className="Section5">
+            <div className="Section5" style={{backgroundColor: "#FFFFFF"}}>
                 <div className="container">
                     <div className="Section5__inner">
                         <div className="Section5__inner__title">
@@ -16,10 +16,8 @@ function Section5p3(){
                                     Từ sự thành công của Festival năm 1992 Việt – Pháp, Thừa Thiên Huế sớm hình thành ý tưởng tổ chức một lễ hội với quy mô lớn và chất lượng cao nhằm quảng bá hình ảnh, đất nước, di sản Huế với bạn bè trong nước và quốc tế. Đây là một lễ hội văn hóa du lịch có quy mô quốc gia và quốc tế, giới thiệu được những giá trị nghệ thuật đặc sắc của Việt Nam, của Huế và nhiều quốc gia trên thế giới, đồng thời là dịp tôn vinh Nhã nhạc Cung đình Huế - kiệt tác văn hóa phi vật thể và truyền khẩu của nhân loại vừa được UNESCO công nhận, tiếp tục tạo ra động lực thúc đẩy kinh tế du lịch và văn hóa phát triển, khẳng định lợi thế của một thành phố Festival của Việt Nam. Hiện nay, Festival Huế được tổ chức 2 năm/ lần với các chủ đề khác nhau nhằm tôn vinh những giá trị truyền thống Cố đô Huế và kết nối di sản với cộng đồng trong nước và quốc tế. 
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image">
-                                <div className="Section1__content__inner__video">
-                                    <iframe width="100%" src="https://www.youtube.com/embed/IDVkEvj0KZM?si=KtDH97g9oXsYceDp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                </div>
+                            <div className="Section5__inner__row1__more">
+                                <iframe height="400px" width="100%" src="https://www.youtube.com/embed/IDVkEvj0KZM?si=KtDH97g9oXsYceDp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                         </div>
                         

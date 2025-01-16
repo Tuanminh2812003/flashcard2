@@ -28,9 +28,6 @@ function SectionMain(){
                         <div className="SectionMain__inner__title">
                             QUẦN THỂ DI TÍCH CỐ ĐÔ HUẾ
                         </div>
-                        <div className="SectionMain__inner__disc">
-                            Huế là nơi lưu giữ hồn cốt lịch sử và văn hóa của dân tộc. Hãy một lần đến Huế để cảm nhận vẻ đẹp thanh bình và nét quyến rũ độc đáo của cố đô!
-                        </div>
                     </div>
                 </div>
             </div>

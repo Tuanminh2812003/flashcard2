@@ -59,7 +59,7 @@ function Section1p5() {
 
     return (
         <>
-        <div className="Section2">
+        <div className="Section2" style={{backgroundColor: "#FFFFFF"}}>
             <div className="container">
             <div className="Section2__inner">
                 <div className="Section2__inner__title">Bí ẩn kinh đô Huế</div>

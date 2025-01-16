@@ -39,7 +39,7 @@ $brownMode-Question-color: #C16746;
         display: flex;
         width: 100%;
         background-color: $RedMode-Question-background;
-        padding: 32px 0px;
+        padding: 60px 0px;
     
         &__inner {
             width: 100%;
@@ -226,7 +226,7 @@ $brownMode-Question-color: #C16746;
         display: flex;
         width: 100%;
         background-color: $GreenMode-Question-background;
-        padding: 32px 0px;
+        padding: 60px 0px;
     
         &__inner {
             width: 100%;
@@ -290,7 +290,7 @@ $brownMode-Question-color: #C16746;
                 font-style: normal;
                 font-weight: 700;
                 line-height: 150%; /* 75px */
-                color: white;
+                color: $GreenMode-Text-color;
                 border-radius: 16px;
                 transition: 0.2s ease-in all;
                 cursor: pointer;
@@ -405,7 +405,7 @@ $brownMode-Question-color: #C16746;
         display: flex;
         width: 100%;
         background-color: $BlueMode-Question-background;
-        padding: 32px 0px;
+        padding: 60px 0px;
     
         &__inner {
             width: 100%;
@@ -583,7 +583,7 @@ $brownMode-Question-color: #C16746;
         display: flex;
         width: 100%;
         background-color: $brownMode-Question-background;
-        padding: 32px 0px;
+        padding: 60px 0px;
     
         &__inner {
             width: 100%;
@@ -758,5 +758,8 @@ $brownMode-Question-color: #C16746;
 @media (max-width: 661.98px){
     .Section2__inner__title{
         font-size: 20px !important;
+    }
+    .Section2{
+        padding: 32px 0px !important;
     }
 }

@@ -9,7 +9,7 @@ function Section5(){
                         </div>
                         <div className="Section5__inner__row1">
                             <div className="Section5__inner__row1__text">
-                                <div className="Section5__inner__disc" style={{marginTop: "24px", marginBottom: "0px"}}>
+                                <div className="Section5__inner__disc">
                                     Khu danh thắng Tràng An – Tam Cốc – Bích Động: 
                                 </div>
                                 <div className="Section5__inner__text2">
@@ -28,7 +28,7 @@ function Section5(){
                                     Rừng nguyên sinh đặc dụng Hoa Lư nằm trong khu vực trung tâm của tỉnh Ninh Bình. Khu rừng này có diện tích rộng lớn, là một phần của hệ thống rừng đặc dụng được bảo vệ nghiêm ngặt nhằm duy trì sự đa dạng sinh học và bảo tồn các loài động thực vật quý hiếm. Đây không chỉ là một kho tàng đa dạng sinh học quý giá mà còn là địa điểm lý tưởng cho những ai yêu thích khám phá thiên nhiên hoang dã và tìm hiểu về hệ sinh thái rừng nhiệt đới.
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image">
+                            <div className="Section5__inner__row1__more">
                                 <iframe width="100%" height="315" src="https://www.artsteps.com/embed/67681b53d6ce95d730a45aec/560/315" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>

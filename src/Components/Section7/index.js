@@ -3,7 +3,7 @@ import "./Section7.scss";
 function Section7(){
     return(
         <>
-            <div className="Section7">
+            <div className="Section7" style={{backgroundColor: "#FEF2F2"}}>
                 <div className="container">
                     <div className="Section7__inner">
                         <div className="Section7__inner__title">
