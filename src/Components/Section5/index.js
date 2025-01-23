@@ -12,7 +12,7 @@ function Section5(){
                         <div className="Section5__inner__row1">
                             <div className="Section5__inner__row1__text">
                                 <div className="Section5__inner__disc">
-                                    VUA TỰ ĐỨC VÀ CÂU CHUYỆN MỘT LĂNG TẨM 3 LẦN ĐỔI TÊN
+                                    Vua Tự Đức và câu chuyện một lăng tẩm 3 lần đổi tên 
                                 </div>
                                 <div className="Section5__inner__text2">
                                     Rạng sáng ngày 9 tháng 8 năm 1866, Anh em Đoàn Hữu Trưng và đồng bọn gồm hơn 100 tên nhân lúc sơ hở làm phản, vào Ngọ Môn đến Tả Tuyên Môn thì bị Thị vệ họ Hoàng cùng binh mạnh chặn lại, bắt được. Bè đảng của Đoàn Hữu Trưng kinh hãi, chạy tán loạn, nhiều người bị bắt hoặc chém đầu. Triều Nguyễn gọi cuộc khởi nghĩa này là loạn Chày Vôi, bởi lẽ binh lính và thợ thuyền đã sử dụng công cụ lao động là chày vôi làm vũ khí tấn công vào Đại nội Huế. Sau cuộc khởi nghĩa dân chúng oán thán “Vạn niên là vạn niên nào thành xây xương lính, hào đào máu dân”, trước tình thế đó để xóa đi những ký ức ấy trong dân chúng vua cho đổi tên công trình từ “Vạn Niên” thành “Khiêm cung” sau này vua mất gọi là Khiêm Lăng. 

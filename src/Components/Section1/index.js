@@ -41,6 +41,12 @@ function Section1(){
                                 <div className="Section1__content__inner__image" >
                                     <img src="/QTDTCDH/Section1-1.jpg" />
                                 </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Tổng thể Đại Nội Huế”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>Trung tâm bảo tồn Cố đô Huế</b>
+                                </div>
                             </div>
                         </div>
                         {/* <div className="Section1__content__inner__text">
@@ -94,9 +100,9 @@ function Section1(){
                         <div className="Section1__content__inner__title">
                             Lịch sử hình thành
                         </div>
-                        {/* <div className="Section1__content__inner__disc">
+                        <div className="Section1__content__inner__disc">
                             Gia Long – kiến trúc sư hoạch định xây dựng Kinh thành Huế
-                        </div> */}
+                        </div>
                         <div className="Section1__content__inner__text">
                             Theo sách Đại Nam thực lục chép, sau khi giành thắng lợi trước nhà Tây Sơn (1802), vua Gia Long đã nghĩ ngay đến việc xây dựng kinh đô cho vương triều Nguyễn. Nhận thấy thế đất vùng Phú Xuân có nhiều thuận lợi vì vậy năm 1803, vua sai giám thành Nguyễn Văn Yến ra bốn mặt ngoài thành cũ để đo cắm nhằm mở rộng với mong muốn chọn Phú Xuân làm kinh đô cho vương triều Nguyễn. Vua định cách thức xây thành, giao cho Bộ Lễ chọn ngày lành tế trời đất, cáo việc khởi công, phái các quân mở đường sá, làm đất cát, sai Phạm Văn Nhân, Lê Chất và Nguyễn Văn Khiêm trông coi công việc. 
                         </div>
@@ -160,6 +166,12 @@ function Section1(){
                             <div className="Section1__content__inner__row__image">
                                 <div className="Section1__content__inner__image" >
                                     <img src="/QTDTCDH/Section1-2.webp" />
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Cổng Ngọ Môn – Đại Nội Huế”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>Tổng cục Du lịch</b>
                                 </div>
                                 <div className="Section1__content__inner__video">
                                     <iframe width="100%" height="200px" src="https://www.youtube.com/embed/jOKVgM3yUjE?si=HWAy-_QPGDcprus0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

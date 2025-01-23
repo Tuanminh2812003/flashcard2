@@ -24,7 +24,10 @@ function SectionMain(){
                 <div className="container">
                     <div className="SectionMain__inner">
                         <div className="SectionMain__inner__title">
-                        TÍN NGƯỠNG THỜ MẪU: NÉT VĂN HÓA CẦN LƯU GIỮ
+                        TÍN NGƯỠNG THỜ MẪU
+                        </div>
+                        <div className="SectionMain__inner__title">
+                        NÉT VĂN HÓA CẦN LƯU GIỮ
                         </div>
                         {/* <div className="SectionMain__inner__disc">
                             Huế là nơi lưu giữ hồn cốt lịch sử và văn hóa của dân tộc. Hãy một lần đến Huế để cảm nhận vẻ đẹp thanh bình và nét quyến rũ độc đáo của cố đô!

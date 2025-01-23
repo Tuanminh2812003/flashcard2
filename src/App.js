@@ -5,16 +5,18 @@ import QTDTTA from './Layouts/QTDTTA';
 import TNTM from './Layouts/TNTM';
 import BTSVM from './Layouts/BTSVM';
 import Home from './Layouts/Home';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
   return (
     <>
+      <ScrollToTop/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/qtdtcdh' element={<QTDTCDH/>}/>
-        <Route path='/qtdtta' element={<QTDTTA/>}/>
-        <Route path='/tntm' element={<TNTM/>}/>
-        <Route path='/btsvm' element={<BTSVM/>}/>
+        <Route path='/quanthecodohue' element={<QTDTCDH/>}/>
+        <Route path='/quantheditichtrangan' element={<QTDTTA/>}/>
+        <Route path='/tinnguongthomau' element={<TNTM/>}/>
+        <Route path='/vanmieuquoctugiam' element={<BTSVM/>}/>
       </Routes>
     </>
   );

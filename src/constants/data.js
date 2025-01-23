@@ -3,6 +3,11 @@ import images from "./images";
 const diSanPhiVatThe = [
 
     {
+        id: 5,
+        url: images.dspvt5,
+        web: "/tinnguongthomau"
+    },
+    {
         id: 1,
         url: images.dspvt1,
         web: ""
@@ -21,11 +26,6 @@ const diSanPhiVatThe = [
         id: 4,
         url: images.dspvt4,
         web: ""
-    },
-    {
-        id: 5,
-        url: images.dspvt5,
-        web: "/tntm"
     },
     {
         id: 6,
@@ -48,7 +48,7 @@ const diSanThienNhien = [
     {
         id: 1,
         url: images.dstn1,
-        web: "/qtdtta"
+        web: "/quantheditichtrangan"
     },
     {
         id: 2,
@@ -63,6 +63,11 @@ const diSanThienNhien = [
 ]
 
 const diSanTuLieu = [
+    {
+        id: 4,
+        url: images.dstl4,
+        web: "/vanmieuquoctugiam"
+    },
     {
         id: 1,
         url: images.dstl1,
@@ -79,11 +84,6 @@ const diSanTuLieu = [
         web: ""
     },
     {
-        id: 4,
-        url: images.dstl4,
-        web: "/btsvm"
-    },
-    {
         id: 5,
         url: images.dstl5,
         web: ""
@@ -94,7 +94,7 @@ const diSanVatThe = [
     {
         id: 1,
         url: images.dsvt1,
-        web: "/qtdtcdh"
+        web: "/quanthecodohue"
     },
     {
         id: 2,

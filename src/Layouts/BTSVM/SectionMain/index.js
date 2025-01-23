@@ -24,7 +24,10 @@ function SectionMain(){
                 <div className="container">
                     <div className="SectionMain__inner">
                         <div className="SectionMain__inner__title">
-                        BIA TIẾN SĨ VĂN MIẾU – QUỐC TỬ GIÁM
+                        BIA TIẾN SĨ
+                        </div>
+                        <div className="SectionMain__inner__title">
+                        VĂN MIẾU – QUỐC TỬ GIÁM
                         </div>
                         {/* <div className="SectionMain__inner__disc">
                             Huế là nơi lưu giữ hồn cốt lịch sử và văn hóa của dân tộc. Hãy một lần đến Huế để cảm nhận vẻ đẹp thanh bình và nét quyến rũ độc đáo của cố đô!
