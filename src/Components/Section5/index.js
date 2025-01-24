@@ -19,9 +19,19 @@ function Section5(){
                                 </div>
                             </div>
                             <div className="Section5__inner__row1__image"
-                                style={{backgroundImage: "url('/QTDTCDH/Section5-1.jpg')",}}
+                                
                             >
+                                    <div className="Section5__inner__row1__image__inner"
+                                    style={{backgroundImage: "url('/QTDTCDH/Section5-1.jpg')",}}
+                                >
 
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Bên ngoài hồ nước tại Lăng Tự Đức”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>Tác giả</b>
+                                </div>
                             </div>
                         </div>
                         <div className="Section5__inner__row2">
@@ -31,9 +41,19 @@ function Section5(){
                                 </div>
                             </div>
                             <div className="Section5__inner__row1__image"
+                                
+                            >
+                                <div className="Section5__inner__row1__image__inner"
                                 style={{backgroundImage: "url('/QTDTCDH/Section5-2.jpeg')",}}
                             >
                                 
+                            </div>
+                            <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Đàn tế Nam Giao tại Huế”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>dulichphohue.com</b>
+                                </div>
                             </div>
                         </div>
 
@@ -44,9 +64,19 @@ function Section5(){
                                 </div>
                             </div>
                             <div className="Section5__inner__row1__image"
+                                
+                            >
+                                <div className="Section5__inner__row1__image__inner"
                                 style={{backgroundImage: "url('/QTDTCDH/Section5-3.jpg')",}}
                             >
                                 
+                            </div>
+                            <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Cổng chính Văn Miếu Huế” </b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>codohue.vn</b>
+                                </div>
                             </div>
                         </div>
 
@@ -57,9 +87,19 @@ function Section5(){
                                 </div>
                             </div>
                             <div className="Section5__inner__row1__image"
+                                
+                            >
+                                <div className="Section5__inner__row1__image__inner"
                                 style={{backgroundImage: "url('/QTDTCDH/Section5-4.jpg')",}}
                             >
                                 
+                            </div>
+                            <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>Bia đá Tiến sĩ tại Văn Miếu Huế</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>codohue.vn</b>
+                                </div>
                             </div>
                         </div>
 
@@ -70,9 +110,13 @@ function Section5(){
                                 </div>
                             </div>
                             <div className="Section5__inner__row1__image"
+                                
+                            >
+                                <div className="Section5__inner__row1__image__inner"
                                 style={{backgroundImage: "url('/QTDTCDH/Section5-5.jpg')",}}
                             >
                                 
+                            </div>
                             </div>
                         </div>
                     </div>

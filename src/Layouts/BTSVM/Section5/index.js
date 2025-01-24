@@ -16,8 +16,17 @@ function Section5(){
                                     Đặt tại Văn Miếu – Quốc Tử Giám (Hà Nội)
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image" style={{backgroundImage: "url('/BTSVM/Section5-1.jpg')",}}>
+                            
+                            <div className="Section5__inner__row1__image">
+                                <div className="Section5__inner__row1__image__inner" style={{backgroundImage: "url('/BTSVM/Section5-1.jpg')",}}>
 
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Hình ảnh Khuê văn các tại Văn Miếu – Quốc Tử Giám”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>Báo Tổ Quốc (Lam Anh)</b>
+                                </div>
                             </div>
                         </div>
                         
@@ -30,8 +39,16 @@ function Section5(){
                                     Bia tiến sĩ ở Văn Miếu Quốc Tử Giám bắt đầu được khởi công ngày 15/8 năm Giáp Thìn, niên hiệu Hồng Đức thứ 15 Triều Lê Thánh Tông (1482), và kết thúc vào năm Canh Tý niên hiệu Cảnh Hưng thứ 41 Triều Lê Hiển Tông (1780).
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image" style={{backgroundImage: "url('/BTSVM/Section5-2.jpg')",}}>
+                            <div className="Section5__inner__row1__image">
+                                <div className="Section5__inner__row1__image__inner" style={{backgroundImage: "url('/BTSVM/Section5-2.jpg')",}}>
 
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Hình ảnh Khuê văn các tại Văn Miếu – Quốc Tử Giám”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>Báo Tổ Quốc (Lam Anh)</b>
+                                </div>
                             </div>
                         </div>
 
@@ -44,8 +61,16 @@ function Section5(){
                                     Trong lịch sử giáo dục Việt Nam, việc dạy và học Nho học ở nước ta bắt đầu từ triều Lý, phát triển qua các triều đại Trần, Hồ, đặc biệt phát triển dưới triều Lê, kết quả đã đào tạo ra hàng nghìn nhân tài cho đất nước. Dưới thời trị vì của vua Lê Thánh Tông (1442-1497), vua xuống chiếu cho dựng để tôn vinh những người đỗ đạt. Trên các tấm bia có khắc họ tên, quê quán của 1304 vị Tiến sĩ đỗ trong các khoa thi được tổ chức từ 1442 đến 1779 dưới triều Lê và triều Mạc. 
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image" style={{backgroundImage: "url('/BTSVM/Section5-3.jpg')",}}>
+                            <div className="Section5__inner__row1__image">
+                                <div className="Section5__inner__row1__image__inner" style={{backgroundImage: "url('/BTSVM/Section5-3.jpg')",}}>
 
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Các tấm bia Tiến sĩ tại Văn Miếu – Quốc Tử Giám”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>Lại Tấn </b>
+                                </div>
                             </div>
                         </div>
                         

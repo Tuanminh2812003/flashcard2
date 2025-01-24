@@ -48,11 +48,29 @@ function Section1(){
                                 <div className="Section1__content__inner__image" >
                                     <img src="/QTDTTA/Section1-1.jpg" />
                                 </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Toàn cảnh quần thể danh thắng Tràng An”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>Câu lạc bộ lữu hành UNESCO Hà Nội – HUTC</b>
+                                </div>
                                 <div className="Section1__content__inner__image" >
                                     <img src="/QTDTTA/Section1-2.jpg" />
                                 </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Bệ thờ vua Đinh Tiên Hoàng tại Cố đô Hoa Lư”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>Tác giả</b>
+                                </div>
                                 <div className="Section1__content__inner__image" >
                                     <img src="/QTDTTA/Section1-3.jpg" />
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Đền thờ vua Đinh Tiên Hoàng”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>Xuân Lâm</b>
                                 </div>
                             </div>
                         </div>

@@ -10,7 +10,10 @@ function Section7(){
                             Không gian trách nhiệm
                         </div>
                         <div className="Section7__inner__disc">
-                        Bạn hãy thiết kế một video/poster hoặc lá thư để thể hiện chủ đề: Đề xuất những biện pháp bảo tồn và quảng bá hình ảnh di sản Quần thể di tích Cố đô Huế. 
+                            Bạn hãy thiết kế một video/poster hoặc lá thư để thể hiện chủ đề: “Cảm nghĩ sau khi tìm hiểu thông tin về di sản trên website/Đề xuất những biện pháp bảo tồn và quảng bá hình ảnh di sản Quần thể di tích Cố đô Huế”
+                        </div>
+                        <div className="Section7__inner__disc">
+                            Những thông tin mà bạn đóng góp là động lực quý giá để nhóm tác giả phát triển dự án đồng thời góp phần lan tỏa, bảo tồn và phát huy giá trị di sản văn hóa Việt Nam.
                         </div>
                         <form>
                             <label htmlFor="form__name">Họ và tên</label>

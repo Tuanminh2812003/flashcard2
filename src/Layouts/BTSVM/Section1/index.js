@@ -69,6 +69,12 @@ function Section1(){
                                 <div className="Section1__content__inner__image" >
                                     <img src="/BTSVM/Section1-1.jpg" />
                                 </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Bia tiến sĩ khoa thi nho học năm 1442 (Nhâm Tuất)”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>Tác giả</b>
+                                </div>
                             </div>
                         </div>
                         

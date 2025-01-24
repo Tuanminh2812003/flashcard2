@@ -5,7 +5,7 @@ function Section5p2(){
                 <div className="container">
                     <div className="Section5__inner">
                         <div className="Section5__inner__title" style={{color: "#374151"}}>
-                        KHÔNG GIAN LỊCH SỬ VĂN HIẾN 
+                        Giới thiệu khái quát về di sản
                         </div>
                         <div className="Section5__inner__row1">
                             <div className="Section5__inner__row1__text">
@@ -17,9 +17,17 @@ function Section5p2(){
                                 </div>
                             </div>
                             <div className="Section5__inner__row1__cus1">
+                            <div className="Section5__inner__row1__cus1__inner">
                                 <img src="/TNTM/Section5p2-1.jpg" />
                                 <img src="/TNTM/Section5p2-2.jpg" />
                                 <img src="/TNTM/Section5p2-3.jpg" />
+                            </div>
+                            <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Hình ảnh Mẫu trong trang phục thời Lê”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>Dự án Thánh Nhan bởi trang Four Palaces – Tứ Phủ</b>
+                                </div>
                             </div>
                         </div>
                         {/* <div className="Section5__inner__mainText">

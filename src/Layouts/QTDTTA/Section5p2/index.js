@@ -14,8 +14,15 @@ function Section5p2(){
                                 </div>
                             </div>
                             <div className="Section5__inner__row1__image"
+                            
+                            >
+                                <div className="Section5__inner__row1__image__inner"
                             style={{backgroundImage: "url('/QTDTTA/Section1-1.jpg",}}
                             >
+                            </div>
+                            <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>dulichtrangan.com.vn</b>
+                                </div>
                             </div>
                         </div>
 
@@ -26,9 +33,16 @@ function Section5p2(){
                                 </div>
                             </div>
                             <div className="Section5__inner__row1__image"
+                                
+                            >
+                                <div className="Section5__inner__row1__image__inner"
                                 style={{backgroundImage: "url('/QTDTTA/Section1-2.jpg",}}
                             >
                                 
+                            </div>
+                            <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>dulichtrangan.com.vn</b>
+                                </div>
                             </div>
                         </div>
                         
@@ -39,9 +53,16 @@ function Section5p2(){
                                 </div>
                             </div>
                             <div className="Section5__inner__row1__image"
+                                
+                            >
+                                <div className="Section5__inner__row1__image__inner"
                                 style={{backgroundImage: "url('/QTDTTA/Section1-3.jpg",}}
                             >
 
+                            </div>
+                            <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>dulichtrangan.com.vn</b>
+                                </div>
                             </div>
                         </div>
 

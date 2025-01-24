@@ -27,7 +27,9 @@ function Section4() {
 
     return (
         <div className="Section4">
-            <div className="Section4__title">
+            <div className="container">
+                <div className="Section4__inner">
+                <div className="Section4__title">
                 Những đặc điểm chung trong lối kiến trúc Đại Nội
             </div>
             <div className="Section4__slider">
@@ -76,6 +78,9 @@ function Section4() {
             <div className="Section4__next" onClick={handleNextClick}>
                 <MdNavigateNext />
             </div>
+                </div>
+            </div>
+            
         </div>
     );
 }

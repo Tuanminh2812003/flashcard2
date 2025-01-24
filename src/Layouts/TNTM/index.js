@@ -1,6 +1,6 @@
 import "../../Components/LayoutDefault.scss"
 
-import Footer from "../../Components/Footer";
+import Footer from "./Footer";
 import SectionMain from "./SectionMain";
 import Section1 from "./Section1";
 import Section1p2 from "./Section1p2";
@@ -19,9 +19,9 @@ function TNTM(){
                 <Section5/>
                 <Section5p2/>
                 <Section1/>
+                <Section1p5/>
                 <Section5p3/>
                 <Section4/>
-                <Section1p5/>
                 <Section7/>
                 <Footer/>
             </div>

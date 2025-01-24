@@ -38,8 +38,16 @@ function Section5p3(){
                                     Niềm tin vào Mẫu, là hướng tới những điều thiêng liêng, cao cả, cái tố đẹp muôn đời, thể hiện tâm thức dân tộc Việt Nam luôn khao khát hòa bình, sống giản dị, sống dưới mái ấm gia đình với tình yêu thương yêu bao la của người mẹ. 
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image" style={{backgroundImage: "url('/TNTM/Section5p3-1.jpg')",}}>
+                            <div className="Section5__inner__row1__image">
+                                <div className="Section5__inner__row1__image__inner" style={{backgroundImage: "url('/TNTM/Section5p3-1.jpg')",}}>
 
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Trang phục cho các giá hầu đồng”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>Văn hóa Trầm hương</b>
+                                </div>
                             </div>
                         </div>
 
@@ -49,8 +57,16 @@ function Section5p3(){
                                     Các buổi hầu đồng và lễ nghi liên quan, không chỉ mang ý nghĩa tâm linh mà còn gắn bó chặt chẽ với đời sống thường nhật của người dân. Những nghi thức này phản ánh rõ ràng những mong mỏi cụ thể và khát vọng thiết thực của họ. 
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image" style={{backgroundImage: "url('/TNTM/Section5p3-2.jpg')",}}>
+                            <div className="Section5__inner__row1__image">
+                                <div className="Section5__inner__row1__image__inner" style={{backgroundImage: "url('/TNTM/Section5p3-2.jpg')",}}>
 
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Nhạc cụ sử dụng trong các giá hầu”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>thethaovanhoa.vn</b>
+                                </div>
                             </div>
                         </div>
 
@@ -63,7 +79,12 @@ function Section5p3(){
                                     Giáo sư Đinh Gia Khánh từng nhận định, tín ngưỡng thờ Mẫu cùng các loại hình tín ngưỡng khác đã góp phần “gắn kết các thành viên trong cộng đồng, giúp cả làng xóm cùng chia sẻ một nhãn quan chung về thế giới, xã hội; cùng chung những lo toan, nguyện vọng; đồng thời khơi dậy niềm tự hào về quá khứ và niềm tin vào tương lai. Từ đó, vun đắp lòng yêu quê hương, yêu đồng bào và yêu tổ quốc.” 
                                 </div>
                             </div>
-                            <div className="Section5__inner__row1__image" style={{backgroundImage: "url('/TNTM/Section5p3-3.jpg')",}}>
+                            <div className="Section5__inner__row1__image">
+                                <div className="Section5__inner__row1__image__inner" style={{backgroundImage: "url('/TNTM/Section5p3-3.jpg')",}}>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Tín ngưỡng thờ Mầu”</b>
+                                </div>
                             </div>
                         </div>
                         {/* <div className="Section5__inner__disc">
@@ -136,8 +157,13 @@ function Section5p3(){
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                         }}></div> */}
-                        <div className="Section1__content__inner__video">
-                            <iframe width="100%" height="200px" src="https://www.youtube.com/embed/DlKbUzdYHj8?si=NFBQUMQI2PKyLwx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div className="Section5__inner__row2">
+                            <div className="Section5__inner__row1__text">
+                                Niềm tin mãnh liệt vào quyền năng siêu nhiên của các vị Thánh Mẫu và các hóa thân của Người – những đấng được cho là có thể chi phối mọi khía cạnh của đời sống – đã tiếp thêm sức mạnh tinh thần, giúp họ vững tâm đối mặt với những khó khăn, thử thách trong cuộc sống. 
+                            </div>
+                            <div className="Section5__inner__row1__image">
+                                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/44CNm57Sv6w?si=V4OIAZWLnukDw6D-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>

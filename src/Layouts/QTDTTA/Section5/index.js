@@ -21,12 +21,13 @@ function Section5(){
                                 <div className="Section5__inner__text2">
                                     Bích Động, nằm cách không xa Tam Cốc, được biết đến với những ngôi chùa cổ kính và cảnh quan thiên nhiên tuyệt đẹp. Đặc biệt, Bích Động là nơi có ngôi chùa Bích Động nằm giữa cảnh núi non hùng vĩ, được xây dựng từ thế kỷ 15. Đây là một địa điểm hành hương nổi tiếng và là điểm đến hấp dẫn cho những ai yêu thích sự yên bình và vẻ đẹp tâm linh.
                                 </div>
-                                <div className="Section5__inner__disc" style={{marginTop: "24px", marginBottom: "0px"}}>
+                                <div className="Section5__inner__disc">
                                     Rừng nguyên sinh đặc dụng Hoa Lư:
                                 </div>
                                 <div className="Section5__inner__text2">
                                     Rừng nguyên sinh đặc dụng Hoa Lư nằm trong khu vực trung tâm của tỉnh Ninh Bình. Khu rừng này có diện tích rộng lớn, là một phần của hệ thống rừng đặc dụng được bảo vệ nghiêm ngặt nhằm duy trì sự đa dạng sinh học và bảo tồn các loài động thực vật quý hiếm. Đây không chỉ là một kho tàng đa dạng sinh học quý giá mà còn là địa điểm lý tưởng cho những ai yêu thích khám phá thiên nhiên hoang dã và tìm hiểu về hệ sinh thái rừng nhiệt đới.
                                 </div>
+                                
                             </div>
                             <div className="Section5__inner__row1__more">
                                 <iframe width="100%" height="315" src="https://www.artsteps.com/embed/67681b53d6ce95d730a45aec/560/315" frameborder="0" allowfullscreen></iframe>

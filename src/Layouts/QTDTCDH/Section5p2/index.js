@@ -15,9 +15,19 @@ function Section5p2(){
                                 </div>
                             </div>
                             <div className="Section5__inner__row1__image"
+                            
+                            >
+                                <div className="Section5__inner__row1__image__inner"
                             style={{backgroundImage: "url('/QTDTCDH/Section5p2-1.jpg')",}}
                             >
 
+                            </div>
+                            <div className="Section1__content__inner__video__disc">
+                                Ảnh: <b>“Cảnh đẹp thành phố Huế ngày nay””</b>
+                            </div>
+                            <div className="Section1__content__inner__video__disc">
+                                Nguồn: <b>Du lịch Huế</b>
+                                </div>
                             </div>
                         </div>
                         <div className="Section5__inner__row2">
@@ -30,9 +40,20 @@ function Section5p2(){
                                 </div>
                             </div>
                             <div className="Section5__inner__row1__image"
+                            >
+                                <div className="Section5__inner__row1__image__inner"
                             style={{backgroundImage: "url('/QTDTCDH/Section5p2-2.jpg')",}}>
 
                             </div>
+                            <div className="Section1__content__inner__video__disc">
+                                Video: <b>“Cảnh đẹp thành phố Huế ngày nay”</b>
+                            </div>
+                            <div className="Section1__content__inner__video__disc">
+                                Nguồn: <b>Du lịch Huế</b>
+                                </div>
+
+                            </div>
+                            
                         </div>
                         {/* <div className="Section5__inner__text">
                             <ul>

@@ -5,7 +5,7 @@ function Section5(){
                 <div className="container">
                     <div className="Section5__inner">
                         <div className="Section5__inner__title">
-                        Giới thiệu khái quát về di sản
+                            KHÔNG GIAN LỊCH SỬ VĂN HIẾN
                         </div>
                         {/* <iframe width="100%" height="315" src="https://www.artsteps.com/embed/67681b53d6ce95d730a45aec/560/315" frameborder="0" allowfullscreen></iframe> */}
                         {/* <div className="Section5__inner__disc" style={{marginTop: "24px", marginBottom: "0px"}}>
@@ -32,9 +32,19 @@ function Section5(){
                                 </div>
                             </div>
                             <div className="Section5__inner__row1__image"
+                                
+                            >
+                                <div className="Section5__inner__row1__image__inner"
                                 style={{backgroundImage: "url('/TNTM/Section5-1.jpg",}}
                             >
 
+                            </div>
+                            <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>“Ảnh GS.TS Ngô Đức Thịnh”</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn: <b>Mai An</b>
+                                </div>
                             </div>
                         </div>
                         

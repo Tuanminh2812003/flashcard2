@@ -10,7 +10,7 @@ import Section5p2 from "./Section5p2";
 import Section5p3 from "./Section5p3";
 import Section6 from "../../Components/Section6";
 import Section7 from "../../Components/Section7";
-import Footer from "../../Components/Footer";
+import Footer from "./Footer";
 
 function LayoutDefault(){
     return(

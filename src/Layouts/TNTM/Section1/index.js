@@ -6,7 +6,7 @@ function Section1(){
             <div className="Section1__title">
                 <container>
                     <div className="Section1__title__inner">
-                    Truyền thuyết
+                    Câu chuyện tâm linh
                     </div>
                 </container>
             </div>
@@ -179,6 +179,12 @@ function Section1(){
                             <div className="Section1__content__inner__row__image">
                                 <div className="Section1__content__inner__image" >
                                     <img src="/TNTM/Section1-4.jpg" />
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Ảnh: <b>Tượng phật Mẫu Man Nương</b>
+                                </div>
+                                <div className="Section1__content__inner__video__disc">
+                                    Nguồn:  <b>Đài Phát thanh và Truyền Hình Bắc Ninh</b>
                                 </div>
                             </div>
                         </div>
