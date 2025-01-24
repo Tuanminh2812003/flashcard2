@@ -165,7 +165,7 @@ function Section1(){
                             </div>
                             <div className="Section1__content__inner__row__image">
                                 <div className="Section1__content__inner__image" >
-                                    <img src="/QTDTCDH/Section1-2.webp" />
+                                    <img src="/QTDTCDH/Section1-2.jpg" />
                                 </div>
                                 <div className="Section1__content__inner__video__disc">
                                     Ảnh: <b>“Cổng Ngọ Môn – Đại Nội Huế”</b>
