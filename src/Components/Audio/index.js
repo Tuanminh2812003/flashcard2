@@ -18,6 +18,9 @@ function Audio({ url, title, disc, audio }) {
     return (
         <>
             <div className="Audio">
+                <div className="Audio__back">
+                    
+                </div>
                 <div className="Audio__inner">
                     <div
                         className="Audio__inner__image"

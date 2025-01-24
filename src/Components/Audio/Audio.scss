@@ -40,8 +40,24 @@ $brownMode-Question-color: #C16746;
         height: 100px;
         width: 100%;
         border-radius: 16px;
-        background-color: $RedMode-Title-color;
         padding: 16px;
+        margin-top: 40px;
+        position: relative;
+        overflow: hidden;
+
+        &:hover > .Audio__back{
+            background-color: $GreenMode-Back2-color;
+            opacity: 0.5;
+        }
+
+        &__back{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $GreenMode-Title-color;
+        }
     
         &__inner{
             display: flex;
@@ -91,9 +107,24 @@ $brownMode-Question-color: #C16746;
         height: 100px;
         width: 100%;
         border-radius: 16px;
-        background-color: $GreenMode-Title-color;
         padding: 16px;
         margin-top: 40px;
+        position: relative;
+        overflow: hidden;
+
+        &:hover > .Audio__back{
+            background-color: $GreenMode-Back2-color;
+            opacity: 0.5;
+        }
+
+        &__back{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $GreenMode-Title-color;
+        }
     
         &__inner{
             display: flex;
@@ -101,6 +132,8 @@ $brownMode-Question-color: #C16746;
             width: 100%;
             align-items: center;
             justify-content: space-between;
+            position: relative;
+
     
             &__image{
                 height: 100%;
@@ -144,8 +177,24 @@ $brownMode-Question-color: #C16746;
         height: 100px;
         width: 100%;
         border-radius: 16px;
-        background-color: $BlueMode-Title-color;
         padding: 16px;
+        margin-top: 40px;
+        position: relative;
+        overflow: hidden;
+
+        &:hover > .Audio__back{
+            background-color: $GreenMode-Back2-color;
+            opacity: 0.5;
+        }
+
+        &__back{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $GreenMode-Title-color;
+        }
     
         &__inner{
             display: flex;
@@ -196,8 +245,24 @@ $brownMode-Question-color: #C16746;
         height: 100px;
         width: 100%;
         border-radius: 16px;
-        background-color: $brownMode-Title-color;
         padding: 16px;
+        margin-top: 40px;
+        position: relative;
+        overflow: hidden;
+
+        &:hover > .Audio__back{
+            background-color: $GreenMode-Back2-color;
+            opacity: 0.5;
+        }
+
+        &__back{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $GreenMode-Title-color;
+        }
     
         &__inner{
             display: flex;
