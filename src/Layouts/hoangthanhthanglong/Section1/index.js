@@ -3,11 +3,11 @@ function Section1(){
     return(
         <>
             <div className="Section1__title">
-                <container>
+                <div className="container">
                     <div className="Section1__title__inner">
                         KHAI PHÁ NHỮNG CÔNG TRÌNH BÍ ẨN 
                     </div>
-                </container>
+                </div>
             </div>
             <input type="radio" id="inner1" name="section1" defaultChecked/>
             <input type="radio" id="inner2" name="section1"/>

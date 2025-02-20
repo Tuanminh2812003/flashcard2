@@ -109,7 +109,7 @@ const diSanVatThe = [
     {
         id: 4,
         url: images.dsvt4,
-        web: ""
+        web: "/disanthanhnhaho"
     },
     {
         id: 5,

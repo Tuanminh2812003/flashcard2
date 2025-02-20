@@ -6,6 +6,7 @@ import TNTM from './Layouts/TNTM';
 import BTSVM from './Layouts/BTSVM';
 import HTTL from './Layouts/hoangthanhthanglong';
 import HHSTD from "./Layouts/hoanghoasutrinhdo";
+import DSTNH from "./Layouts/disanthanhnhaho";
 import Home from './Layouts/Home';
 import ScrollToTop from './Components/ScrollToTop';
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/vanmieuquoctugiam' element={<BTSVM/>}/>
         <Route path='/hoangthanhthanglong' element={<HTTL/>}/>
         <Route path='/hoanghoasutrinhdo' element={<HHSTD/>}/>
+        <Route path='/disanthanhnhaho' element={<DSTNH/>}/>
       </Routes>
     </>
   );
