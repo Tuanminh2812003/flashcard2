@@ -81,7 +81,7 @@ const diSanTuLieu = [
     {
         id: 3,
         url: images.dstl3,
-        web: ""
+        web: "/hoanghoasutrinhdo"
     },
     {
         id: 5,
@@ -104,7 +104,7 @@ const diSanVatThe = [
     {
         id: 3,
         url: images.dsvt3,
-        web: ""
+        web: "/hoangthanhthanglong"
     },
     {
         id: 4,

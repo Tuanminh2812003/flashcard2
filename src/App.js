@@ -4,6 +4,8 @@ import QTDTCDH from './Layouts/QTDTCDH';
 import QTDTTA from './Layouts/QTDTTA';
 import TNTM from './Layouts/TNTM';
 import BTSVM from './Layouts/BTSVM';
+import HTTL from './Layouts/hoangthanhthanglong';
+import HHSTD from "./Layouts/hoanghoasutrinhdo";
 import Home from './Layouts/Home';
 import ScrollToTop from './Components/ScrollToTop';
 
@@ -17,6 +19,8 @@ function App() {
         <Route path='/quantheditichtrangan' element={<QTDTTA/>}/>
         <Route path='/tinnguongthomau' element={<TNTM/>}/>
         <Route path='/vanmieuquoctugiam' element={<BTSVM/>}/>
+        <Route path='/hoangthanhthanglong' element={<HTTL/>}/>
+        <Route path='/hoanghoasutrinhdo' element={<HHSTD/>}/>
       </Routes>
     </>
   );
